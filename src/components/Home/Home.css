@@ -1,3 +1,5 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
 .home_background {
 	background-color: #222;
 	text-shadow: 0 0 5px #C8C8C8;
@@ -7,18 +9,27 @@
 	padding: 50px
 }
 
+.home_container {
+	font-family: Consolas
+}
+
+.date {
+	font-size: 1rem;
+}
+
 ::selection {
   background: #0080FF;
   text-shadow: none;
 }
 
-.home_container {
-	margin-left: 250px;
-	margin-right: 250px;
+#default {
+	font-family: Consolas
 }
-.date {
-	font-size: 1rem;
-	color: rgba(0,0,0,.4);
+
+.description {
+	font-family: "NanumSquare";
+	font-size: 1.5rem;
+	font-weight: normal;
 }
 
 h1 {
