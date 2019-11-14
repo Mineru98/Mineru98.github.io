@@ -1,0 +1,26 @@
+.home_background {
+	background-color: #222;
+	text-shadow: 0 0 5px #C8C8C8;
+	background-size: cover;
+	height: 400px;
+	color: white;
+	padding: 50px
+}
+
+::selection {
+  background: #0080FF;
+  text-shadow: none;
+}
+
+.home_container {
+	margin-left: 250px;
+	margin-right: 250px;
+}
+.date {
+	font-size: 1rem;
+	color: rgba(0,0,0,.4);
+}
+
+h1 {
+	font-family: Consolas
+}
