@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Header, Image, Card, Label, Container, Accordion } from 'semantic-ui-react';
-import { Doughnut } from 'react-chartjs-2';
+import { Scriptable } from 'react-chartjs-2';
 import './Home.css';
 
 class Home extends React.Component {
