@@ -62,17 +62,17 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/Combination_of_Parentheses">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_parentheses.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Combination of Parentheses</Card.Header>
+											<Card.Header id="default">Combination of Parentheses</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Apr 7, 2019</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												Algorithm for the number of cases in all pairs of parentheses
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -85,17 +85,17 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/CShap_Clock_Angle">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_clock.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Calculate Clock Angle</Card.Header>
+											<Card.Header id="default">Calculate Clock Angle</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Apr 7, 2019</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												An algorithm that calculates the angle of the watch as you enter the time
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -120,17 +120,17 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/HopsAndroid">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_android.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Android App Project</Card.Header>
+											<Card.Header id="default">Android App Project</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Apr 7, 2019</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												First Android Project
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -143,17 +143,17 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/DictionaryRandom/tree/master/kotlin">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_random.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Dictionary Random with Kotlin</Card.Header>
+											<Card.Header id="default">Dictionary Random with Kotlin</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Apr 7, 2019</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												If the probability is specified in the array in advance, the algorithm extracts the result by the corresponding probability
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -176,19 +176,19 @@ class Home extends React.Component {
 						<Grid>
 							<Grid.Row columns={4}>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/Division_PC_Mobile">
+									<Card href="https://mineru98.github.io/Division_PC_Mobile/">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_division.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Distinguish PC or Mobile</Card.Header>
+											<Card.Header id="default">Division PC or Mobile</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Apr 7, 2019</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												Project to identify by PC or mobile
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -201,17 +201,17 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/DictionaryRandom/tree/master/nodejs">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_random.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Dictionary Random with NoteJS</Card.Header>
+											<Card.Header id="default">Dictionary Random with NoteJS</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Apr 7, 2019</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												If the probability is specified in the array in advance, the algorithm extracts the result by the corresponding probability
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -236,17 +236,17 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/AutoBench">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_autobench.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Auto Bench</Card.Header>
+											<Card.Header id="default">Auto Bench</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Apr 7, 2019</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												Project to extract cpu / gpu benchmark site data using web crawling technology
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -264,11 +264,13 @@ class Home extends React.Component {
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Korea Mock Test Bot</Card.Header>
+											<Card.Header id="default">Korea Mock Test Bot</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Sep 12, 2019</span>
 											</Card.Meta>
-											<Card.Description>Korea Mock Test Bot Result Searching </Card.Description>
+											<Card.Description id="default">
+												High school exams are important in Korea. Many Korean students like to compare their scores with their friends. This scraping robot responds quickly and conveniently to what you want.
+											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
 											<Label as="a" color="white" image>
@@ -280,16 +282,16 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/Fibonacci-Even-Sum">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_fibonacci.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Fibonacci</Card.Header>
+											<Card.Header id="default">Fibonacci</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Sep 12, 2019</span>
 											</Card.Meta>
-											<Card.Description>Fibonacci</Card.Description>
+											<Card.Description id="default">Fibonacci Algorithm</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
 											<Label as="a" color="white" image>
@@ -328,17 +330,17 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://Noticend.com">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_noticend.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Noticend.com</Card.Header>
+											<Card.Header id="default">Noticend.com</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed March 20, 2018</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												Social media project to achieve the right not to be connected.
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -351,17 +353,17 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="http://cnaplus.shop">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_cnaplus.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>cnaplus.shop</Card.Header>
+											<Card.Header id="default">cnaplus.shop</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed June 9, 2019</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												A project that creates a collection of problems by randomly mixing problems to develop self-study skills
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -374,17 +376,17 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/AutoBench">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_autobench.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Auto Bench</Card.Header>
+											<Card.Header id="default">Auto Bench</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Apr 7, 2019</span>
 											</Card.Meta>
-											<Card.Description>
-												Matthew is a musician living in Nashville.
+											<Card.Description id="default">
+												Project to extract cpu / gpu benchmark site data using web crawling technology
 											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
@@ -402,11 +404,13 @@ class Home extends React.Component {
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header>Korea Mock Test Bot</Card.Header>
+											<Card.Header id="default">Korea Mock Test Bot</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed Sep 12, 2019</span>
 											</Card.Meta>
-											<Card.Description>Korea Mock Test Bot Result Searching </Card.Description>
+											<Card.Description id="default">
+												High school exams are important in Korea. Many Korean students like to compare their scores with their friends. This scraping robot responds quickly and conveniently to what you want.
+											</Card.Description>
 										</Card.Content>
 										<Card.Content extra>
 											<Label as="a" color="white" image>
