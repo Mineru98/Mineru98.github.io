@@ -7,7 +7,7 @@ const data = {
 	labels: ['Syntax', 'Debuging', 'Architecture', 'Expansion', 'CodeReview'],
 	datasets: [
 		{
-			label: 'C',
+			label: 'C / C#',
 			backgroundColor: 'rgba(20,148,255,0.2)',
 			borderColor: 'rgba(20,148,255,1)',
 			pointBackgroundColor: 'rgba(20,148,255,1)',
@@ -17,7 +17,7 @@ const data = {
 			data: [82, 81, 51, 58, 63]
 		},
 		{
-			label: 'Java',
+			label: 'Java / Kotlin',
 			backgroundColor: 'rgba(255,169,20,0.2)',
 			borderColor: 'rgba(255,169,20,1)',
 			pointBackgroundColor: 'rgba(1255,169,20,1)',
@@ -25,6 +25,16 @@ const data = {
 			pointHoverBackgroundColor: '#fff',
 			pointHoverBorderColor: 'rgba(255,169,20,1)',
 			data: [88, 90, 91, 95, 92]
+		},
+		{
+			label: 'JS / NodeJS / ReactJS',
+			backgroundColor: 'rgba(255,99,132,0.2)',
+			borderColor: 'rgba(255,99,132,1)',
+			pointBackgroundColor: 'rgba(255,99,132,1)',
+			pointBorderColor: '#fff',
+			pointHoverBackgroundColor: '#fff',
+			pointHoverBorderColor: 'rgba(255,99,132,1)',
+			data: [86, 72, 72, 97, 88]
 		},
 		{
 			label: 'Python',
@@ -35,16 +45,6 @@ const data = {
 			pointHoverBackgroundColor: '#fff',
 			pointHoverBorderColor: 'rgba(239,220,5,1)',
 			data: [85, 77, 67, 84, 81]
-		},
-		{
-			label: 'JavaScript',
-			backgroundColor: 'rgba(255,99,132,0.2)',
-			borderColor: 'rgba(255,99,132,1)',
-			pointBackgroundColor: 'rgba(255,99,132,1)',
-			pointBorderColor: '#fff',
-			pointHoverBackgroundColor: '#fff',
-			pointHoverBorderColor: 'rgba(255,99,132,1)',
-			data: [86, 72, 72, 97, 88]
 		}
 	]
 };
@@ -54,7 +54,7 @@ class Home extends React.Component {
 		const panel = [
 			{
 				key: 0,
-				title: 'C / C++ / C#',
+				title: 'C / C#',
 				content: {
 					content: (
 						<Grid>
@@ -221,6 +221,29 @@ class Home extends React.Component {
 										</Card.Content>
 									</Card>
 								</Grid.Column>
+								<Grid.Column>
+									<Card href="http://www.cnaplus.shop">
+										<Image
+											src="/img/icon_cnaplus.png"
+											wrapped
+											ui={false}
+										/>
+										<Card.Content>
+											<Card.Header id="default">www.cnaplus.shop</Card.Header>
+											<Card.Meta>
+												<span className="date">Deployed June 9, 2019</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												A project that creates a collection of problems by randomly mixing problems to develop self-study skills
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" color="white" image>
+												<Image src="img/icon_reactjs.png" /> ReactJS
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
 							</Grid.Row>
 						</Grid>
 					)
@@ -351,14 +374,14 @@ class Home extends React.Component {
 									</Card>
 								</Grid.Column>
 								<Grid.Column>
-									<Card href="http://cnaplus.shop">
+									<Card href="http://www.cnaplus.shop">
 										<Image
 											src="/img/icon_cnaplus.png"
 											wrapped
 											ui={false}
 										/>
 										<Card.Content>
-											<Card.Header id="default">cnaplus.shop</Card.Header>
+											<Card.Header id="default">www.cnaplus.shop</Card.Header>
 											<Card.Meta>
 												<span className="date">Deployed June 9, 2019</span>
 											</Card.Meta>
@@ -368,11 +391,36 @@ class Home extends React.Component {
 										</Card.Content>
 										<Card.Content extra>
 											<Label as="a" color="white" image>
-												<Image src="img/icon_kotlin.png" /> Kotlin
+												<Image src="img/icon_reactjs.png" /> ReactJS
 											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
+								<Grid.Column>
+									<Card href="https://play.google.com/store/apps/details?id=com.cna.mineru.cna&hl=ko">
+										<Image
+											src="/img/icon_cnaplus.png"
+											wrapped
+											ui={false}
+										/>
+										<Card.Content>
+											<Card.Header id="default">오답노트</Card.Header>
+											<Card.Meta>
+												<span className="date">Deployed June 9, 2019</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												A project that creates a collection of problems by randomly mixing problems to develop self-study skills
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" color="white" image>
+												<Image src="img/icon_java.png" /> Java
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+							</Grid.Row>
+							<Grid.Row columns={4}>
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/AutoBench">
 										<Image
