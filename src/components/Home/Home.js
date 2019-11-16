@@ -259,7 +259,7 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/KoreaMockTestBot">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_webbot.png"
 											wrapped
 											ui={false}
 										/>
@@ -399,7 +399,7 @@ class Home extends React.Component {
 								<Grid.Column>
 									<Card href="https://github.com/Mineru98/KoreaMockTestBot">
 										<Image
-											src="https://react.semantic-ui.com/images/wireframe/image.png"
+											src="/img/icon_webbot.png"
 											wrapped
 											ui={false}
 										/>
