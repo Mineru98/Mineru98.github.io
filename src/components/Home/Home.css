@@ -28,6 +28,10 @@
 	font-family: Consolas
 }
 
+#card {
+	margin: auto;
+}
+
 .description {
 	font-family: "NanumSquare";
 	font-size: 1.5rem;

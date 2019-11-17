@@ -12,6 +12,8 @@ class App extends React.Component {
 				<div className="article-container">
 					<Header />
 					<Route exact path="/" component={Home}/>
+					<Route exact path="/en" component={Home}/>
+					<Route exact path="/jp" component={Home}/>
 				</div>
 			</BrowserRouter>
 		);
