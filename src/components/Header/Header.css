@@ -30,3 +30,7 @@ header {
 #top {
 	background-color: #00020b;
 }
+
+.ui.inverted.menu .item:before {
+	background-color: #000000;
+}

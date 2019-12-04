@@ -1,5 +1,5 @@
 import React, { createRef } from 'react';
-import { Menu, Container, Dropdown } from 'semantic-ui-react';
+import { Menu, Container, Icon, Popup, Flag } from 'semantic-ui-react';
 import Headeroom from 'react-headroom';
 import { Link } from 'react-router-dom';
 import './Header.css';
@@ -26,29 +26,42 @@ class Header extends React.Component {
 						backgroundColor: '#00020b'
 					}}
 				>
-					<Menu inverted stackable id="top">
+					<Menu inverted id="top">
 						<Container>
+							<Link to="/">
+								<Menu.Item header id="header" name="Mineru Coding Blog" />
+							</Link>
+							<Popup
+								trigger={
+									<Menu.Item header id="header" position="right">
+										<Icon name="language" />
+									</Menu.Item>
+								}
+								flowing
+								hideOnScroll
+								hoverable
+							>
+								<Menu.Item header id="header">
+									<Link to="/" id="selector">
+										<Flag name="kr" />한국어
+									</Link>
+								</Menu.Item>
+								<Menu.Item header id="header">
+									<Link to="/en" id="selector">
+										<Flag name="us" />English
+									</Link>
+								</Menu.Item>
+								<Menu.Item header id="header">
+									<Link to="/jp" id="selector">
+										<Flag name="jp" />日本語
+									</Link>
+								</Menu.Item>
+							</Popup>
+
 							<Menu.Item header id="header">
-								<Link to="/">Mineru Coding Blog</Link>
-							</Menu.Item>
-							<Menu.Item header id="header" position="right">
-								<Dropdown
-									floating
-									labeled
-									icon="world"
-								>
-									<Dropdown.Menu>
-										<Link to="/">
-											<Dropdown.Item id="selector" content="한국어" />
-										</Link>
-										<Link to="/en">
-											<Dropdown.Item id="selector" content="English" />
-										</Link>
-										<Link to="/jp">
-											<Dropdown.Item id="selector" content="日本語" />
-										</Link>
-									</Dropdown.Menu>
-								</Dropdown>
+								<Link to="/blog">
+									<Icon name="book" />
+								</Link>
 							</Menu.Item>
 						</Container>
 					</Menu>

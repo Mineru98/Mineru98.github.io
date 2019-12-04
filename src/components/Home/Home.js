@@ -52,7 +52,10 @@ const Korean = {
 	Noticend_Description: '연결되지 않을 권리를 달성하기위한 소셜 미디어 프로젝트.',
 	Note_Title: '오답노트',
 	Note_Date: '2019년 6월 9일 배포',
-	Note_Description: '자가 학습 기술을 개발하기 위해 무작위로 문제를 혼합하여 문제 모음을 만드는 프로젝트'
+	Note_Description: '자가 학습 기술을 개발하기 위해 무작위로 문제를 혼합하여 문제 모음을 만드는 프로젝트',
+	WareHouse_Title: '웨어하우스',
+	WareHouse_Date: '2019년 11월 29일 배포',
+	WareHouse_Description: '서버 & 클라이언트 통신을 하는 중에 인터넷 연결이 끊겨있을 때, 사용자 경험을 떨어뜨리지 않기 위한 Pop & Push 형태의 스트림처리 프로젝트'
 };
 
 const English = {
@@ -73,7 +76,7 @@ const English = {
 	DBKotlin_Date: 'Deployed Sep 17, 2019',
 	DBKotlin_Description:
 		'If the probability is specified in the array in advance, the algorithm extracts the result by the corresponding probability',
-	DBNodeJS_Title: '무작위 추출 with NodeJS',
+	DBNodeJS_Title: 'Dictionary Random with NodeJS',
 	DBNodeJS_Date: 'Deployed Sep 17, 2019',
 	DBNodeJS_Description:
 		'If the probability is specified in the array in advance, the algorithm extracts the result by the corresponding probability',
@@ -101,7 +104,10 @@ const English = {
 	Note_Title: 'Check Note',
 	Note_Date: 'Deployed Jun 9, 2019',
 	Note_Description:
-		'A project that creates a collection of problems by randomly mixing problems to develop self-study skills'
+		'A project that creates a collection of problems by randomly mixing problems to develop self-study skills',
+	WareHouse_Title: 'WareHouse',
+	WareHouse_Date: 'Deployed Nov 29, 2019',
+	WareHouse_Description: 'Pop & Push stream processing project to prevent user experience when the internet connection is lost during server & client communication'
 };
 
 const Japanese = {
@@ -144,7 +150,10 @@ const Japanese = {
 	Noticend_Description: '接続されない権利を達成するためのソーシャルメディアのプロジェクト。',
 	Note_Title: '誤答ノート',
 	Note_Date: '2019年6月9日から配布',
-	Note_Description: '自律学習技術を開発するためにランダムに問題を混合して、問題のコレクションを作成するプロジェクト'
+	Note_Description: '自律学習技術を開発するためにランダムに問題を混合して、問題のコレクションを作成するプロジェクト',
+	WareHouse_Title: '倉庫',
+	WareHouse_Date: '2019年11月29日から配布',
+	WareHouse_Description: 'サーバー＆クライアントの通信をする際に、インターネット接続が切れているときに、ユーザーの経験を落とさないためのPop＆Push形態のストリーム処理プロジェクト'
 };
 
 const data = {
@@ -326,7 +335,7 @@ class Home extends React.Component {
 						<Grid>
 							<Grid.Row columns={4}>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/Combination_of_Parentheses">
+									<Card href="https://github.com/Mineru98/Combination_of_Parentheses" id="card">
 										<Image src="/img/icon_parentheses.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -367,7 +376,7 @@ class Home extends React.Component {
 									</Card>
 								</Grid.Column>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/CShap_Clock_Angle">
+									<Card href="https://github.com/Mineru98/CShap_Clock_Angle" id="card">
 										<Image src="/img/icon_clock.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -420,7 +429,7 @@ class Home extends React.Component {
 						<Grid>
 							<Grid.Row columns={4}>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/HopsAndroid">
+									<Card href="https://github.com/Mineru98/HopsAndroid" id="card">
 										<Image src="/img/icon_android.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -461,7 +470,7 @@ class Home extends React.Component {
 									</Card>
 								</Grid.Column>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/DictionaryRandom/tree/master/kotlin">
+									<Card href="https://github.com/Mineru98/DictionaryRandom/tree/master/kotlin" id="card">
 										<Image src="/img/icon_random.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -491,6 +500,47 @@ class Home extends React.Component {
 													English.DBKotlin_Description
 												) : (
 													Japanese.DBKotlin_Description
+												)}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" color="white" image>
+												<Image src="img/icon_kotlin.png" /> Kotlin
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+								<Grid.Column>
+									<Card href="https://github.com/Mineru98/Warehouse" id="card">
+										<Image src="/img/icon_warehouse.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{isKr ? (
+													Korean.WareHouse_Title
+												) : isEn ? (
+													English.WareHouse_Title
+												) : (
+													Japanese.WareHouse_Title
+												)}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{isKr ? (
+														Korean.WareHouse_Date
+													) : isEn ? (
+														English.WareHouse_Date
+													) : (
+														Japanese.WareHouse_Date
+													)}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{isKr ? (
+													Korean.WareHouse_Description
+												) : isEn ? (
+													English.WareHouse_Description
+												) : (
+													Japanese.WareHouse_Description
 												)}
 											</Card.Description>
 										</Card.Content>
@@ -546,7 +596,7 @@ class Home extends React.Component {
 						<Grid>
 							<Grid.Row columns={4}>
 								<Grid.Column>
-									<Card href="https://mineru98.github.io/Division_PC_Mobile/">
+									<Card href="https://mineru98.github.io/Division_PC_Mobile/" id="card">
 										<Image src="/img/icon_division.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -587,7 +637,7 @@ class Home extends React.Component {
 									</Card>
 								</Grid.Column>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/DictionaryRandom/tree/master/nodejs">
+									<Card href="https://github.com/Mineru98/DictionaryRandom/tree/master/nodejs" id="card">
 										<Image src="/img/icon_random.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -628,7 +678,7 @@ class Home extends React.Component {
 									</Card>
 								</Grid.Column>
 								<Grid.Column>
-									<Card href="http://www.cnaplus.shop">
+									<Card href="http://www.cnaplus.shop" id="card">
 										<Image src="/img/icon_cnaplus.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -681,7 +731,7 @@ class Home extends React.Component {
 						<Grid>
 							<Grid.Row columns={4}>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/AutoBench">
+									<Card href="https://github.com/Mineru98/AutoBench" id="card">
 										<Image src="/img/icon_autobench.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -722,7 +772,7 @@ class Home extends React.Component {
 									</Card>
 								</Grid.Column>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/KoreaMockTestBot">
+									<Card href="https://github.com/Mineru98/KoreaMockTestBot" id="card">
 										<Image src="/img/icon_webbot.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -763,7 +813,7 @@ class Home extends React.Component {
 									</Card>
 								</Grid.Column>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/Fibonacci-Even-Sum">
+									<Card href="https://github.com/Mineru98/Fibonacci-Even-Sum" id="card">
 										<Image src="/img/icon_fibonacci.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -991,6 +1041,49 @@ class Home extends React.Component {
 													English.DBKotlin_Description
 												) : (
 													Japanese.DBKotlin_Description
+												)}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" color="white" image>
+												<Image src="img/icon_kotlin.png" /> Kotlin
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+							</Grid.Row>
+							<Grid.Row>
+								<Grid.Column>
+									<Card href="https://github.com/Mineru98/Warehouse" id="card">
+										<Image src="/img/icon_warehouse.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{isKr ? (
+													Korean.WareHouse_Title
+												) : isEn ? (
+													English.WareHouse_Title
+												) : (
+													Japanese.WareHouse_Title
+												)}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{isKr ? (
+														Korean.WareHouse_Date
+													) : isEn ? (
+														English.WareHouse_Date
+													) : (
+														Japanese.WareHouse_Date
+													)}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{isKr ? (
+													Korean.WareHouse_Description
+												) : isEn ? (
+													English.WareHouse_Description
+												) : (
+													Japanese.WareHouse_Description
 												)}
 											</Card.Description>
 										</Card.Content>
@@ -1358,7 +1451,7 @@ class Home extends React.Component {
 							<Grid>
 								<Grid.Row columns={4}>
 									<Grid.Column>
-										<Card href="https://noticend.com">
+										<Card href="https://noticend.com" id="card">
 											<Image src="/img/icon_noticend.png" wrapped ui={false} />
 											<Card.Content>
 												<Card.Header id="default">
@@ -1399,7 +1492,7 @@ class Home extends React.Component {
 										</Card>
 									</Grid.Column>
 									<Grid.Column>
-										<Card href="http://www.cnaplus.shop">
+										<Card href="http://www.cnaplus.shop" id="card">
 											<Image src="/img/icon_cnaplus.png" wrapped ui={false} />
 											<Card.Content>
 												<Card.Header id="default">
@@ -1440,7 +1533,7 @@ class Home extends React.Component {
 										</Card>
 									</Grid.Column>
 									<Grid.Column>
-										<Card href="https://play.google.com/store/apps/details?id=com.cna.mineru.cna&hl=ko">
+										<Card href="https://play.google.com/store/apps/details?id=com.cna.mineru.cna&hl=ko" id="card">
 											<Image src="/img/icon_cnaplus.png" wrapped ui={false} />
 											<Card.Content>
 												<Card.Header id="default">
@@ -1483,7 +1576,7 @@ class Home extends React.Component {
 								</Grid.Row>
 								<Grid.Row columns={4}>
 									<Grid.Column>
-										<Card href="https://github.com/Mineru98/AutoBench">
+										<Card href="https://github.com/Mineru98/AutoBench" id="card">
 											<Image src="/img/icon_autobench.png" wrapped ui={false} />
 											<Card.Content>
 												<Card.Header id="default">
@@ -1524,7 +1617,7 @@ class Home extends React.Component {
 										</Card>
 									</Grid.Column>
 									<Grid.Column>
-										<Card href="https://github.com/Mineru98/KoreaMockTestBot">
+										<Card href="https://github.com/Mineru98/KoreaMockTestBot" id="card">
 											<Image src="/img/icon_webbot.png" wrapped ui={false} />
 											<Card.Content>
 												<Card.Header id="default">
