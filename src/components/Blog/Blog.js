@@ -5,17 +5,29 @@ import {
 	Container,
 	Responsive
 } from 'semantic-ui-react';
+import ReactMarkdown from 'react-markdown';
+import axios from 'axios';
 import './Blog.css';
 
 class Blog extends React.Component {
 	constructor(props) {
 		super(props);
+		this.state = {
+			source: ''
+		};
 	}
 
 	componentDidMount() {
+		const url = `https://mineru98.github.io/static/posts/test.md`;
+		axios.get(url).then(res => {
+			this.setState({
+				source: res.data
+			});
+		});
 	}
 
 	render() {
+		const { source } = this.state;
 		return (
 			<div>
 				{/* PC 화면 */}
@@ -32,6 +44,7 @@ class Blog extends React.Component {
 						</Grid>
 					</div>
 					<div className="blog_container">
+						<ReactMarkdown source={source} />
 					</div>
 				</Responsive>
 				{/* 모바일 화면 */}
@@ -48,6 +61,7 @@ class Blog extends React.Component {
 						</Grid>
 					</div>
 					<div className="blog_container">
+						<ReactMarkdown source={source} />
 					</div>
 				</Responsive>
 			</div>
