@@ -1,10 +1,11 @@
-import React from 'react';
-import {
-	Grid,
-	Header,
-	Container,
-	Responsive
-} from 'semantic-ui-react';
+import React, { createRef } from 'react';
+import { Grid,
+  Header,
+  Image,
+  Rail,
+  Ref,
+  Segment,
+  Sticky, Container, Responsive } from 'semantic-ui-react';
 import ReactMarkdown from 'react-markdown';
 import axios from 'axios';
 import './Blog.css';
@@ -18,14 +19,14 @@ class Blog extends React.Component {
 	}
 
 	componentDidMount() {
-		const url = `https://mineru98.github.io/static/posts/test.md`;
+		const url = `https://mineru98.github.io/static/posts/2019-01-07-02-Algorithm01-post.md`;
 		axios.get(url).then(res => {
 			this.setState({
 				source: res.data
 			});
 		});
 	}
-
+	contextRef = createRef()
 	render() {
 		const { source } = this.state;
 		return (
@@ -44,7 +45,23 @@ class Blog extends React.Component {
 						</Grid>
 					</div>
 					<div className="blog_container">
-						<ReactMarkdown source={source} />
+						<Grid centered columns={2}>
+							<Grid.Column>
+								<Ref innerRef={this.contextRef}>
+									<Segment>
+										<Container textAlign="left">
+											<ReactMarkdown source={source} />
+										</Container>
+										<Rail position="right">
+											<Sticky context={this.contextRef}>
+												<Header as="h3">메뉴</Header>
+												<Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+											</Sticky>
+										</Rail>
+									</Segment>
+								</Ref>
+							</Grid.Column>
+						</Grid>
 					</div>
 				</Responsive>
 				{/* 모바일 화면 */}
@@ -61,7 +78,9 @@ class Blog extends React.Component {
 						</Grid>
 					</div>
 					<div className="blog_container">
-						<ReactMarkdown source={source} />
+						<Container textAlign="left">
+							<ReactMarkdown source={source} />
+						</Container>
 					</div>
 				</Responsive>
 			</div>

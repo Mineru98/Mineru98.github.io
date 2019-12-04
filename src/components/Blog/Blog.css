@@ -12,3 +12,11 @@
 .blog_container {
 	font-family: Consolas
 }
+
+h1 {
+	font-family: Consolas
+}
+
+.ui.sticky{
+	margin-top: 75px;
+}
