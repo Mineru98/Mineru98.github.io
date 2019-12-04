@@ -1,11 +1,16 @@
 import React, { createRef } from 'react';
-import { Grid,
-  Header,
-  Image,
-  Rail,
-  Ref,
-  Segment,
-  Sticky, Container, Responsive } from 'semantic-ui-react';
+import {
+	Grid,
+	Header,
+	Image,
+	Rail,
+	Ref,
+	Segment,
+	Sticky,
+	Container,
+	Menu,
+	Responsive
+} from 'semantic-ui-react';
 import ReactMarkdown from 'react-markdown';
 import axios from 'axios';
 import './Blog.css';
@@ -14,8 +19,10 @@ class Blog extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			source: ''
+			source: '',
+			activeItem: ''
 		};
+		this.handleItemClick.bind(this)
 	}
 
 	componentDidMount() {
@@ -27,8 +34,11 @@ class Blog extends React.Component {
 		});
 	}
 	contextRef = createRef()
+
+	handleItemClick = (name) => this.setState({ activeItem: name })
+
 	render() {
-		const { source } = this.state;
+		const { source, activeItem } = this.state;
 		return (
 			<div>
 				{/* PC 화면 */}
@@ -54,8 +64,77 @@ class Blog extends React.Component {
 										</Container>
 										<Rail position="right">
 											<Sticky context={this.contextRef}>
-												<Header as="h3">메뉴</Header>
-												<Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+												<Menu vertical>
+													<Menu.Item>
+														<Menu.Header>Products</Menu.Header>
+														<Menu.Menu>
+															<Menu.Item
+																name="enterprise"
+																active={activeItem === 'enterprise'}
+																onClick={this.handleItemClick}
+															/>
+															<Menu.Item
+																name="consumer"
+																active={activeItem === 'consumer'}
+																onClick={this.handleItemClick}
+															/>
+														</Menu.Menu>
+													</Menu.Item>
+													<Menu.Item>
+														<Menu.Header>CMS Solutions</Menu.Header>
+														<Menu.Menu>
+															<Menu.Item
+																name="rails"
+																active={activeItem === 'rails'}
+																onClick={this.handleItemClick}
+															/>
+															<Menu.Item
+																name="python"
+																active={activeItem === 'python'}
+																onClick={this.handleItemClick}
+															/>
+															<Menu.Item
+																name="php"
+																active={activeItem === 'php'}
+																onClick={this.handleItemClick}
+															/>
+														</Menu.Menu>
+													</Menu.Item>
+													<Menu.Item>
+														<Menu.Header>Hosting</Menu.Header>
+														<Menu.Menu>
+															<Menu.Item
+																name="shared"
+																active={activeItem === 'shared'}
+																onClick={this.handleItemClick}
+															/>
+															<Menu.Item
+																name="dedicated"
+																active={activeItem === 'dedicated'}
+																onClick={this.handleItemClick}
+															/>
+														</Menu.Menu>
+													</Menu.Item>
+													<Menu.Item>
+														<Menu.Header>Support</Menu.Header>
+														<Menu.Menu>
+															<Menu.Item
+																name="email"
+																active={activeItem === 'email'}
+																onClick={this.handleItemClick}
+															>
+																E-mail Support
+															</Menu.Item>
+															<Menu.Item
+																name="faq"
+																active={activeItem === 'faq'}
+																onClick={this.handleItemClick}
+															>
+																FAQs
+															</Menu.Item>
+														</Menu.Menu>
+													</Menu.Item>
+												</Menu>
 											</Sticky>
 										</Rail>
 									</Segment>
