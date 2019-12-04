@@ -3,7 +3,7 @@
 설령 컴공을 나오지 않더라도 다양한 매체를 통해서 `알고리즘`이란 말을 자주 언급되어서
 다들 알고 있는 키워드이다.
 
-![그림1: 알고리즘](https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/algorith.png)
+<img src="https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/algorith.png"  width="500px" alt="그림1: 알고리즘"></img>
 
 그런데 정말 알고리즘은 무엇일까?
 
@@ -159,7 +159,8 @@ print("1부터 100까지의 합은  : ",sum)
 1와 같은 성능으로 취급합니다.
 
 # 빅오 표기법의 종류
-![그림2: 알고리즘 성능 그래프](http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F22158A4F565E7A6219ACF4)
+<img src="http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F22158A4F565E7A6219ACF4"   width="500px" alt="그림2: 알고리즘 성능 그래프"></img>
+
 * Ο(1)
   처리해야 할 데이터의 양과 상관없이 항상 일정한 실행 시간을 갖는 알고리즘이다.
   대표적으로 Hash Table이 있다.
