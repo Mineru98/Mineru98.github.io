@@ -1,8 +1,6 @@
 import React, { createRef } from 'react';
 import {
 	Grid,
-	Header,
-	Image,
 	Rail,
 	Ref,
 	Segment,
@@ -12,6 +10,8 @@ import {
 	Responsive
 } from 'semantic-ui-react';
 import ReactMarkdown from 'react-markdown';
+import { Link } from 'react-router-dom';
+import queryString from 'query-string';
 import axios from 'axios';
 import './Blog.css';
 
@@ -19,12 +19,10 @@ class Blog extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			source: '',
-			activeItem: ''
+			source: ''
 		};
-		this.handleItemClick.bind(this)
 	}
-
+	
 	componentDidMount() {
 		const url = `https://mineru98.github.io/static/posts/2019-01-07-02-Algorithm01-post.md`;
 		axios.get(url).then(res => {
@@ -35,10 +33,10 @@ class Blog extends React.Component {
 	}
 	contextRef = createRef()
 
-	handleItemClick = (name) => this.setState({ activeItem: name })
-
 	render() {
-		const { source, activeItem } = this.state;
+		const query = queryString.parse(this.props.location.search);
+    console.log(query);
+		const { source } = this.state;
 		return (
 			<div>
 				{/* PC 화면 */}
@@ -66,72 +64,19 @@ class Blog extends React.Component {
 											<Sticky context={this.contextRef}>
 												<Menu vertical>
 													<Menu.Item>
-														<Menu.Header>Products</Menu.Header>
+														<Menu.Header id="blog_header">Production</Menu.Header>
 														<Menu.Menu>
-															<Menu.Item
-																name="enterprise"
-																active={activeItem === 'enterprise'}
-																onClick={this.handleItemClick}
-															/>
-															<Menu.Item
-																name="consumer"
-																active={activeItem === 'consumer'}
-																onClick={this.handleItemClick}
-															/>
+															<Menu.Item as="a"><Link to="/list?tag=experience">Experience (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list?tag=tool">Tool (0)</Link></Menu.Item>
 														</Menu.Menu>
 													</Menu.Item>
 													<Menu.Item>
-														<Menu.Header>CMS Solutions</Menu.Header>
+														<Menu.Header id="blog_header">Language</Menu.Header>
 														<Menu.Menu>
-															<Menu.Item
-																name="rails"
-																active={activeItem === 'rails'}
-																onClick={this.handleItemClick}
-															/>
-															<Menu.Item
-																name="python"
-																active={activeItem === 'python'}
-																onClick={this.handleItemClick}
-															/>
-															<Menu.Item
-																name="php"
-																active={activeItem === 'php'}
-																onClick={this.handleItemClick}
-															/>
-														</Menu.Menu>
-													</Menu.Item>
-													<Menu.Item>
-														<Menu.Header>Hosting</Menu.Header>
-														<Menu.Menu>
-															<Menu.Item
-																name="shared"
-																active={activeItem === 'shared'}
-																onClick={this.handleItemClick}
-															/>
-															<Menu.Item
-																name="dedicated"
-																active={activeItem === 'dedicated'}
-																onClick={this.handleItemClick}
-															/>
-														</Menu.Menu>
-													</Menu.Item>
-													<Menu.Item>
-														<Menu.Header>Support</Menu.Header>
-														<Menu.Menu>
-															<Menu.Item
-																name="email"
-																active={activeItem === 'email'}
-																onClick={this.handleItemClick}
-															>
-																E-mail Support
-															</Menu.Item>
-															<Menu.Item
-																name="faq"
-																active={activeItem === 'faq'}
-																onClick={this.handleItemClick}
-															>
-																FAQs
-															</Menu.Item>
+															<Menu.Item as="a"><Link to="/list?tag=java">Java (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list?tag=kotlin">Kotlin (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list?tag=python">Python (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list?tag=nodejs">NodeJS (0)</Link></Menu.Item>
 														</Menu.Menu>
 													</Menu.Item>
 												</Menu>

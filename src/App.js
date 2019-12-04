@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import _List from './components/List/_List';
 import Blog from './components/Blog/Blog';
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
 					<Route exact path="/en" component={Home}/>
 					<Route exact path="/jp" component={Home}/>
 					<Route exact path="/blog" component={Blog}/>
+					<Route exact path="/list" component={_List}/>
 				</div>
 			</BrowserRouter>
 		);

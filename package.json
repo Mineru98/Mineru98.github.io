@@ -6,6 +6,7 @@
     "chart.js": "^2.9.3",
     "disqus-react": "^1.0.7",
     "lodash": "^4.17.15",
+    "query-string": "^6.9.0",
     "react": "^16.11.0",
     "react-animated-number": "^0.4.4",
     "react-chartjs-2": "^2.8.0",
