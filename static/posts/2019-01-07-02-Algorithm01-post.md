@@ -4,6 +4,7 @@
 다들 알고 있는 키워드이다.
 
 ![그림1: 알고리즘](https://d81pi4yofp37g.cloudfront.net/wp-content/uploads/algorith.png)
+
 그런데 정말 알고리즘은 무엇일까?
 
 # 알고리즘이란?
