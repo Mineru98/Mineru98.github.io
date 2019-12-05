@@ -17,6 +17,20 @@
 	color: #2185d0;
 }
 
+.list_header {
+	color: rgba(0,0,0);
+	margin-top: 10px;
+	margin-bottom: -20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "NanumSquare";
+}
+.list_content {
+	color: rgba(0,0,0,.7);
+	font-size: 16px;
+	font-family: "NanumSquare";
+}
+
 a.item >  a {
 	color: #6d6d6d;
 }

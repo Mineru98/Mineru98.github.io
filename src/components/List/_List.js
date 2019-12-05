@@ -1,5 +1,16 @@
 import React, { createRef } from 'react';
-import { Grid, Rail, Ref, Segment, Sticky, Container, Menu, Responsive, List } from 'semantic-ui-react';
+import {
+	Grid,
+	Rail,
+	Ref,
+	Segment,
+	Sticky,
+	Container,
+	Menu,
+	Responsive,
+	List,
+	Image
+} from 'semantic-ui-react';
 import ReactMarkdown from 'react-markdown';
 import { Link } from 'react-router-dom';
 import queryString from 'query-string';
@@ -20,6 +31,229 @@ class _List extends React.Component {
 		const tag = this.props.match.params.tag;
 		const query = queryString.parse(this.props.location.search);
 		if (tag === 'experience') {
+			view = (
+				<List divided relaxed>
+					<List.Item>
+						<Link to="/list?id=2019-01-07-01-First-post">
+							<Grid columns={2}>
+								<Grid.Row stretched>
+									<Grid.Column width={4}>
+										<Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+									</Grid.Column>
+									<Grid.Column width={12}>
+										<div className="list_header">제목 1</div>
+										<div className="list_content">
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+										</div>
+									</Grid.Column>
+								</Grid.Row>
+							</Grid>
+						</Link>
+					</List.Item>
+					<List.Item>
+						<Link to="/list?id=2019-01-07-02-Algorithm01-post">
+							<Grid columns={2}>
+								<Grid.Row stretched>
+									<Grid.Column width={4}>
+										<Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+									</Grid.Column>
+									<Grid.Column width={12}>
+										<div className="list_header">제목 1</div>
+										<div className="list_content">
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+										</div>
+									</Grid.Column>
+								</Grid.Row>
+							</Grid>
+						</Link>
+					</List.Item>
+					<List.Item>
+						<Link to="/list?id=2019-01-07-03-coding-education-post">
+							<Grid columns={2}>
+								<Grid.Row stretched>
+									<Grid.Column width={4}>
+										<Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+									</Grid.Column>
+									<Grid.Column width={12}>
+										<div className="list_header">제목 1</div>
+										<div className="list_content">
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+										</div>
+									</Grid.Column>
+								</Grid.Row>
+							</Grid>
+						</Link>
+					</List.Item>
+					<List.Item>
+						<Link to="/list?id=2019-01-07-04-CnA-Project">
+							<Grid columns={2}>
+								<Grid.Row stretched>
+									<Grid.Column width={4}>
+										<Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+									</Grid.Column>
+									<Grid.Column width={12}>
+										<div className="list_header">제목 1</div>
+										<div className="list_content">
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+										</div>
+									</Grid.Column>
+								</Grid.Row>
+							</Grid>
+						</Link>
+					</List.Item>
+					<List.Item>
+						<Link to="/list?id=2019-01-10-05-Plan">
+							<Grid columns={2}>
+								<Grid.Row stretched>
+									<Grid.Column width={4}>
+										<Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+									</Grid.Column>
+									<Grid.Column width={12}>
+										<div className="list_header">제목 1</div>
+										<div className="list_content">
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+										</div>
+									</Grid.Column>
+								</Grid.Row>
+							</Grid>
+						</Link>
+					</List.Item>
+					<List.Item>
+						<Link to="/list?id=2019-02-14-06-Algorithm02-post">
+							<Grid columns={2}>
+								<Grid.Row stretched>
+									<Grid.Column width={4}>
+										<Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+									</Grid.Column>
+									<Grid.Column width={12}>
+										<div className="list_header">제목 1</div>
+										<div className="list_content">
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+											내용을 요약하자면.......<br />
+										</div>
+									</Grid.Column>
+								</Grid.Row>
+							</Grid>
+						</Link>
+					</List.Item>
+				</List>
+			);
+		} else if (tag === 'tool') {
+			view = (
+				<List divided relaxed>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI</List.Header>
+							<List.Description as="a">Updated 10 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI-Docs</List.Header>
+							<List.Description as="a">Updated 22 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI-Meteor</List.Header>
+							<List.Description as="a">Updated 34 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+				</List>
+			);
+		} else if (tag === 'java') {
+			view = (
+				<List divided relaxed>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI</List.Header>
+							<List.Description as="a">Updated 10 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI-Docs</List.Header>
+							<List.Description as="a">Updated 22 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI-Meteor</List.Header>
+							<List.Description as="a">Updated 34 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+				</List>
+			);
+		} else if (tag === 'kotlin') {
+			view = (
+				<List divided relaxed>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI</List.Header>
+							<List.Description as="a">Updated 10 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI-Docs</List.Header>
+							<List.Description as="a">Updated 22 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI-Meteor</List.Header>
+							<List.Description as="a">Updated 34 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+				</List>
+			);
+		} else if (tag === 'python') {
+			view = (
+				<List divided relaxed>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI</List.Header>
+							<List.Description as="a">Updated 10 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI-Docs</List.Header>
+							<List.Description as="a">Updated 22 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+					<List.Item>
+						<List.Icon name="github" size="large" verticalAlign="middle" />
+						<List.Content>
+							<List.Header as="a">Semantic-Org/Semantic-UI-Meteor</List.Header>
+							<List.Description as="a">Updated 34 mins ago</List.Description>
+						</List.Content>
+					</List.Item>
+				</List>
+			);
+		} else if (tag === 'nodejs') {
 			view = (
 				<List divided relaxed>
 					<List.Item>
@@ -46,37 +280,37 @@ class _List extends React.Component {
 				</List>
 			);
 		}
-		if(tag){
-			console.log("tag");
+		if (tag) {
+			console.log('tag');
 			this.setState({
 				isList: true
 			});
 		}
-		if(query.id){
-			console.log("id");
+		if (query.id) {
+			console.log('id');
 			this.setState({
 				isList: false
 			});
 		}
 		console.log(query);
-		const url = `https://mineru98.github.io/static/posts/2019-01-07-02-Algorithm01-post.md`;
+		const url = `https://mineru98.github.io/static/posts/${query.id}.md`;
 		axios.get(url).then(res => {
 			this.setState({
 				source: res.data
 			});
 		});
-  }
+	}
 	componentDidMount() {
-    console.log('Component Did MOUNT!')
+		console.log('Component Did MOUNT!');
 	}
 	shouldComponentUpdate(nextProps, nextState) {
 		return true;
-  }
-	componentDidUpdate(prevProps, prevState) {
-		console.log('Component Did Update!')
-		console.log(this.state.isList)
 	}
-	
+	componentDidUpdate(prevProps, prevState) {
+		console.log('Component Did Update!');
+		console.log(this.state.isList);
+	}
+
 	contextRef = createRef();
 
 	render() {
