@@ -58,11 +58,6 @@ class Header extends React.Component {
 								</Menu.Item>
 							</Popup>
 							<Menu.Item header id="header">
-								<a href="https://github.com/Mineru98">
-									<Icon name="github" />
-								</a>
-							</Menu.Item>
-							<Menu.Item header id="header">
 								<Link to="/blog">
 									<Icon name="book" />
 								</Link>
