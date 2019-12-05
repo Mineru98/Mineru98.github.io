@@ -16,16 +16,10 @@ class _List extends React.Component {
 			isList: true
 		};
 	}
-
-	componentDidMount() {
+	UNSAFE_componentWillMount() {
+		const tag = this.props.match.params.tag;
 		const query = queryString.parse(this.props.location.search);
-		if(query.tag){
-			console.log("tag");
-		}
-		if(query.id){
-			console.log("id");
-		}
-		if (query.tag === 'experience') {
+		if (tag === 'experience') {
 			view = (
 				<List divided relaxed>
 					<List.Item>
@@ -52,6 +46,18 @@ class _List extends React.Component {
 				</List>
 			);
 		}
+		if(tag){
+			console.log("tag");
+			this.setState({
+				isList: true
+			});
+		}
+		if(query.id){
+			console.log("id");
+			this.setState({
+				isList: false
+			});
+		}
 		console.log(query);
 		const url = `https://mineru98.github.io/static/posts/2019-01-07-02-Algorithm01-post.md`;
 		axios.get(url).then(res => {
@@ -59,7 +65,18 @@ class _List extends React.Component {
 				source: res.data
 			});
 		});
+  }
+	componentDidMount() {
+    console.log('Component Did MOUNT!')
 	}
+	shouldComponentUpdate(nextProps, nextState) {
+		return true;
+  }
+	componentDidUpdate(prevProps, prevState) {
+		console.log('Component Did Update!')
+		console.log(this.state.isList)
+	}
+	
 	contextRef = createRef();
 
 	render() {
@@ -85,7 +102,7 @@ class _List extends React.Component {
 								<Ref innerRef={this.contextRef}>
 									<Segment>
 										<Container textAlign="left">
-											{isList ? <ReactMarkdown source={source} /> : view}
+											{isList ? view : <ReactMarkdown source={source} />}
 										</Container>
 										<Rail position="right">
 											<Sticky context={this.contextRef}>
@@ -94,10 +111,10 @@ class _List extends React.Component {
 														<Menu.Header id="blog_header">Production</Menu.Header>
 														<Menu.Menu>
 															<Menu.Item as="a">
-																<Link to="/list?tag=experience">Experience (0)</Link>
+																<Link to="/list/experience">Experience (0)</Link>
 															</Menu.Item>
 															<Menu.Item as="a">
-																<Link to="/list?tag=tool">Tool (0)</Link>
+																<Link to="/list/tool">Tool (0)</Link>
 															</Menu.Item>
 														</Menu.Menu>
 													</Menu.Item>
@@ -105,16 +122,16 @@ class _List extends React.Component {
 														<Menu.Header id="blog_header">Language</Menu.Header>
 														<Menu.Menu>
 															<Menu.Item as="a">
-																<Link to="/list?tag=java">Java (0)</Link>
+																<Link to="/list/java">Java (0)</Link>
 															</Menu.Item>
 															<Menu.Item as="a">
-																<Link to="/list?tag=kotlin">Kotlin (0)</Link>
+																<Link to="/list/kotlin">Kotlin (0)</Link>
 															</Menu.Item>
 															<Menu.Item as="a">
-																<Link to="/list?tag=python">Python (0)</Link>
+																<Link to="/list/python">Python (0)</Link>
 															</Menu.Item>
 															<Menu.Item as="a">
-																<Link to="/list?tag=nodejs">NodeJS (0)</Link>
+																<Link to="/list/nodejs">NodeJS (0)</Link>
 															</Menu.Item>
 														</Menu.Menu>
 													</Menu.Item>

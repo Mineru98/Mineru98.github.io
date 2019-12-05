@@ -66,17 +66,17 @@ class Blog extends React.Component {
 													<Menu.Item>
 														<Menu.Header id="blog_header">Production</Menu.Header>
 														<Menu.Menu>
-															<Menu.Item as="a"><Link to="/list?tag=experience">Experience (0)</Link></Menu.Item>
-															<Menu.Item as="a"><Link to="/list?tag=tool">Tool (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list/experience">Experience (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list/tool">Tool (0)</Link></Menu.Item>
 														</Menu.Menu>
 													</Menu.Item>
 													<Menu.Item>
 														<Menu.Header id="blog_header">Language</Menu.Header>
 														<Menu.Menu>
-															<Menu.Item as="a"><Link to="/list?tag=java">Java (0)</Link></Menu.Item>
-															<Menu.Item as="a"><Link to="/list?tag=kotlin">Kotlin (0)</Link></Menu.Item>
-															<Menu.Item as="a"><Link to="/list?tag=python">Python (0)</Link></Menu.Item>
-															<Menu.Item as="a"><Link to="/list?tag=nodejs">NodeJS (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list/java">Java (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list/kotlin">Kotlin (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list/python">Python (0)</Link></Menu.Item>
+															<Menu.Item as="a"><Link to="/list/nodejs">NodeJS (0)</Link></Menu.Item>
 														</Menu.Menu>
 													</Menu.Item>
 												</Menu>

@@ -18,6 +18,7 @@ class App extends React.Component {
 					<Route exact path="/jp" component={Home}/>
 					<Route exact path="/blog" component={Blog}/>
 					<Route exact path="/list" component={_List}/>
+					<Route exact path="/list/:tag" component={_List}/>
 				</div>
 			</BrowserRouter>
 		);
