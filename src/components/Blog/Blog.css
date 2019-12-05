@@ -11,10 +11,39 @@
 
 .blog_container {
 	font-family: Consolas;
+	margin-top: 50px;
+	margin-bottom: 300px;
 }
 
 #blog_header {
 	color: #2185d0;
+}
+
+#blog_tab {
+	margin: 0px 20px;
+	font-size: 1.3rem;
+	color: rgba(0,0,0);
+	font-weight: bold;
+	font-family: "NanumSquare";
+}
+
+#blog_list_item {
+	padding: 30px 20px;
+}
+
+#blog_list_header {
+	color: rgba(0,0,0);
+	margin: 20px;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "NanumSquare";
+}
+
+#blog_list_content {
+	color: rgba(0,0,0,.7);
+	font-size: 1.2rem;
+	margin: 20px;
+	font-family: "NanumSquare";
 }
 
 a.item >  a {
