@@ -36,6 +36,17 @@ class _List extends React.Component {
 			view = (
 				<List divided>
 					<List.Item>
+						<Link to="/list?id=2020-01-15-BoilerPlate">
+							<List.Content>
+								<List.Header id="blog_list_header">드러난 나의 민낯</List.Header>
+								<List.Description id="blog_list_content">
+									React를 처음부터 제대로 공부하면서 서비스를 만들진 않았지만
+									야매로 React를 공부한지 이제 어느덧 1년이 지나면서 슬슬 나의 민낯이 들어나기 시작하는 기분이다.
+								</List.Description>
+							</List.Content>
+						</Link>
+					</List.Item>
+					<List.Item>
 						<Link to="/list?id=2019-02-14-06-Algorithm02-post">
 							<List.Content>
 								<List.Header id="blog_list_header">자료구조란?</List.Header>
