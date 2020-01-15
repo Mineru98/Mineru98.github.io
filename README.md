@@ -14,9 +14,10 @@ git push
 
 ### TodoList
 
- - [ ] Main Page
- - [ ] Sub Page
- - [ ] Page Design
+ - [X] Main Page
+ - [X] Sub Page
+ - [X] Page Design
  - [X] my icon
  - [ ] SEO
+ - [ ] Apply NextJS
  - [X] Change domain to [https://mineru98.github.io](https://mineru98.github.io)
