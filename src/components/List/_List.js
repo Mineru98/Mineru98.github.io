@@ -440,18 +440,15 @@ class _List extends React.Component {
 			);
 		}
 		if (tag) {
-			console.log('tag');
 			this.setState({
 				isList: true
 			});
 		}
 		if (query.id) {
-			console.log('id');
 			this.setState({
 				isList: false
 			});
 		}
-		console.log(query);
 		const url = `https://mineru98.github.io/static/posts/${query.id}.md`;
 		axios.get(url).then(res => {
 			this.setState({
@@ -460,14 +457,11 @@ class _List extends React.Component {
 		});
 	}
 	componentDidMount() {
-		console.log('Component Did MOUNT!');
 	}
 	shouldComponentUpdate(nextProps, nextState) {
 		return true;
 	}
 	componentDidUpdate(prevProps, prevState) {
-		console.log('Component Did Update!');
-		console.log(this.state.isList);
 	}
 
 	contextRef = createRef();

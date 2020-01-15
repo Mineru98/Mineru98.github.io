@@ -19,7 +19,6 @@ class Blog extends React.Component {
 
 	render() {
 		const query = queryString.parse(this.props.location.search);
-		console.log(query);
 		return (
 			<div>
 				{/* PC 화면 */}
