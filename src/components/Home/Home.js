@@ -8,7 +8,7 @@ import {
 	Container,
 	Accordion,
 	Responsive
-} from 'semantic-ui-react';
+} from 'semantic-ui-react'; 
 import { Radar } from 'react-chartjs-2';
 import './Home.css';
 
