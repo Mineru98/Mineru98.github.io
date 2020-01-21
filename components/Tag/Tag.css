@@ -1,49 +1,40 @@
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
-.blog_background {
+.tag.background {
 	background-color: #222;
 	text-shadow: 0 0 5px #C8C8C8;
 	background-size: cover;
 	height: 400px;
 	color: white;
-	padding: 50px
+	padding: 50px;
 }
 
-.blog_container {
+.tag.container {
 	font-family: Consolas;
 	margin-top: 50px;
 	margin-bottom: 300px;
 }
 
-#blog_header {
-	color: #2185d0;
+.tag.container2 {
+	margin: 0px 500px;
 }
 
-#blog_tab {
-	margin: 0px 20px;
-	font-size: 1.3rem;
-	color: rgba(0,0,0);
-	font-weight: bold;
-	font-family: "NanumSquare";
+@media (max-width: 1600px) {
+	.tag.container2 {
+		margin: 0px 300px;
+	}
 }
 
-#blog_list_item {
-	padding: 30px 20px;
+@media (max-width: 1200px) {
+	.tag.container2 {
+		margin: 0px 200px;
+	}
 }
 
-#blog_list_header {
-	color: rgba(0,0,0);
-	margin: 20px;
-	font-size: 2rem;
-	font-weight: bold;
-	font-family: "NanumSquare";
-}
-
-#blog_list_content {
-	color: rgba(0,0,0,.7);
-	font-size: 1.2rem;
-	margin: 20px;
-	font-family: "NanumSquare";
+@media (max-width: 1000px) {
+	.tag.container2 {
+		margin: 0px 100px;
+	}
 }
 
 a.item >  a {
@@ -60,10 +51,6 @@ h1 {
 p {
 	font-size: 16px;
 	font-family: "NanumSquare";
-}
-
-.ui.sticky{
-	margin-top: 75px;
 }
 
 pre {

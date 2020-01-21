@@ -18,6 +18,6 @@ git push
  - [X] Sub Page
  - [X] Page Design
  - [X] my icon
- - [ ] SEO
- - [ ] Apply NextJS
+ - [X] SEO
+ - [X] Apply NextJS
  - [X] Change domain to [https://mineru98.github.io](https://mineru98.github.io)

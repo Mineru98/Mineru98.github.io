@@ -1,43 +1,25 @@
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
-.list_background {
+.blog.background {
 	background-color: #222;
 	text-shadow: 0 0 5px #C8C8C8;
 	background-size: cover;
 	height: 400px;
 	color: white;
-	padding: 50px;
+	padding: 50px
 }
 
-.list_container {
+.blog.container {
 	font-family: Consolas;
 	margin-top: 50px;
 	margin-bottom: 300px;
 }
 
-.list_container2 {
-	margin: 0px 500px;
+#blog_header {
+	color: #2185d0;
 }
 
-@media (max-width: 1600px) {
-	.list_container2 {
-		margin: 0px 300px;
-	}
-}
-
-@media (max-width: 1200px) {
-	.list_container2 {
-		margin: 0px 200px;
-	}
-}
-
-@media (max-width: 1000px) {
-	.list_container2 {
-		margin: 0px 100px;
-	}
-}
-
-#list_tab {
+#blog_tab {
 	margin: 0px 20px;
 	font-size: 1.3rem;
 	color: rgba(0,0,0);
@@ -45,15 +27,12 @@
 	font-family: "NanumSquare";
 }
 
-#list_header {
-	color: #2185d0;
-}
-
-#list_list_item {
+#blog_list_item {
 	padding: 30px 20px;
 }
 
-#list_list_header {
+#blog_list_header {
+	cursor: pointer;
 	color: rgba(0,0,0);
 	margin: 20px;
 	font-size: 2rem;
@@ -61,24 +40,11 @@
 	font-family: "NanumSquare";
 }
 
-#list_list_content {
+#blog_list_content {
+	cursor: pointer;
 	color: rgba(0,0,0,.7);
 	font-size: 1.2rem;
 	margin: 20px;
-	font-family: "NanumSquare";
-}
-
-.list_header {
-	color: rgba(0,0,0);
-	margin-top: 10px;
-	margin-bottom: -20px;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: "NanumSquare";
-}
-.list_content {
-	color: rgba(0,0,0,.7);
-	font-size: 16px;
 	font-family: "NanumSquare";
 }
 

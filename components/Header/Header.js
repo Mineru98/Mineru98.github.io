@@ -1,7 +1,7 @@
 import React, { createRef } from 'react';
 import { Menu, Container, Icon, Popup, Flag } from 'semantic-ui-react';
 import Headeroom from 'react-headroom';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import './Header.css';
 
 class Header extends React.Component {
@@ -15,7 +15,7 @@ class Header extends React.Component {
 	render() {
 		const contextRef = createRef();
 		return (
-			<div ref={contextRef}>
+			<div ref={contextRef} className="header top">
 				<Headeroom
 					wrapperStyle={{ height: '50px' }}
 					style={{
@@ -28,7 +28,7 @@ class Header extends React.Component {
 				>
 					<Menu inverted id="top">
 						<Container>
-							<Link to="/">
+							<Link href='/'>
 								<Menu.Item header id="header" name="Mineru Coding Blog" />
 							</Link>
 							<Popup
@@ -42,19 +42,16 @@ class Header extends React.Component {
 								hoverable
 							>
 								<Menu.Item header id="header">
-									<Link to="/" id="selector">
-										<Flag name="kr" />한국어
-									</Link>
+									<Flag name="kr"/>
+									<Link href='/'>한국어</Link>
 								</Menu.Item>
 								<Menu.Item header id="header">
-									<Link to="/en" id="selector">
-										<Flag name="us" />English
-									</Link>
+									<Flag name="us"/>
+									<Link href='/en'>English</Link>
 								</Menu.Item>
 								<Menu.Item header id="header">
-									<Link to="/jp" id="selector">
-										<Flag name="jp" />日本語
-									</Link>
+									<Flag name="jp"/>
+									<Link href='/jp'>日本語</Link>
 								</Menu.Item>
 							</Popup>
 							<Menu.Item header id="header">
@@ -63,7 +60,7 @@ class Header extends React.Component {
 								</a>
 							</Menu.Item>
 							<Menu.Item header id="header">
-								<Link to="/blog">
+								<Link href='/blog'>
 									<Icon name="book" />
 								</Link>
 							</Menu.Item>

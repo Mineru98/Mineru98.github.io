@@ -10,20 +10,19 @@ import {
 	List,
 	Header
 } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
-// import queryString from 'query-string';
+import Link from 'next/link';
 import './Blog.css';
 
-class Blog extends React.Component {
-	contextRef = createRef();
+let contextRef;
 
+class Blog extends React.Component {
 	render() {
-		// const query = queryString.parse(this.props.location.search);
+		contextRef = createRef();
 		return (
 			<div>
 				{/* PC 화면 */}
 				<Responsive minWidth={769}>
-					<div className="blog_background">
+					<div className="blog background">
 						<Grid>
 							<Grid.Row centered columns={3}>
 								<Grid.Column>
@@ -34,26 +33,37 @@ class Blog extends React.Component {
 							</Grid.Row>
 						</Grid>
 					</div>
-					<div className="blog_container">
+					<div className="blog container">
 						<Grid centered columns={2}>
 							<Grid.Column>
 								<Ref innerRef={this.contextRef}>
 									<Segment>
-										<Header id="blog_tab" image="/img/project.svg" content="최근 게시물" />
+										<Header id="blog_tab" image="/static/imgs/project.svg" content="최근 게시물" />
 										<List divided>
 											<List.Item>
-												<Link to="/list?id=2020-01-15-BoilerPlate">
+												<Link href={{ pathname: '/tag', query: { id: '2020-01-19-Plan' } }}>
 													<List.Content>
-														<List.Header id="blog_list_header">드러난 나의 민낯</List.Header>
+														<List.Header id="blog_list_header">너의 휴가, 나의 휴가</List.Header>
 														<List.Description id="blog_list_content">
-															React를 처음부터 제대로 공부하면서 서비스를 만들진 않았지만
-									야매로 React를 공부한지 이제 어느덧 1년이 지나면서 슬슬 나의 민낯이 들어나기 시작하는 기분이다.
+															2박3일간 휴가를 다녀왔다.
+															항상 휴가를 나갈때면 듣는 소리이지만 군인이 무슨 휴가를 나와서 일을 하러 나오냐라는 소리를 거의 100이면 100 듣는다
 														</List.Description>
 													</List.Content>
 												</Link>
 											</List.Item>
 											<List.Item>
-												<Link to="/list?id=2019-02-14-06-Algorithm02-post">
+												<Link href={{ pathname: '/tag', query: { id: '2020-01-15-BoilerPlate' } }}>
+													<List.Content>
+														<List.Header id="blog_list_header">드러난 나의 민낯</List.Header>
+														<List.Description id="blog_list_content">
+															React를 처음부터 제대로 공부하면서 서비스를 만들진 않았지만 야매로 React를 공부한지 이제 어느덧 1년이 지나면서 슬슬
+															나의 민낯이 들어나기 시작하는 기분이다.
+														</List.Description>
+													</List.Content>
+												</Link>
+											</List.Item>
+											<List.Item>
+												<Link href={{ pathname: '/tag', query: { id: '2019-02-14-06-Algorithm02-post' } }}>
 													<List.Content>
 														<List.Header id="blog_list_header">자료구조란?</List.Header>
 														<List.Description id="blog_list_content">
@@ -64,7 +74,7 @@ class Blog extends React.Component {
 												</Link>
 											</List.Item>
 											<List.Item>
-												<Link to="/list?id=2019-01-10-05-Plan">
+												<Link href={{ pathname: '/tag', query: { id: '2019-01-10-05-Plan' } }}>
 													<List.Content>
 														<List.Header id="blog_list_header">군대에서 프로그래밍을...</List.Header>
 														<List.Description id="blog_list_content">
@@ -74,7 +84,7 @@ class Blog extends React.Component {
 												</Link>
 											</List.Item>
 											<List.Item>
-												<Link to="/list?id=2019-01-07-04-CnA-Project">
+												<Link href={{ pathname: '/tag', query: { id: '2019-01-07-04-CnA-Project' } }}>
 													<List.Content>
 														<List.Header id="blog_list_header">CnA+ 프로젝트</List.Header>
 														<List.Description id="blog_list_content">준비중입니다...</List.Description>
@@ -82,7 +92,7 @@ class Blog extends React.Component {
 												</Link>
 											</List.Item>
 											<List.Item>
-												<Link to="/list?id=2019-01-07-03-coding-education-post">
+												<Link href={{ pathname: '/tag', query: { id: '2019-01-07-03-coding-education-post' } }}>
 													<List.Content>
 														<List.Header id="blog_list_header">코딩교육</List.Header>
 														<List.Description id="blog_list_content">
@@ -93,7 +103,7 @@ class Blog extends React.Component {
 												</Link>
 											</List.Item>
 											<List.Item>
-												<Link to="/list?id=2019-01-07-02-Algorithm01-post">
+												<Link href={{ pathname: '/tag', query: { id: '2019-01-07-02-Algorithm01-post' } }}>
 													<List.Content>
 														<List.Header id="blog_list_header">알고리즘이란?</List.Header>
 														<List.Description id="blog_list_content">
@@ -104,7 +114,7 @@ class Blog extends React.Component {
 												</Link>
 											</List.Item>
 											<List.Item>
-												<Link to="/list?id=2019-01-07-01-First-post">
+												<Link href={{ pathname: '/tag', query: { id: '2019-01-07-01-First-post' } }}>
 													<List.Content>
 														<List.Header id="blog_list_header">처음 써보는 Github 블로그 포스트</List.Header>
 														<List.Description id="blog_list_content">
@@ -121,10 +131,10 @@ class Blog extends React.Component {
 														<Menu.Header id="blog_header">Production</Menu.Header>
 														<Menu.Menu>
 															<Menu.Item as="a">
-																<Link to="/list/experience">Experience (0)</Link>
+																<Link href="/list/experience">Experience (0)</Link>
 															</Menu.Item>
 															<Menu.Item as="a">
-																<Link to="/list/tool">Tool (0)</Link>
+																<Link href="/list/tool">Tool (0)</Link>
 															</Menu.Item>
 														</Menu.Menu>
 													</Menu.Item>
@@ -132,16 +142,16 @@ class Blog extends React.Component {
 														<Menu.Header id="blog_header">Language</Menu.Header>
 														<Menu.Menu>
 															<Menu.Item as="a">
-																<Link to="/list/java">Java (0)</Link>
+																<Link href="/list/java">Java (0)</Link>
 															</Menu.Item>
 															<Menu.Item as="a">
-																<Link to="/list/kotlin">Kotlin (0)</Link>
+																<Link href="/list/kotlin">Kotlin (0)</Link>
 															</Menu.Item>
 															<Menu.Item as="a">
-																<Link to="/list/python">Python (0)</Link>
+																<Link href="/list/python">Python (0)</Link>
 															</Menu.Item>
 															<Menu.Item as="a">
-																<Link to="/list/nodejs">NodeJS (0)</Link>
+																<Link href="/list/nodejs">NodeJS (0)</Link>
 															</Menu.Item>
 														</Menu.Menu>
 													</Menu.Item>
@@ -156,7 +166,7 @@ class Blog extends React.Component {
 				</Responsive>
 				{/* 모바일 화면 */}
 				<Responsive minWidth={1} maxWidth={768}>
-					<div className="blog_background">
+					<div className="blog background">
 						<Grid>
 							<Grid.Row centered columns={1}>
 								<Grid.Column>
@@ -167,11 +177,11 @@ class Blog extends React.Component {
 							</Grid.Row>
 						</Grid>
 					</div>
-					<div className="blog_container">
-						<Header id="blog_tab" image="/img/project.svg" content="최근 게시물" />
+					<div className="blog container">
+						<Header id="blog_tab" image="/static/imgs/project.svg" content="최근 게시물" />
 						<List divided>
 							<List.Item>
-								<Link to="/list?id=2019-02-14-06-Algorithm02-post">
+								<Link href="/blog/2019-02-14-06-Algorithm02-post">
 									<List.Content>
 										<List.Header id="blog_list_header">자료구조란?</List.Header>
 										<List.Description id="blog_list_content">
@@ -181,7 +191,7 @@ class Blog extends React.Component {
 								</Link>
 							</List.Item>
 							<List.Item>
-								<Link to="/list?id=2019-01-10-05-Plan">
+								<Link href="/blog/2019-01-10-05-Plan">
 									<List.Content>
 										<List.Header id="blog_list_header">군대에서 프로그래밍을...</List.Header>
 										<List.Description id="blog_list_content">
@@ -191,7 +201,7 @@ class Blog extends React.Component {
 								</Link>
 							</List.Item>
 							<List.Item>
-								<Link to="/list?id=2019-01-07-04-CnA-Project">
+								<Link href="/blog/2019-01-07-04-CnA-Project">
 									<List.Content>
 										<List.Header id="blog_list_header">CnA+ 프로젝트</List.Header>
 										<List.Description id="blog_list_content">준비중입니다...</List.Description>
@@ -199,7 +209,7 @@ class Blog extends React.Component {
 								</Link>
 							</List.Item>
 							<List.Item>
-								<Link to="/list?id=2019-01-07-03-coding-education-post">
+								<Link href="/blog/2019-01-07-03-coding-education-post">
 									<List.Content>
 										<List.Header id="blog_list_header">코딩교육</List.Header>
 										<List.Description id="blog_list_content">
@@ -210,7 +220,7 @@ class Blog extends React.Component {
 								</Link>
 							</List.Item>
 							<List.Item>
-								<Link to="/list?id=2019-01-07-02-Algorithm01-post">
+								<Link href="/blog/2019-01-07-02-Algorithm01-post">
 									<List.Content>
 										<List.Header id="blog_list_header">알고리즘이란?</List.Header>
 										<List.Description id="blog_list_content">
@@ -221,7 +231,7 @@ class Blog extends React.Component {
 								</Link>
 							</List.Item>
 							<List.Item>
-								<Link to="/list?id=2019-01-07-01-First-post">
+								<Link href="/blog/2019-01-07-01-First-post">
 									<List.Content>
 										<List.Header id="blog_list_header">처음 써보는 Github 블로그 포스트</List.Header>
 										<List.Description id="blog_list_content">
