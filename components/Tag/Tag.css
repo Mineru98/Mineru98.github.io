@@ -17,6 +17,7 @@
 
 .tag.container2 {
 	margin: 0px 500px;
+	text-align: left;
 }
 
 @media (max-width: 1600px) {
