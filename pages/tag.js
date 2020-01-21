@@ -1,7 +1,6 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import Tag from '../components/Tag/Tag';
-import ReactMarkdown from 'react-markdown';
 
 export default function tag(props) {
 	return (
@@ -16,16 +15,16 @@ export default function tag(props) {
 						type: 'website',
 						images: [
 							{
-								url: 'https://source.unsplash.com/82TpEld0_e4/800x600',
+								url: 'https://mineru98.github.io/static/imgs/mineru-blog.png',
 								width: 800,
 								height: 600,
-								alt: 'Note Alt'
+								alt: 'Blog Alt'
 							}
 						],
 						site_name: 'Mineru Code Blog'
 					}}
 					facebook={{
-						appId: '2123338114642272'
+						appId: '302132824078486'
 					}}
 				/>
 			<Tag/>
