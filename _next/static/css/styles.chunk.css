@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin);
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
  /*
  * # Semantic UI - 2.4.0
  * https://github.com/Semantic-Org/Semantic-UI
@@ -412,83 +413,104 @@ header {
 .ui.inverted.menu .item:before {
 	background-color: #000000;
 }
-.tag.background {
+.notfound.banner {
+	background-size: cover;
+	overflow: hidden;
+	height: 800px;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+#notfound-coment {
+	color: white;
+	margin-top: 350px;
+	font-size: 40px;
+}
+@charset "utf-8";
+@font-face {
+	font-family: 'sans-serif';
+	font-weight: normal;
+	font-style: normal
+}
+
+.home_background {
 	background-color: #222;
 	text-shadow: 0 0 5px #C8C8C8;
 	background-size: cover;
 	height: 400px;
 	color: white;
-	padding: 50px;
+	padding: 50px
 }
 
-.tag.container {
-	font-family: Consolas;
-	margin-top: 50px;
-	margin-bottom: 300px;
+.home_container {
+	font-family: Consolas
 }
 
-.tag.container2 {
-	margin: 0px 500px;
+.date {
+	color: #828282;
+	font-size: 1rem;
 }
 
-@media (max-width: 1600px) {
-	.tag.container2 {
-		margin: 0px 300px;
-	}
+::selection {
+  background: #0080FF;
+  text-shadow: none;
 }
 
-@media (max-width: 1200px) {
-	.tag.container2 {
-		margin: 0px 200px;
-	}
+#default {
+	font-size: 1.2rem;
+	font-family: Consolas
 }
 
-@media (max-width: 1000px) {
-	.tag.container2 {
-		margin: 0px 100px;
-	}
+#card {
+	margin: auto;
 }
 
-a.item >  a {
-	color: #6d6d6d;
-}
-a.item >  a:hover {
-	color: #bbbbbb;
+.description {
+	font-family: "NanumSquare";
+	font-size: 1.5rem;
+	font-weight: normal;
 }
 
 h1 {
-	font-family: Consolas;
+	font-family: Consolas
+}
+@charset "utf-8";
+@font-face {
+	font-family: 'sans-serif';
+	font-weight: normal;
+	font-style: normal
 }
 
-p {
-	font-size: 16px;
-	font-family: "NanumSquare";
-}
-
-pre {
-	background-color: #f6f8fa;
-	padding: 10px;
-	overflow: scroll;
-}
-
-code {
-	font-family: SFMono-Regular;
-	font-size: 13.6px;
-}
-table, th, td { border: 1px solid #bbbbbb; padding: 4px; }
-table { border-collapse: collapse; }
-blockquote {
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-left: 5px solid #27e372;
-}
-
-img {
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'sans-serif';
+	background: #ffffff;
+	text-align: left;
 	width: 100%;
+	color: #000000;
 }
 
+div#wapper {
+	width: 100%;
+	text-align: left;
+	min-height: 300px;
+	margin: 0 auto;
+}
+
+#menu-button {
+	z-index: 4;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	right: 20px;
+	top: 30px;
+	color: #ffffff;
+}
+
+.headroom-wrapper {
+	height: 65px;
+}
 .blog.background {
 	background-color: #222;
 	text-shadow: 0 0 5px #C8C8C8;
@@ -555,6 +577,84 @@ p {
 
 .ui.sticky{
 	margin-top: 75px;
+}
+
+pre {
+	background-color: #f6f8fa;
+	padding: 10px;
+	overflow: scroll;
+}
+
+code {
+	font-family: SFMono-Regular;
+	font-size: 13.6px;
+}
+table, th, td { border: 1px solid #bbbbbb; padding: 4px; }
+table { border-collapse: collapse; }
+blockquote {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 5px solid #27e372;
+}
+
+img {
+	width: 100%;
+}
+
+.tag.background {
+	background-color: #222;
+	text-shadow: 0 0 5px #C8C8C8;
+	background-size: cover;
+	height: 400px;
+	color: white;
+	padding: 50px;
+}
+
+.tag.container {
+	font-family: Consolas;
+	margin-top: 50px;
+	margin-bottom: 300px;
+}
+
+.tag.container2 {
+	margin: 0px 500px;
+	text-align: left;
+}
+
+@media (max-width: 1600px) {
+	.tag.container2 {
+		margin: 0px 300px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.tag.container2 {
+		margin: 0px 200px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.tag.container2 {
+		margin: 0px 100px;
+	}
+}
+
+a.item >  a {
+	color: #6d6d6d;
+}
+a.item >  a:hover {
+	color: #bbbbbb;
+}
+
+h1 {
+	font-family: Consolas;
+}
+
+p {
+	font-size: 16px;
+	font-family: "NanumSquare";
 }
 
 pre {
