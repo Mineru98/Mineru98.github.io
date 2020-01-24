@@ -62,7 +62,10 @@ const English = {
 	WareHouse_Title: 'WareHouse',
 	WareHouse_Date: 'Deployed Nov 29, 2019',
 	WareHouse_Description:
-		'Pop & Push stream processing project to prevent user experience when the internet connection is lost during server & client communication'
+		'Pop & Push stream processing project to prevent user experience when the internet connection is lost during server & client communication',
+	UrlHit_Title: 'UrlHit',
+	UrlHit_Date: 'Deployed Jan 24, 2020',
+	UrlHit_Description: 'A solution to track where users come from when sharing URLs'
 };
 
 const data_en = {
@@ -442,6 +445,29 @@ class HomeEN extends React.Component {
 										</Card.Content>
 									</Card>
 								</Grid.Column>
+								<Grid.Column>
+									<Card href="https://github.com/Mineru98/UrlHit" id="card">
+										<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{English.UrlHit_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{English.UrlHit_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{English.UrlHit_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Python
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
 							</Grid.Row>
 						</Grid>
 					)
@@ -795,6 +821,31 @@ class HomeEN extends React.Component {
 									</Card>
 								</Grid.Column>
 							</Grid.Row>
+							<Grid.Row>
+								<Grid.Column>
+									<Card href="https://github.com/Mineru98/UrlHit" id="card">
+										<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{English.UrlHit_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{English.UrlHit_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{English.UrlHit_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Python
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+							</Grid.Row>
 						</Grid>
 					)
 				}
@@ -940,6 +991,29 @@ class HomeEN extends React.Component {
 												</Card.Meta>
 												<Card.Description id="default">
 													{English.KoreaMockTestBot_Description}
+												</Card.Description>
+											</Card.Content>
+											<Card.Content extra>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_python.png" /> Python
+												</Label>
+											</Card.Content>
+										</Card>
+									</Grid.Column>
+									<Grid.Column>
+										<Card href="https://github.com/Mineru98/UrlHit" id="card">
+											<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+											<Card.Content>
+												<Card.Header id="default">
+													{English.UrlHit_Title}
+												</Card.Header>
+												<Card.Meta>
+													<span className="date">
+														{English.UrlHit_Date}
+													</span>
+												</Card.Meta>
+												<Card.Description id="default">
+													{English.UrlHit_Description}
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
@@ -1117,6 +1191,31 @@ class HomeEN extends React.Component {
 												</Card.Meta>
 												<Card.Description id="default">
 													{English.KoreaMockTestBot_Description}
+												</Card.Description>
+											</Card.Content>
+											<Card.Content extra>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_python.png" /> Python
+												</Label>
+											</Card.Content>
+										</Card>
+									</Grid.Column>
+								</Grid.Row>
+								<Grid.Row>
+									<Grid.Column>
+										<Card href="https://github.com/Mineru98/UrlHit" id="card">
+											<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+											<Card.Content>
+												<Card.Header id="default">
+													{English.UrlHit_Title}
+												</Card.Header>
+												<Card.Meta>
+													<span className="date">
+														{English.UrlHit_Date}
+													</span>
+												</Card.Meta>
+												<Card.Description id="default">
+													{English.UrlHit_Description}
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>

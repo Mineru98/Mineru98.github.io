@@ -56,7 +56,10 @@ const Japanese = {
 	WareHouse_Title: '倉庫',
 	WareHouse_Date: '2019年11月29日から配布',
 	WareHouse_Description:
-		'サーバー＆クライアントの通信をする際に、インターネット接続が切れているときに、ユーザーの経験を落とさないためのPop＆Push形態のストリーム処理プロジェクト'
+		'サーバー＆クライアントの通信をする際に、インターネット接続が切れているときに、ユーザーの経験を落とさないためのPop＆Push形態のストリーム処理プロジェクト',
+	UrlHit_Title: 'UrlHit',
+	UrlHit_Date: '2020年1月24日から配布',
+	UrlHit_Description: 'URLの共有をするとき、どのような経路で、ユーザーが流入されることを追跡するソリューション'
 };
 
 const data_jp = {
@@ -436,6 +439,29 @@ class HomeJP extends React.Component {
 										</Card.Content>
 									</Card>
 								</Grid.Column>
+								<Grid.Column>
+									<Card href="https://github.com/Mineru98/UrlHit" id="card">
+										<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{Japanese.UrlHit_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{Japanese.UrlHit_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{Japanese.UrlHit_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Python
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
 							</Grid.Row>
 						</Grid>
 					)
@@ -789,6 +815,31 @@ class HomeJP extends React.Component {
 									</Card>
 								</Grid.Column>
 							</Grid.Row>
+							<Grid.Row>
+								<Grid.Column>
+									<Card href="https://github.com/Mineru98/UrlHit" id="card">
+										<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{Japanese.UrlHit_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{Japanese.UrlHit_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{Japanese.UrlHit_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Python
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+							</Grid.Row>
 						</Grid>
 					)
 				}
@@ -934,6 +985,29 @@ class HomeJP extends React.Component {
 												</Card.Meta>
 												<Card.Description id="default">
 													{Japanese.KoreaMockTestBot_Description}
+												</Card.Description>
+											</Card.Content>
+											<Card.Content extra>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_python.png" /> Python
+												</Label>
+											</Card.Content>
+										</Card>
+									</Grid.Column>
+									<Grid.Column>
+										<Card href="https://github.com/Mineru98/UrlHit" id="card">
+											<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+											<Card.Content>
+												<Card.Header id="default">
+													{Japanese.UrlHit_Title}
+												</Card.Header>
+												<Card.Meta>
+													<span className="date">
+														{Japanese.UrlHit_Date}
+													</span>
+												</Card.Meta>
+												<Card.Description id="default">
+													{Japanese.UrlHit_Description}
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
@@ -1111,6 +1185,31 @@ class HomeJP extends React.Component {
 												</Card.Meta>
 												<Card.Description id="default">
 													{Japanese.KoreaMockTestBot_Description}
+												</Card.Description>
+											</Card.Content>
+											<Card.Content extra>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_python.png" /> Python
+												</Label>
+											</Card.Content>
+										</Card>
+									</Grid.Column>
+								</Grid.Row>
+								<Grid.Row>
+									<Grid.Column>
+										<Card href="https://github.com/Mineru98/UrlHit" id="card">
+											<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+											<Card.Content>
+												<Card.Header id="default">
+													{Japanese.UrlHit_Title}
+												</Card.Header>
+												<Card.Meta>
+													<span className="date">
+														{Japanese.UrlHit_Date}
+													</span>
+												</Card.Meta>
+												<Card.Description id="default">
+													{Japanese.UrlHit_Description}
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>

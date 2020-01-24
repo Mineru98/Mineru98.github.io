@@ -56,7 +56,10 @@ const Korean = {
 	WareHouse_Title: '웨어하우스',
 	WareHouse_Date: '2019년 11월 29일 배포',
 	WareHouse_Description:
-		'서버 & 클라이언트 통신을 하는 중에 인터넷 연결이 끊겨있을 때, 사용자 경험을 떨어뜨리지 않기 위한 Pop & Push 형태의 스트림처리 프로젝트'
+		'서버 & 클라이언트 통신을 하는 중에 인터넷 연결이 끊겨있을 때, 사용자 경험을 떨어뜨리지 않기 위한 Pop & Push 형태의 스트림처리 프로젝트',
+	UrlHit_Title: 'UrlHit',
+	UrlHit_Date: '2020년 1월 24일 배포',
+	UrlHit_Description: 'URL 공유를 할 때, 어떤 경로로 사용자가 유입되는지 추적하는 솔루션'
 };
 
 const data = {
@@ -436,6 +439,29 @@ class HomeKR extends React.Component {
 										</Card.Content>
 									</Card>
 								</Grid.Column>
+								<Grid.Column>
+									<Card href="https://github.com/Mineru98/UrlHit" id="card">
+										<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{Korean.UrlHit_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{Korean.UrlHit_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{Korean.UrlHit_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Python
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
 							</Grid.Row>
 						</Grid>
 					)
@@ -789,6 +815,31 @@ class HomeKR extends React.Component {
 									</Card>
 								</Grid.Column>
 							</Grid.Row>
+							<Grid.Row>
+								<Grid.Column>
+									<Card href="https://github.com/Mineru98/UrlHit" id="card">
+										<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{Korean.UrlHit_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{Korean.UrlHit_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{Korean.UrlHit_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Python
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+							</Grid.Row>
 						</Grid>
 					)
 				}
@@ -934,6 +985,29 @@ class HomeKR extends React.Component {
 												</Card.Meta>
 												<Card.Description id="default">
 													{Korean.KoreaMockTestBot_Description}
+												</Card.Description>
+											</Card.Content>
+											<Card.Content extra>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_python.png" /> Python
+												</Label>
+											</Card.Content>
+										</Card>
+									</Grid.Column>
+									<Grid.Column>
+										<Card href="https://github.com/Mineru98/UrlHit" id="card">
+											<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+											<Card.Content>
+												<Card.Header id="default">
+													{Korean.UrlHit_Title}
+												</Card.Header>
+												<Card.Meta>
+													<span className="date">
+														{Korean.UrlHit_Date}
+													</span>
+												</Card.Meta>
+												<Card.Description id="default">
+													{Korean.UrlHit_Description}
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
@@ -1111,6 +1185,31 @@ class HomeKR extends React.Component {
 												</Card.Meta>
 												<Card.Description id="default">
 													{Korean.KoreaMockTestBot_Description}
+												</Card.Description>
+											</Card.Content>
+											<Card.Content extra>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_python.png" /> Python
+												</Label>
+											</Card.Content>
+										</Card>
+									</Grid.Column>
+								</Grid.Row>
+								<Grid.Row>
+									<Grid.Column>
+										<Card href="https://github.com/Mineru98/UrlHit" id="card">
+											<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
+											<Card.Content>
+												<Card.Header id="default">
+													{Korean.UrlHit_Title}
+												</Card.Header>
+												<Card.Meta>
+													<span className="date">
+														{Korean.UrlHit_Date}
+													</span>
+												</Card.Meta>
+												<Card.Description id="default">
+													{Korean.UrlHit_Description}
 												</Card.Description>
 											</Card.Content>
 											<Card.Content extra>
