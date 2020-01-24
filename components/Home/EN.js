@@ -144,6 +144,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_cplusplus.png" /> C
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_cplusplus.png" /> Algorithm
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -166,6 +169,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_csharp.png" /> C#
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_csharp.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -202,6 +208,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> App Service
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -228,6 +237,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> Algorithm
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -250,6 +262,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_kotlin.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -276,6 +291,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> Java
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> App Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -312,6 +330,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_js.png" /> JavaScript
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_js.png" /> Web Service
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -338,6 +359,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_nodejs.png" /> NodeJS
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_nodejs.png" /> Algorithm
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -360,6 +384,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_reactjs.png" /> Web Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -419,6 +446,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Desktop App
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -442,6 +472,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Desktop App
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -464,6 +497,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Server
 											</Label>
 										</Card.Content>
 									</Card>
@@ -503,6 +539,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_cplusplus.png" /> C
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_cplusplus.png" /> Algorithm
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -527,6 +566,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_csharp.png" /> C#
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_csharp.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -563,6 +605,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> App Service
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -591,6 +636,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_kotlin.png" /> Algorithm
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -615,6 +663,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_kotlin.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -643,6 +694,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> Java
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> App Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -679,6 +733,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_js.png" /> JavaScript
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_js.png" /> Web Service
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -707,6 +764,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_nodejs.png" /> NodeJS
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_nodejs.png" /> Algorithm
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -731,6 +791,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_reactjs.png" /> Web Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -767,6 +830,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Desktop App
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -791,6 +857,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Desktop App
 											</Label>
 										</Card.Content>
 									</Card>
@@ -817,6 +886,9 @@ class HomeEN extends React.Component {
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Algorithm
+											</Label>
 										</Card.Content>
 									</Card>
 								</Grid.Column>
@@ -841,6 +913,9 @@ class HomeEN extends React.Component {
 										<Card.Content extra>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_python.png" /> Python
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_python.png" /> Server
 											</Label>
 										</Card.Content>
 									</Card>
@@ -900,6 +975,9 @@ class HomeEN extends React.Component {
 												<Label as="a" image>
 													<Image src="/static/imgs/icon_xamarin.png" /> Xamarin.forms
 												</Label>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_xamarin.png" /> Web Service
+												</Label>
 											</Card.Content>
 										</Card>
 									</Grid.Column>
@@ -922,6 +1000,9 @@ class HomeEN extends React.Component {
 											<Card.Content extra>
 												<Label as="a" image>
 													<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
+												</Label>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_reactjs.png" /> Web Service
 												</Label>
 											</Card.Content>
 										</Card>
@@ -948,6 +1029,9 @@ class HomeEN extends React.Component {
 											<Card.Content extra>
 												<Label as="a" image>
 													<Image src="/static/imgs/icon_java.png" /> Java
+												</Label>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_java.png" /> App Service
 												</Label>
 											</Card.Content>
 										</Card>
