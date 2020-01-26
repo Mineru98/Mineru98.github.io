@@ -40,13 +40,15 @@ class Blog extends React.Component {
 									<Segment>
 										<Header id="blog_tab" image="/static/imgs/project.svg" content="최근 게시물" />
 										<List divided>
-                                            <List.Item>
+											<List.Item>
 												<Link href={{ pathname: '/tag', query: { id: '2020-01-26-CodeTest' } }}>
 													<List.Content>
-														<List.Header id="blog_list_header">나는 왜 테스트 코드를 작성하지 않았는가...</List.Header>
+														<List.Header id="blog_list_header">
+															나는 왜 테스트 코드를 작성하지 않았는가...
+														</List.Header>
 														<List.Description id="blog_list_content">
-															나는 아직 이해가 되지 않는다. 왜 테스트 코드를 작성해야 하는지를 좀 더 와 닿게 설명을 해놓은 글이나 이야기를 들은 적이 없다.
-                                                            테스트 코드 작성을 강조하지만 왜 해야하는지 구체적인 이유를 언급을 못하는 이유가 뭘까? 뚜렷한 이유를 제시를 나에게 제시하지 않고선 쉽게 나의 현재 생각을 바꾸긴 어려울 것 같다.
+															나는 아직 이해가 되지 않는다. 왜 테스트 코드를 작성해야 하는지를 좀 더 와 닿게 설명을 해놓은 글이나 이야기를 들은 적이
+															없다. 테스트 코드 작성을 강조하지만 왜 해야하는지 구체적인 이유를 언급을 못하는 이유가 뭘까?
 														</List.Description>
 													</List.Content>
 												</Link>
@@ -196,7 +198,7 @@ class Blog extends React.Component {
 				</Responsive>
 				{/* 모바일 화면 */}
 				<Responsive minWidth={1} maxWidth={768}>
-					<div className="blog background">
+					<div className="blog background mobile">
 						<Grid>
 							<Grid.Row centered columns={1}>
 								<Grid.Column>
@@ -207,16 +209,16 @@ class Blog extends React.Component {
 							</Grid.Row>
 						</Grid>
 					</div>
-					<div className="blog container">
+					<div className="blog container mobile">
 						<Header id="blog_tab" image="/static/imgs/project.svg" content="최근 게시물" />
 						<List divided>
-                            <List.Item>
-                                <Link href={{ pathname: '/tag', query: { id: '2020-01-26-CodeTest' } }}>
-                                    <List.Content>
-                                        <List.Header id="blog_list_header">나는 왜 테스트 코드를 작성하지 않았는가...</List.Header>
-                                        <List.Description id="blog_list_content">
-                                            나는 아직 이해가 되지 않는다. 왜 테스트 코드를 작성해야 하는지를 좀 더 와 닿게 설명을 해놓은 글이나 이야기를 들은 적이 없다.
-                                            테스트 코드 작성을 강조하지만 왜 해야하는지 구체적인 이유를 언급을 못하는 이유가 뭘까? 뚜렷한 이유를 제시를 나에게 제시하지 않고선 쉽게 나의 현재 생각을 바꾸긴 어려울 것 같다.
+							<List.Item>
+								<Link href={{ pathname: '/tag', query: { id: '2020-01-26-CodeTest' } }}>
+									<List.Content>
+										<List.Header id="blog_list_header">나는 왜 테스트 코드를 작성하지 않았는가...</List.Header>
+										<List.Description id="blog_list_content">
+											나는 아직 이해가 되지 않는다. 왜 테스트 코드를 작성해야 하는지를 좀 더 와 닿게 설명을 해놓은 글이나 이야기를 들은 적이 없다. 테스트
+											코드 작성을 강조하지만 왜 해야하는지 구체적인 이유를 언급을 못하는 이유가 뭘까?
 										</List.Description>
 									</List.Content>
 								</Link>
@@ -272,7 +274,9 @@ class Blog extends React.Component {
 								</Link>
 							</List.Item>
 							<List.Item>
-								<Link href={{ pathname: '/tag', query: { id: '2019-01-07-03-coding-education-post' } }}>
+								<Link
+									href={{ pathname: '/tag', query: { id: '2019-01-07-03-coding-education-post' } }}
+								>
 									<List.Content>
 										<List.Header id="blog_list_header">코딩교육</List.Header>
 										<List.Description id="blog_list_content">

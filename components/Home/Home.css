@@ -7,7 +7,7 @@
 
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
-.home_background {
+.home.background {
 	background-color: #222;
 	text-shadow: 0 0 5px #C8C8C8;
 	background-size: cover;
@@ -16,8 +16,17 @@
 	padding: 50px
 }
 
-.home_container {
-	font-family: Consolas
+.home.background.mobile {
+	height: 300px;
+}
+
+.home.container {
+	font-family: Consolas;
+	margin-bottom: 200px;
+}
+
+.home.container.mobile {
+	margin-bottom: 100px;
 }
 
 .date {

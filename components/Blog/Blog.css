@@ -9,10 +9,18 @@
 	padding: 50px
 }
 
+.blog.background.mobile {
+	height: 300px;
+}
+
 .blog.container {
 	font-family: Consolas;
 	margin-top: 50px;
-	margin-bottom: 300px;
+	margin-bottom: 200px;
+}
+
+.blog.container.mobile {
+	margin-bottom: 100px;
 }
 
 #blog_header {
@@ -40,9 +48,33 @@
 	font-family: "NanumSquare";
 }
 
+@media (max-width: 1200px) {
+	#blog_list_header {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 1100px) {
+	#blog_list_header {
+		font-size: 1.7rem;
+	}
+}
+
+@media (max-width: 1000px) {
+	#blog_list_header {
+		font-size: 1.6rem;
+	}
+}
+
+@media (max-width: 960px) {
+	#blog_list_header {
+		font-size: 1.5rem;
+	}
+}
+
 #blog_list_content {
 	cursor: pointer;
-	color: rgba(0,0,0,.7);
+	color: rgba(64, 64, 64, 0.7);
 	font-size: 1.2rem;
 	margin: 20px;
 	font-family: "NanumSquare";

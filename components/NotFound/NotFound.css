@@ -1,13 +1,30 @@
-.notfound.banner {
+.notfound.background {
+	background-color: #222;
+	text-shadow: 0 0 5px #C8C8C8;
 	background-size: cover;
-	overflow: hidden;
-	height: 800px;
-	background-color: #f0f0f0;
+	height: 400px;
+	color: white;
+	padding: 50px
+}
+
+.notfound.background.mobile {
+	height: 300px;
+}
+
+.notfound.container {
+	font-family: Consolas;
+	margin-top: 50px;
+	margin-bottom: 300px;
 	text-align: center;
 }
 
-#notfound-coment {
-	color: white;
-	margin-top: 350px;
+.ui.header.notfound-coment {
+	color: black;
+	margin-top: 150px;
 	font-size: 40px;
+	font-weight: bold;
+}
+
+.ui.header.notfound-coment.mobile {
+	margin-top: 100px;
 }

@@ -2,17 +2,25 @@
 
 .tag.background {
 	background-color: #222;
-	text-shadow: 0 0 5px #C8C8C8;
+	text-shadow: 0 0 5px #c8c8c8;
 	background-size: cover;
 	height: 400px;
 	color: white;
 	padding: 50px;
 }
 
+.tag.background.mobile {
+	height: 300px;
+}
+
 .tag.container {
 	font-family: Consolas;
 	margin-top: 50px;
-	margin-bottom: 300px;
+	margin-bottom: 200px;
+}
+
+.tag.container.mobile {
+	margin-bottom: 100px;
 }
 
 .tag.container2 {
@@ -38,10 +46,10 @@
 	}
 }
 
-a.item >  a {
+a.item > a {
 	color: #6d6d6d;
 }
-a.item >  a:hover {
+a.item > a:hover {
 	color: #bbbbbb;
 }
 
@@ -51,7 +59,7 @@ h1 {
 
 p {
 	font-size: 16px;
-	font-family: "NanumSquare";
+	font-family: 'NanumSquare';
 }
 
 pre {
@@ -64,14 +72,21 @@ code {
 	font-family: SFMono-Regular;
 	font-size: 13.6px;
 }
-table, th, td { border: 1px solid #bbbbbb; padding: 4px; }
-table { border-collapse: collapse; }
+table,
+th,
+td {
+	border: 1px solid #bbbbbb;
+	padding: 4px;
+}
+table {
+	border-collapse: collapse;
+}
 blockquote {
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-left: 5px solid #27e372;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-left: 5px solid #27e372;
 }
 
 img {

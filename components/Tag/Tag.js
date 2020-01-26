@@ -42,7 +42,7 @@ function Tag(props) {
 				</Responsive>
 				{/* 모바일 화면 */}
 				<Responsive minWidth={1} maxWidth={768}>
-					<div className="tag background">
+					<div className="tag background mobile">
 						<Grid>
 							<Grid.Row centered columns={1}>
 								<Grid.Column>
@@ -53,7 +53,7 @@ function Tag(props) {
 							</Grid.Row>
 						</Grid>
 					</div>
-					<div className="tag container">
+					<div className="tag container mobile">
 						<Container textAlign="left">
 							<ReactMarkdown source={source} />
 						</Container>

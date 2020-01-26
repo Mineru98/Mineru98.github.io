@@ -928,7 +928,7 @@ class HomeKR extends React.Component {
 			<div>
 				{/* PC 화면 */}
 				<Responsive minWidth={769}>
-					<div className="home_background">
+					<div className="home background">
 						<Grid>
 							<Grid.Row centered columns={3}>
 								<Grid.Column>
@@ -939,7 +939,7 @@ class HomeKR extends React.Component {
 							</Grid.Row>
 						</Grid>
 					</div>
-					<div className="home_container">
+					<div className="home container">
 						<Container textAlign="left">
 							<Header
 								id="default"
@@ -1140,7 +1140,7 @@ class HomeKR extends React.Component {
 				</Responsive>
 				{/* 모바일 화면 */}
 				<Responsive minWidth={1} maxWidth={768}>
-					<div className="home_background">
+					<div className="home background mobile">
 						<Grid>
 							<Grid.Row centered columns={1}>
 								<Grid.Column>
@@ -1151,7 +1151,7 @@ class HomeKR extends React.Component {
 							</Grid.Row>
 						</Grid>
 					</div>
-					<div className="home_container">
+					<div className="home container mobile">
 						<Container textAlign="left">
 							<Header
 								id="default"

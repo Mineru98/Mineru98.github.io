@@ -13,6 +13,7 @@ export default class MyDocument extends Document {
 		return (
 			<html>
 				<Head>
+					<meta name="theme-color" content="#222222"/>
 					<link rel="shortcut icon" href="/static/imgs/favicon.ico" />
 					{this.props.styleTags}
 				</Head>
