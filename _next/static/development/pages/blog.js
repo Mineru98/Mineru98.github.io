@@ -145,7 +145,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: {
         pathname: '/tag',
         query: {
-          id: '2020-01-26-CodeTest'
+          id: '2020-01-27-BrandDesign'
         }
       },
       __source: {
@@ -166,14 +166,14 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 46
       },
       __self: this
-    }, "\uB098\uB294 \uC65C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uC791\uC131\uD558\uC9C0 \uC54A\uC558\uB294\uAC00..."), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+    }, "\uBE0C\uB79C\uB4DC \uB514\uC790\uC778 - StartBucks\uD3B8"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
       id: "blog_list_content",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 49
       },
       __self: this
-    }, "\uB098\uB294 \uC544\uC9C1 \uC774\uD574\uAC00 \uB418\uC9C0 \uC54A\uB294\uB2E4. \uC65C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uC791\uC131\uD574\uC57C \uD558\uB294\uC9C0\uB97C \uC880 \uB354 \uC640 \uB2FF\uAC8C \uC124\uBA85\uC744 \uD574\uB193\uC740 \uAE00\uC774\uB098 \uC774\uC57C\uAE30\uB97C \uB4E4\uC740 \uC801\uC774 \uC5C6\uB2E4. \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uAC15\uC870\uD558\uC9C0\uB9CC \uC65C \uD574\uC57C\uD558\uB294\uC9C0 \uAD6C\uCCB4\uC801\uC778 \uC774\uC720\uB97C \uC5B8\uAE09\uC744 \uBABB\uD558\uB294 \uC774\uC720\uAC00 \uBB58\uAE4C?")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+    }, "\uC5BC\uB9C8 \uC804 \uB514\uC790\uC778\uC5D0 \uB300\uD574\uC11C \uC5B4\uB290 \uC815\uB3C4 \uACF5\uBD80\uB97C \uD574\uC57C\uACA0\uB2E8 \uC0DD\uAC01\uC774 \uB4E4\uC5C8\uB2E4. \uAC00\uC7A5 \uD070 \uC774\uC720\uB294 \uC800\uBC88\uC8FC\uC5D0 \uAC14\uB2E4\uC628 \uC0AC\uC774\uB4DC \uD504\uB85C\uC81D\uD2B8 \uC624\uD504\uB77C\uC778 \uBAA8\uC784\uC5D0\uC11C \uC5B4\uB5A4 \uD55C \uB514\uC790\uC774\uB108\uC758 \uC790\uB8CC\uB97C \uBCF8\uC801\uC774 \uC788\uB294\uB370 \uADF8\uAC78\uBCF4\uACE0 \uB098\uC758 \uB514\uC790\uC778\uC5D0 \uB300\uD55C \uC2DC\uAC01\uC774 \uB2EC\uB824\uC9C0\uBA74\uC11C \uB098\uB3C4 \uACF5\uBD80\uB97C \uD574\uB450\uBA74 \uC88B\uACA0\uB2E4\uACE0 \uC0DD\uAC01\uD588\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 56
@@ -183,7 +183,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       href: {
         pathname: '/tag',
         query: {
-          id: '2020-01-19-Plan'
+          id: '2020-01-26-CodeTest'
         }
       },
       __source: {
@@ -204,17 +204,55 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 59
       },
       __self: this
+    }, "\uB098\uB294 \uC65C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uC791\uC131\uD558\uC9C0 \uC54A\uC558\uB294\uAC00..."), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
+      },
+      __self: this
+    }, "\uB098\uB294 \uC544\uC9C1 \uC774\uD574\uAC00 \uB418\uC9C0 \uC54A\uB294\uB2E4. \uC65C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uC791\uC131\uD574\uC57C \uD558\uB294\uC9C0\uB97C \uC880 \uB354 \uC640 \uB2FF\uAC8C \uC124\uBA85\uC744 \uD574\uB193\uC740 \uAE00\uC774\uB098 \uC774\uC57C\uAE30\uB97C \uB4E4\uC740 \uC801\uC774 \uC5C6\uB2E4. \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uAC15\uC870\uD558\uC9C0\uB9CC \uC65C \uD574\uC57C\uD558\uB294\uC9C0 \uAD6C\uCCB4\uC801\uC778 \uC774\uC720\uB97C \uC5B8\uAE09\uC744 \uBABB\uD558\uB294 \uC774\uC720\uAC00 \uBB58\uAE4C?")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2020-01-19-Plan'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 71
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 72
+      },
+      __self: this
     }, "\uB108\uC758 \uD734\uAC00, \uB098\uC758 \uD734\uAC00"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
       id: "blog_list_content",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 73
       },
       __self: this
     }, "2\uBC153\uC77C\uAC04 \uD734\uAC00\uB97C \uB2E4\uB140\uC654\uB2E4. \uD56D\uC0C1 \uD734\uAC00\uB97C \uB098\uAC08\uB54C\uBA74 \uB4E3\uB294 \uC18C\uB9AC\uC774\uC9C0\uB9CC \uAD70\uC778\uC774 \uBB34\uC2A8 \uD734\uAC00\uB97C \uB098\uC640\uC11C \uC77C\uC744 \uD558\uB7EC \uB098\uC624\uB0D0\uB77C\uB294 \uC18C\uB9AC\uB97C \uAC70\uC758 100\uC774\uBA74 100 \uB4E3\uB294\uB2E4")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 80
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -226,33 +264,33 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68
+        lineNumber: 81
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 82
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
       id: "blog_list_header",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 83
       },
       __self: this
     }, "\uB4DC\uB7EC\uB09C \uB098\uC758 \uBBFC\uB0AF"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
       id: "blog_list_content",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71
+        lineNumber: 84
       },
       __self: this
     }, "React\uB97C \uCC98\uC74C\uBD80\uD130 \uC81C\uB300\uB85C \uACF5\uBD80\uD558\uBA74\uC11C \uC11C\uBE44\uC2A4\uB97C \uB9CC\uB4E4\uC9C4 \uC54A\uC558\uC9C0\uB9CC \uC57C\uB9E4\uB85C React\uB97C \uACF5\uBD80\uD55C\uC9C0 \uC774\uC81C \uC5B4\uB290\uB367 1\uB144\uC774 \uC9C0\uB098\uBA74\uC11C \uC2AC\uC2AC \uB098\uC758 \uBBFC\uB0AF\uC774 \uB4E4\uC5B4\uB098\uAE30 \uC2DC\uC791\uD558\uB294 \uAE30\uBD84\uC774\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78
+        lineNumber: 91
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -264,33 +302,33 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 79
+        lineNumber: 92
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85
+        lineNumber: 98
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
       id: "blog_list_header",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86
+        lineNumber: 99
       },
       __self: this
     }, "\uC790\uB8CC\uAD6C\uC870\uB780?"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
       id: "blog_list_content",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87
+        lineNumber: 100
       },
       __self: this
     }, "\uB300\uD559 \uAC15\uC758\uB97C \uB4E4\uC73C\uBA74\uC11C \uC54C\uACE0\uB9AC\uC998\uACFC \uC790\uB8CC\uAD6C\uC870\uB77C\uB294 \uC218\uC5C5\uC744 \uB530\uB85C \uB098\uB220\uC788\uC9C0\uB9CC \uC218\uC5C5\uC744 \uB4E3\uB2E4\uBCF4\uBA74 \uC774 \uB458\uC740 \uC65C \uB530\uB85C \uBC30\uC6B0\uB294 \uAC83\uC77C\uAE4C \uC758\uBB38\uC774 \uB4E4\uC5C8\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94
+        lineNumber: 107
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -302,33 +340,33 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 95
+        lineNumber: 108
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 96
+        lineNumber: 109
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
       id: "blog_list_header",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 97
+        lineNumber: 110
       },
       __self: this
     }, "\uAD70\uB300\uC5D0\uC11C \uD504\uB85C\uADF8\uB798\uBC0D\uC744..."), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
       id: "blog_list_content",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 98
+        lineNumber: 111
       },
       __self: this
     }, "\uAD70\uB300\uC5D0\uC11C \uD504\uB85C\uADF8\uB798\uBC0D\uC744 \uD558\uACE0 \uC2F6\uB2E4\uBA74 \uC5B4\uB5BB\uAC8C \uD574\uC57C\uD560\uAE4C? \uC6B0\uC120 \uB098\uC5D0\uAC8C \uD544\uC694\uD55C \uAC83\uB4E4\uC744 \uC815\uB9AC\uD574\uBCF4\uC558\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 104
+        lineNumber: 117
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -340,45 +378,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 105
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 108
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 109
-      },
-      __self: this
-    }, "CnA+ \uD504\uB85C\uC81D\uD2B8"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 110
-      },
-      __self: this
-    }, "\uC900\uBE44\uC911\uC785\uB2C8\uB2E4...")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 114
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2019-01-07-03-coding-education-post'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 115
+        lineNumber: 118
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
@@ -394,17 +394,55 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 122
       },
       __self: this
-    }, "\uCF54\uB529\uAD50\uC721"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+    }, "CnA+ \uD504\uB85C\uC81D\uD2B8"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
       id: "blog_list_content",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 123
       },
       __self: this
+    }, "\uC900\uBE44\uC911\uC785\uB2C8\uB2E4...")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 127
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2019-01-07-03-coding-education-post'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 128
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 134
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 135
+      },
+      __self: this
+    }, "\uCF54\uB529\uAD50\uC721"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 136
+      },
+      __self: this
     }, "2018\uB144\uBD80\uD130 \uB300\uD55C\uBBFC\uAD6D \uACF5\uAD50\uC721\uC5D0\uC11C \uCF54\uB529 \uAD50\uC721 \uC758\uBB34\uD654\uB97C \uD558\uBA74\uC11C \uB9CE\uC740 \uD559\uBD80\uBAA8\uB4E4\uC774 \uC790\uC2E0\uB4E4\uC758 \uC790\uB140\uB4E4\uC5D0\uAC8C \uC5B4\uB824\uC6B4 \uCF54\uB529 \uAD50\uC721\uC744 \uD559\uC6D0\uC744 \uBCF4\uB0B4\uBA74\uC11C\uB77C\uB3C4 \uC2DC\uCF1C\uC57C\uD558\uB294\uC9C0 \uAC71\uC815\uC744 \uD558\uAE30 \uC2DC\uC791\uD588\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 130
+        lineNumber: 143
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -416,45 +454,7 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 131
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 137
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 138
-      },
-      __self: this
-    }, "\uC54C\uACE0\uB9AC\uC998\uC774\uB780?"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 139
-      },
-      __self: this
-    }, "\uCEF4\uACF5(\uCEF4\uD4E8\uD130\uACF5\uD559\uACFC) \uAD00\uB828 \uB41C \uD559\uACFC\uB97C \uB098\uC654\uB2E4\uBA74 \uB2E4\uB4E4 \uD55C\uBC88\uC529 \uB4E4\uC5B4\uBD24\uB358 \uACFC\uBAA9\uC774\uB2E4. \uC124\uB839 \uCEF4\uACF5\uC744 \uB098\uC624\uC9C0 \uC54A\uB354\uB77C\uB3C4 \uB2E4\uC591\uD55C \uB9E4\uCCB4\uB97C \uD1B5\uD574\uC11C \uC54C\uACE0\uB9AC\uC998\uC774\uB780 \uB9D0\uC744 \uC790\uC8FC \uC5B8\uAE09\uB418\uC5B4\uC11C \uB2E4\uB4E4 \uC54C\uACE0 \uC788\uB294 \uD0A4\uC6CC\uB4DC\uC774\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 146
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2019-01-07-01-First-post'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 147
+        lineNumber: 144
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
@@ -470,540 +470,17 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 151
       },
       __self: this
-    }, "\uCC98\uC74C \uC368\uBCF4\uB294 Github \uBE14\uB85C\uADF8 \uD3EC\uC2A4\uD2B8"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+    }, "\uC54C\uACE0\uB9AC\uC998\uC774\uB780?"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
       id: "blog_list_content",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 152
       },
       __self: this
-    }, "\uAC1C\uBC1C\uC790\uB77C\uBA74 \uD55C\uBC88\uCBE4\uC740 \uB9CC\uB4E4\uC5B4 \uBCF4\uACE0 \uC2F6\uC740 github \uBE14\uB85C\uADF8\uB97C \uB4DC\uB514\uC5B4 \uB9CC\uB4E4\uC5B4\uC11C \uCCAB \uD3EC\uC2A4\uD305\uC744 \uC791\uC131\uD558\uAC8C \uB418\uC5C8\uB2E4."))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Rail"], {
-      position: "right",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 159
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Sticky"], {
-      context: this.contextRef,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 160
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"], {
-      vertical: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 161
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 162
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Header, {
-      id: "blog_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 163
-      },
-      __self: this
-    }, "Production"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Menu, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 164
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-      as: "a",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 165
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/list/experience",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 166
-      },
-      __self: this
-    }, "Experience (0)")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-      as: "a",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 168
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/list/tool",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 169
-      },
-      __self: this
-    }, "Tool (0)")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 173
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Header, {
-      id: "blog_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 174
-      },
-      __self: this
-    }, "Language"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Menu, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 175
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-      as: "a",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 176
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/list/java",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 177
-      },
-      __self: this
-    }, "Java (0)")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-      as: "a",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 179
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/list/kotlin",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 180
-      },
-      __self: this
-    }, "Kotlin (0)")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-      as: "a",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 182
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/list/python",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 183
-      },
-      __self: this
-    }, "Python (0)")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
-      as: "a",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 185
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: "/list/nodejs",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 186
-      },
-      __self: this
-    }, "NodeJS (0)"))))))))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Responsive"], {
-      minWidth: 1,
-      maxWidth: 768,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 200
-      },
-      __self: this
-    }, __jsx("div", {
-      className: "blog background mobile",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 201
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 202
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
-      centered: true,
-      columns: 1,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 203
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 204
-      },
-      __self: this
-    }, __jsx("h1", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 205
-      },
-      __self: this
-    }, "> Hello, World!"), __jsx("h1", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 206
-      },
-      __self: this
-    }, "> This is Mineru Coding Blog."), __jsx("h1", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 207
-      },
-      __self: this
-    }, "> "))))), __jsx("div", {
-      className: "blog container mobile",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 212
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Header"], {
-      id: "blog_tab",
-      image: "/static/imgs/project.svg",
-      content: "\uCD5C\uADFC \uAC8C\uC2DC\uBB3C",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 213
-      },
-      __self: this
-    }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"], {
-      divided: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 214
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 215
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2020-01-26-CodeTest'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 216
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 217
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 218
-      },
-      __self: this
-    }, "\uB098\uB294 \uC65C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uC791\uC131\uD558\uC9C0 \uC54A\uC558\uB294\uAC00..."), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 219
-      },
-      __self: this
-    }, "\uB098\uB294 \uC544\uC9C1 \uC774\uD574\uAC00 \uB418\uC9C0 \uC54A\uB294\uB2E4. \uC65C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uC791\uC131\uD574\uC57C \uD558\uB294\uC9C0\uB97C \uC880 \uB354 \uC640 \uB2FF\uAC8C \uC124\uBA85\uC744 \uD574\uB193\uC740 \uAE00\uC774\uB098 \uC774\uC57C\uAE30\uB97C \uB4E4\uC740 \uC801\uC774 \uC5C6\uB2E4. \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uAC15\uC870\uD558\uC9C0\uB9CC \uC65C \uD574\uC57C\uD558\uB294\uC9C0 \uAD6C\uCCB4\uC801\uC778 \uC774\uC720\uB97C \uC5B8\uAE09\uC744 \uBABB\uD558\uB294 \uC774\uC720\uAC00 \uBB58\uAE4C?")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 226
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2020-01-19-Plan'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 227
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 228
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 229
-      },
-      __self: this
-    }, "\uB108\uC758 \uD734\uAC00, \uB098\uC758 \uD734\uAC00"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 230
-      },
-      __self: this
-    }, "2\uBC153\uC77C\uAC04 \uD734\uAC00\uB97C \uB2E4\uB140\uC654\uB2E4. \uD56D\uC0C1 \uD734\uAC00\uB97C \uB098\uAC08\uB54C\uBA74 \uB4E3\uB294 \uC18C\uB9AC\uC774\uC9C0\uB9CC \uAD70\uC778\uC774 \uBB34\uC2A8 \uD734\uAC00\uB97C \uB098\uC640\uC11C \uC77C\uC744 \uD558\uB7EC \uB098\uC624\uB0D0\uB77C\uB294 \uC18C\uB9AC\uB97C \uAC70\uC758 100\uC774\uBA74 100 \uB4E3\uB294\uB2E4")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 237
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2020-01-15-BoilerPlate'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 238
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 239
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 240
-      },
-      __self: this
-    }, "\uB4DC\uB7EC\uB09C \uB098\uC758 \uBBFC\uB0AF"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 241
-      },
-      __self: this
-    }, "React\uB97C \uCC98\uC74C\uBD80\uD130 \uC81C\uB300\uB85C \uACF5\uBD80\uD558\uBA74\uC11C \uC11C\uBE44\uC2A4\uB97C \uB9CC\uB4E4\uC9C4 \uC54A\uC558\uC9C0\uB9CC \uC57C\uB9E4\uB85C React\uB97C \uACF5\uBD80\uD55C\uC9C0 \uC774\uC81C \uC5B4\uB290\uB367 1\uB144\uC774 \uC9C0\uB098\uBA74\uC11C \uC2AC\uC2AC \uB098\uC758 \uBBFC\uB0AF\uC774 \uB4E4\uC5B4\uB098\uAE30 \uC2DC\uC791\uD558\uB294 \uAE30\uBD84\uC774\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 248
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2019-02-14-06-Algorithm02-post'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 249
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 250
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 251
-      },
-      __self: this
-    }, "\uC790\uB8CC\uAD6C\uC870\uB780?"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 252
-      },
-      __self: this
-    }, "\uB300\uD559 \uAC15\uC758\uB97C \uB4E4\uC73C\uBA74\uC11C \uC54C\uACE0\uB9AC\uC998\uACFC \uC790\uB8CC\uAD6C\uC870\uB77C\uB294 \uC218\uC5C5\uC744 \uB530\uB85C \uB098\uB220\uC788\uC9C0\uB9CC \uC218\uC5C5\uC744 \uB4E3\uB2E4\uBCF4\uBA74 \uC774 \uB458\uC740 \uC65C \uB530\uB85C \uBC30\uC6B0\uB294 \uAC83\uC77C\uAE4C \uC758\uBB38\uC774 \uB4E4\uC5C8\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 258
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2019-01-10-05-Plan'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 259
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 260
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 261
-      },
-      __self: this
-    }, "\uAD70\uB300\uC5D0\uC11C \uD504\uB85C\uADF8\uB798\uBC0D\uC744..."), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 262
-      },
-      __self: this
-    }, "\uAD70\uB300\uC5D0\uC11C \uD504\uB85C\uADF8\uB798\uBC0D\uC744 \uD558\uACE0 \uC2F6\uB2E4\uBA74 \uC5B4\uB5BB\uAC8C \uD574\uC57C\uD560\uAE4C? \uC6B0\uC120 \uB098\uC5D0\uAC8C \uD544\uC694\uD55C \uAC83\uB4E4\uC744 \uC815\uB9AC\uD574\uBCF4\uC558\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 268
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2019-01-07-04-CnA-Project'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 269
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 270
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 271
-      },
-      __self: this
-    }, "CnA+ \uD504\uB85C\uC81D\uD2B8"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 272
-      },
-      __self: this
-    }, "\uC900\uBE44\uC911\uC785\uB2C8\uB2E4...")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 276
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2019-01-07-03-coding-education-post'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 277
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 280
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 281
-      },
-      __self: this
-    }, "\uCF54\uB529\uAD50\uC721"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 282
-      },
-      __self: this
-    }, "2018\uB144\uBD80\uD130 \uB300\uD55C\uBBFC\uAD6D \uACF5\uAD50\uC721\uC5D0\uC11C \uCF54\uB529 \uAD50\uC721 \uC758\uBB34\uD654\uB97C \uD558\uBA74\uC11C \uB9CE\uC740 \uD559\uBD80\uBAA8\uB4E4\uC774 \uC790\uC2E0\uB4E4\uC758 \uC790\uB140\uB4E4\uC5D0\uAC8C \uC5B4\uB824\uC6B4 \uCF54\uB529 \uAD50\uC721\uC744 \uD559\uC6D0\uC744 \uBCF4\uB0B4\uBA74\uC11C\uB77C\uB3C4 \uC2DC\uCF1C\uC57C\uD558\uB294\uC9C0 \uAC71\uC815\uC744 \uD558\uAE30 \uC2DC\uC791\uD588\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 289
-      },
-      __self: this
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: {
-        pathname: '/tag',
-        query: {
-          id: '2019-01-07-02-Algorithm01-post'
-        }
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 290
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 291
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
-      id: "blog_list_header",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 292
-      },
-      __self: this
-    }, "\uC54C\uACE0\uB9AC\uC998\uC774\uB780?"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
-      id: "blog_list_content",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 293
-      },
-      __self: this
     }, "\uCEF4\uACF5(\uCEF4\uD4E8\uD130\uACF5\uD559\uACFC) \uAD00\uB828 \uB41C \uD559\uACFC\uB97C \uB098\uC654\uB2E4\uBA74 \uB2E4\uB4E4 \uD55C\uBC88\uC529 \uB4E4\uC5B4\uBD24\uB358 \uACFC\uBAA9\uC774\uB2E4. \uC124\uB839 \uCEF4\uACF5\uC744 \uB098\uC624\uC9C0 \uC54A\uB354\uB77C\uB3C4 \uB2E4\uC591\uD55C \uB9E4\uCCB4\uB97C \uD1B5\uD574\uC11C \uC54C\uACE0\uB9AC\uC998\uC774\uB780 \uB9D0\uC744 \uC790\uC8FC \uC5B8\uAE09\uB418\uC5B4\uC11C \uB2E4\uB4E4 \uC54C\uACE0 \uC788\uB294 \uD0A4\uC6CC\uB4DC\uC774\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 300
+        lineNumber: 159
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -1015,27 +492,626 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 301
+        lineNumber: 160
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 302
+        lineNumber: 163
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
       id: "blog_list_header",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 303
+        lineNumber: 164
       },
       __self: this
     }, "\uCC98\uC74C \uC368\uBCF4\uB294 Github \uBE14\uB85C\uADF8 \uD3EC\uC2A4\uD2B8"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
       id: "blog_list_content",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 304
+        lineNumber: 165
+      },
+      __self: this
+    }, "\uAC1C\uBC1C\uC790\uB77C\uBA74 \uD55C\uBC88\uCBE4\uC740 \uB9CC\uB4E4\uC5B4 \uBCF4\uACE0 \uC2F6\uC740 github \uBE14\uB85C\uADF8\uB97C \uB4DC\uB514\uC5B4 \uB9CC\uB4E4\uC5B4\uC11C \uCCAB \uD3EC\uC2A4\uD305\uC744 \uC791\uC131\uD558\uAC8C \uB418\uC5C8\uB2E4."))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Rail"], {
+      position: "right",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 172
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Sticky"], {
+      context: this.contextRef,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 173
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"], {
+      vertical: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 174
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 175
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Header, {
+      id: "blog_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 176
+      },
+      __self: this
+    }, "Production"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Menu, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 177
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
+      as: "a",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 178
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/list/experience",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 179
+      },
+      __self: this
+    }, "Experience (0)")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
+      as: "a",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 181
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/list/tool",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 182
+      },
+      __self: this
+    }, "Tool (0)")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 186
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Header, {
+      id: "blog_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 187
+      },
+      __self: this
+    }, "Language"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Menu, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 188
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
+      as: "a",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 189
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/list/java",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 190
+      },
+      __self: this
+    }, "Java (0)")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
+      as: "a",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 192
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/list/kotlin",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 193
+      },
+      __self: this
+    }, "Kotlin (0)")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
+      as: "a",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 195
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/list/python",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 196
+      },
+      __self: this
+    }, "Python (0)")), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Menu"].Item, {
+      as: "a",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 198
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "/list/nodejs",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 199
+      },
+      __self: this
+    }, "NodeJS (0)"))))))))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Responsive"], {
+      minWidth: 1,
+      maxWidth: 768,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 213
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "blog background mobile",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 214
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 215
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
+      centered: true,
+      columns: 1,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 216
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 217
+      },
+      __self: this
+    }, __jsx("h1", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 218
+      },
+      __self: this
+    }, "> Hello, World!"), __jsx("h1", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 219
+      },
+      __self: this
+    }, "> This is Mineru Coding Blog."), __jsx("h1", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 220
+      },
+      __self: this
+    }, "> "))))), __jsx("div", {
+      className: "blog container mobile",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 225
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Header"], {
+      id: "blog_tab",
+      image: "/static/imgs/project.svg",
+      content: "\uCD5C\uADFC \uAC8C\uC2DC\uBB3C",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 226
+      },
+      __self: this
+    }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"], {
+      divided: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 227
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 228
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2020-01-27-BrandDesign'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 229
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 230
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 231
+      },
+      __self: this
+    }, "\uBE0C\uB79C\uB4DC \uB514\uC790\uC778 - StartBucks\uD3B8"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 234
+      },
+      __self: this
+    }, "\uC5BC\uB9C8 \uC804 \uB514\uC790\uC778\uC5D0 \uB300\uD574\uC11C \uC5B4\uB290 \uC815\uB3C4 \uACF5\uBD80\uB97C \uD574\uC57C\uACA0\uB2E8 \uC0DD\uAC01\uC774 \uB4E4\uC5C8\uB2E4. \uAC00\uC7A5 \uD070 \uC774\uC720\uB294 \uC800\uBC88\uC8FC\uC5D0 \uAC14\uB2E4\uC628 \uC0AC\uC774\uB4DC \uD504\uB85C\uC81D\uD2B8 \uC624\uD504\uB77C\uC778 \uBAA8\uC784\uC5D0\uC11C \uC5B4\uB5A4 \uD55C \uB514\uC790\uC774\uB108\uC758 \uC790\uB8CC\uB97C \uBCF8\uC801\uC774 \uC788\uB294\uB370 \uADF8\uAC78\uBCF4\uACE0 \uB098\uC758 \uB514\uC790\uC778\uC5D0 \uB300\uD55C \uC2DC\uAC01\uC774 \uB2EC\uB824\uC9C0\uBA74\uC11C \uB098\uB3C4 \uACF5\uBD80\uB97C \uD574\uB450\uBA74 \uC88B\uACA0\uB2E4\uACE0 \uC0DD\uAC01\uD588\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 241
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2020-01-26-CodeTest'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 242
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 243
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 244
+      },
+      __self: this
+    }, "\uB098\uB294 \uC65C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uC791\uC131\uD558\uC9C0 \uC54A\uC558\uB294\uAC00..."), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 245
+      },
+      __self: this
+    }, "\uB098\uB294 \uC544\uC9C1 \uC774\uD574\uAC00 \uB418\uC9C0 \uC54A\uB294\uB2E4. \uC65C \uD14C\uC2A4\uD2B8 \uCF54\uB4DC\uB97C \uC791\uC131\uD574\uC57C \uD558\uB294\uC9C0\uB97C \uC880 \uB354 \uC640 \uB2FF\uAC8C \uC124\uBA85\uC744 \uD574\uB193\uC740 \uAE00\uC774\uB098 \uC774\uC57C\uAE30\uB97C \uB4E4\uC740 \uC801\uC774 \uC5C6\uB2E4. \uD14C\uC2A4\uD2B8 \uCF54\uB4DC \uC791\uC131\uC744 \uAC15\uC870\uD558\uC9C0\uB9CC \uC65C \uD574\uC57C\uD558\uB294\uC9C0 \uAD6C\uCCB4\uC801\uC778 \uC774\uC720\uB97C \uC5B8\uAE09\uC744 \uBABB\uD558\uB294 \uC774\uC720\uAC00 \uBB58\uAE4C?")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 252
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2020-01-19-Plan'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 253
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 254
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 255
+      },
+      __self: this
+    }, "\uB108\uC758 \uD734\uAC00, \uB098\uC758 \uD734\uAC00"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 256
+      },
+      __self: this
+    }, "2\uBC153\uC77C\uAC04 \uD734\uAC00\uB97C \uB2E4\uB140\uC654\uB2E4. \uD56D\uC0C1 \uD734\uAC00\uB97C \uB098\uAC08\uB54C\uBA74 \uB4E3\uB294 \uC18C\uB9AC\uC774\uC9C0\uB9CC \uAD70\uC778\uC774 \uBB34\uC2A8 \uD734\uAC00\uB97C \uB098\uC640\uC11C \uC77C\uC744 \uD558\uB7EC \uB098\uC624\uB0D0\uB77C\uB294 \uC18C\uB9AC\uB97C \uAC70\uC758 100\uC774\uBA74 100 \uB4E3\uB294\uB2E4")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 263
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2020-01-15-BoilerPlate'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 264
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 265
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 266
+      },
+      __self: this
+    }, "\uB4DC\uB7EC\uB09C \uB098\uC758 \uBBFC\uB0AF"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 267
+      },
+      __self: this
+    }, "React\uB97C \uCC98\uC74C\uBD80\uD130 \uC81C\uB300\uB85C \uACF5\uBD80\uD558\uBA74\uC11C \uC11C\uBE44\uC2A4\uB97C \uB9CC\uB4E4\uC9C4 \uC54A\uC558\uC9C0\uB9CC \uC57C\uB9E4\uB85C React\uB97C \uACF5\uBD80\uD55C\uC9C0 \uC774\uC81C \uC5B4\uB290\uB367 1\uB144\uC774 \uC9C0\uB098\uBA74\uC11C \uC2AC\uC2AC \uB098\uC758 \uBBFC\uB0AF\uC774 \uB4E4\uC5B4\uB098\uAE30 \uC2DC\uC791\uD558\uB294 \uAE30\uBD84\uC774\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 274
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2019-02-14-06-Algorithm02-post'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 275
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 276
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 277
+      },
+      __self: this
+    }, "\uC790\uB8CC\uAD6C\uC870\uB780?"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 278
+      },
+      __self: this
+    }, "\uB300\uD559 \uAC15\uC758\uB97C \uB4E4\uC73C\uBA74\uC11C \uC54C\uACE0\uB9AC\uC998\uACFC \uC790\uB8CC\uAD6C\uC870\uB77C\uB294 \uC218\uC5C5\uC744 \uB530\uB85C \uB098\uB220\uC788\uC9C0\uB9CC \uC218\uC5C5\uC744 \uB4E3\uB2E4\uBCF4\uBA74 \uC774 \uB458\uC740 \uC65C \uB530\uB85C \uBC30\uC6B0\uB294 \uAC83\uC77C\uAE4C \uC758\uBB38\uC774 \uB4E4\uC5C8\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 284
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2019-01-10-05-Plan'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 285
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 286
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 287
+      },
+      __self: this
+    }, "\uAD70\uB300\uC5D0\uC11C \uD504\uB85C\uADF8\uB798\uBC0D\uC744..."), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 288
+      },
+      __self: this
+    }, "\uAD70\uB300\uC5D0\uC11C \uD504\uB85C\uADF8\uB798\uBC0D\uC744 \uD558\uACE0 \uC2F6\uB2E4\uBA74 \uC5B4\uB5BB\uAC8C \uD574\uC57C\uD560\uAE4C? \uC6B0\uC120 \uB098\uC5D0\uAC8C \uD544\uC694\uD55C \uAC83\uB4E4\uC744 \uC815\uB9AC\uD574\uBCF4\uC558\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 294
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2019-01-07-04-CnA-Project'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 295
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 296
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 297
+      },
+      __self: this
+    }, "CnA+ \uD504\uB85C\uC81D\uD2B8"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 298
+      },
+      __self: this
+    }, "\uC900\uBE44\uC911\uC785\uB2C8\uB2E4...")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 302
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2019-01-07-03-coding-education-post'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 303
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 306
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 307
+      },
+      __self: this
+    }, "\uCF54\uB529\uAD50\uC721"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 308
+      },
+      __self: this
+    }, "2018\uB144\uBD80\uD130 \uB300\uD55C\uBBFC\uAD6D \uACF5\uAD50\uC721\uC5D0\uC11C \uCF54\uB529 \uAD50\uC721 \uC758\uBB34\uD654\uB97C \uD558\uBA74\uC11C \uB9CE\uC740 \uD559\uBD80\uBAA8\uB4E4\uC774 \uC790\uC2E0\uB4E4\uC758 \uC790\uB140\uB4E4\uC5D0\uAC8C \uC5B4\uB824\uC6B4 \uCF54\uB529 \uAD50\uC721\uC744 \uD559\uC6D0\uC744 \uBCF4\uB0B4\uBA74\uC11C\uB77C\uB3C4 \uC2DC\uCF1C\uC57C\uD558\uB294\uC9C0 \uAC71\uC815\uC744 \uD558\uAE30 \uC2DC\uC791\uD588\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 315
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2019-01-07-02-Algorithm01-post'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 316
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 317
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 318
+      },
+      __self: this
+    }, "\uC54C\uACE0\uB9AC\uC998\uC774\uB780?"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 319
+      },
+      __self: this
+    }, "\uCEF4\uACF5(\uCEF4\uD4E8\uD130\uACF5\uD559\uACFC) \uAD00\uB828 \uB41C \uD559\uACFC\uB97C \uB098\uC654\uB2E4\uBA74 \uB2E4\uB4E4 \uD55C\uBC88\uC529 \uB4E4\uC5B4\uBD24\uB358 \uACFC\uBAA9\uC774\uB2E4. \uC124\uB839 \uCEF4\uACF5\uC744 \uB098\uC624\uC9C0 \uC54A\uB354\uB77C\uB3C4 \uB2E4\uC591\uD55C \uB9E4\uCCB4\uB97C \uD1B5\uD574\uC11C \uC54C\uACE0\uB9AC\uC998\uC774\uB780 \uB9D0\uC744 \uC790\uC8FC \uC5B8\uAE09\uB418\uC5B4\uC11C \uB2E4\uB4E4 \uC54C\uACE0 \uC788\uB294 \uD0A4\uC6CC\uB4DC\uC774\uB2E4.")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Item, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 326
+      },
+      __self: this
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: {
+        pathname: '/tag',
+        query: {
+          id: '2019-01-07-01-First-post'
+        }
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 327
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Content, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 328
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Header, {
+      id: "blog_list_header",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 329
+      },
+      __self: this
+    }, "\uCC98\uC74C \uC368\uBCF4\uB294 Github \uBE14\uB85C\uADF8 \uD3EC\uC2A4\uD2B8"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["List"].Description, {
+      id: "blog_list_content",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 330
       },
       __self: this
     }, "\uAC1C\uBC1C\uC790\uB77C\uBA74 \uD55C\uBC88\uCBE4\uC740 \uB9CC\uB4E4\uC5B4 \uBCF4\uACE0 \uC2F6\uC740 github \uBE14\uB85C\uADF8\uB97C \uB4DC\uB514\uC5B4 \uB9CC\uB4E4\uC5B4\uC11C \uCCAB \uD3EC\uC2A4\uD305\uC744 \uC791\uC131\uD558\uAC8C \uB418\uC5C8\uB2E4."))))))));
@@ -24270,12 +24346,12 @@ var _Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-j
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -30030,12 +30106,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -30670,12 +30746,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -30890,12 +30966,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -31661,12 +31737,12 @@ var setRef = function setRef(ref, node) {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_5f137288facb1107b491 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_ef0ff7c60362f24a921f ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -59550,7 +59626,7 @@ function blog(props) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 8:
 /*!************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fblog&absolutePagePath=%2Fworkspace%2FMineru98.github.io%2Fpages%2Fblog.js ***!
   \************************************************************************************************************************/
@@ -59562,16 +59638,16 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fblog&a
 
 /***/ }),
 
-/***/ "dll-reference dll_5f137288facb1107b491":
+/***/ "dll-reference dll_ef0ff7c60362f24a921f":
 /*!*******************************************!*\
-  !*** external "dll_5f137288facb1107b491" ***!
+  !*** external "dll_ef0ff7c60362f24a921f" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_5f137288facb1107b491;
+module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=blog.js.map
