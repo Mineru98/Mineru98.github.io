@@ -1,8 +1,8 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/en.js"],{
 
-/***/ "./components/Home/KR.js":
+/***/ "./components/Home/EN.js":
 /*!*******************************!*\
-  !*** ./components/Home/KR.js ***!
+  !*** ./components/Home/EN.js ***!
   \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -15,64 +15,64 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_chartjs_2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-chartjs-2 */ "./node_modules/react-chartjs-2/es/index.js");
 /* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Home.css */ "./components/Home/Home.css");
 /* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/workspace/Blog/components/Home/KR.js";
+var _jsxFileName = "/workspace/Blog/components/Home/EN.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
-const Korean = {
-  Project: '프로젝트',
-  Project_Comment: '지금까지 제가 해왔던 작업물들입니다.',
-  Code: '코드 스택',
-  Combination_Title: '괄호 쌍의 조합Combination of Parentheses',
-  Combination_Date: '2019년 8월 12일 배포',
-  Combination_Description: '모든 괄호 쌍의 경우 개수에 대한 알고리즘',
-  Calculate_Clock_Angle_Title: '시계 각도 계산',
-  Calculate_Clock_Angle_Date: '2019년 4월 8일 배포',
-  Calculate_Clock_Angle_Description: '시간을 입력 할 때 시계의 각도를 계산하는 알고리즘',
-  Android_App_Project_Title: '안드로이드 앱 프로젝트',
-  Android_App_Project_Date: '2018년 1월 9일 배포',
-  Android_App_Project_Description: '나의 안드로이드 앱 프로젝트',
-  DBKotlin_Title: '무작위 추출 with Kotlin',
-  DBKotlin_Date: '2019년 11월 17일 배포',
-  DBKotlin_Description: '확률이 배열에 미리 지정되어 있으면 알고리즘은 해당 확률로 결과를 추출합니다.',
-  DBNodeJS_Title: '무작위 추출 with NodeJS',
-  DBNodeJS_Date: '2019년 11월 17일 배포',
-  DBNodeJS_Description: '확률이 배열에 미리 지정되어 있으면 알고리즘은 해당 확률로 결과를 추출합니다.',
-  Division_Title: 'PC, Mobile 구분',
-  Division_Date: '2019년 8월 15일 배포',
-  Division_Description: 'PC 또는 모바일로 식별하는 프로젝트',
+const English = {
+  Project: 'Project',
+  Project_Comment: "These are the projects I've been working on so far.",
+  Code: 'My Code Skil',
+  Combination_Title: 'Combination of Parentheses',
+  Combination_Date: 'Deployed Aug 12, 2019',
+  Combination_Description: 'Algorithm for the number of cases in all pairs of parentheses',
+  Calculate_Clock_Angle_Title: 'Calculate Clock Angle',
+  Calculate_Clock_Angle_Date: 'Deployed Apr 8, 2019',
+  Calculate_Clock_Angle_Description: 'An algorithm that calculates the angle of the watch as you enter the time',
+  Android_App_Project_Title: 'Android App Project',
+  Android_App_Project_Date: 'Deployed Jan 9, 2018',
+  Android_App_Project_Description: 'My First Android Project',
+  DBKotlin_Title: 'Dictionary Random with Kotlin',
+  DBKotlin_Date: 'Deployed Sep 17, 2019',
+  DBKotlin_Description: 'If the probability is specified in the array in advance, the algorithm extracts the result by the corresponding probability',
+  DBNodeJS_Title: 'Dictionary Random with NodeJS',
+  DBNodeJS_Date: 'Deployed Sep 17, 2019',
+  DBNodeJS_Description: 'If the probability is specified in the array in advance, the algorithm extracts the result by the corresponding probability',
+  Division_Title: 'Division PC or Mobile',
+  Division_Date: 'Deployed Aug 15, 2019',
+  Division_Description: 'Project to identify by PC or mobile',
   Cnaplus_shop_Title: 'www.cnaplus.shop',
-  Cnaplus_shop_Date: '2019년 6월 9일 배포',
-  Cnaplus_shop_Description: '자가 학습 기술을 개발하기 위해 무작위로 문제를 혼합하여 문제 모음을 만드는 프로젝트',
+  Cnaplus_shop_Date: 'Deployed Jun 9, 2019',
+  Cnaplus_shop_Description: 'A project that creates a collection of problems by randomly mixing problems to develop self-study skills',
   AutoBench_Title: 'Auto Bench',
-  AutoBench_Date: '2019년 4월 7일 배포',
-  AutoBench_Description: '웹 크롤링 기술을 사용하여 CPU / GPU 벤치 마크 사이트 데이터를 추출하는 프로젝트',
-  KoreaMockTestBot_Title: '한국 모의고사 결과 수집 봇',
-  KoreaMockTestBot_Date: '2019년 11월 12일 배포',
-  KoreaMockTestBot_Description: '한국에서는 모의고사 시험이 중요합니다. 그리고 많은 한국 학생들은 점수를 친구들과 비교하는 것을 좋아합니다. 이 웹 크롤링 봇은 원하는 시험 횟차를 정하면 빠르고 편리하게 반응합니다.',
-  Fibonacci_Title: '피보나치 수열',
-  Fibonacci_Date: '2019년 4월 8일',
-  Fibonacci_Description: '피보나치 수열 알고리즘',
+  AutoBench_Date: 'Deployed Apr 7, 2019',
+  AutoBench_Description: 'Project to extract cpu / gpu benchmark site data using web crawling technology',
+  KoreaMockTestBot_Title: 'Results Collection Bot in Korea',
+  KoreaMockTestBot_Date: 'Deployed Sep 12, 2019',
+  KoreaMockTestBot_Description: 'High school exams are important in Korea. Many Korean students like to compare their scores with their friends. This scraping robot responds quickly and conveniently to what you want.',
+  Fibonacci_Title: 'Fibonacci',
+  Fibonacci_Date: 'Deployed Apr 8, 2019',
+  Fibonacci_Description: 'Fibonacci Algorithm',
   Noticend_Title: 'www.noticend.com',
-  Noticend_Date: '2018년 3월 20일 배포',
-  Noticend_Description: '연결되지 않을 권리를 달성하기위한 소셜 미디어 프로젝트.',
-  Note_Title: '오답노트',
-  Note_Date: '2019년 6월 9일 배포',
-  Note_Description: '자가 학습 기술을 개발하기 위해 무작위로 문제를 혼합하여 문제 모음을 만드는 프로젝트',
-  WareHouse_Title: '웨어하우스',
-  WareHouse_Date: '2019년 11월 29일 배포',
-  WareHouse_Description: '서버 & 클라이언트 통신을 하는 중에 인터넷 연결이 끊겨있을 때, 사용자 경험을 떨어뜨리지 않기 위한 Pop & Push 형태의 스트림처리 프로젝트',
+  Noticend_Date: 'Deployed March 20, 2018',
+  Noticend_Description: 'Social media project to achieve the right not to be connected.',
+  Note_Title: 'Check Note',
+  Note_Date: 'Deployed Jun 9, 2019',
+  Note_Description: 'A project that creates a collection of problems by randomly mixing problems to develop self-study skills',
+  WareHouse_Title: 'WareHouse',
+  WareHouse_Date: 'Deployed Nov 29, 2019',
+  WareHouse_Description: 'Pop & Push stream processing project to prevent user experience when the internet connection is lost during server & client communication',
   UrlHit_Title: 'UrlHit',
-  UrlHit_Date: '2020년 1월 24일 배포',
-  UrlHit_Description: 'URL 공유를 할 때, 어떤 경로로 사용자가 유입되는지 추적하는 솔루션',
-  DBJava_Title: '무작위 추출 with Java',
-  DBJava_Date: '2020년 1월 31일 배포',
-  DBJava_Description: '확률이 배열에 미리 지정되어 있으면 알고리즘은 해당 확률로 결과를 추출합니다.'
+  UrlHit_Date: 'Deployed Jan 24, 2020',
+  UrlHit_Description: 'A solution to track where users come from when sharing URLs',
+  DBJava_Title: 'Dictionary Random with Java',
+  DBJava_Date: 'Deployed Jan 31, 2020',
+  DBJava_Description: 'If the probability is specified in the array in advance, the algorithm extracts the result by the corresponding probability'
 };
-const data = {
-  labels: ['문법', '디버깅', '아키택쳐', '확장성', '코드 리뷰'],
+const data_en = {
+  labels: ['Syntax', 'Debugging', 'Architecture', 'Expansion', 'CodeReview'],
   datasets: [{
     label: 'C / C#',
     backgroundColor: 'rgba(20,148,255,0.2)',
@@ -112,7 +112,7 @@ const data = {
   }]
 };
 
-class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+class HomeEN extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     const PC = [{
       key: 0,
@@ -121,20 +121,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         content: __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 122
+            lineNumber: 129
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           columns: 4,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 123
+            lineNumber: 130
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 124
+            lineNumber: 131
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -142,7 +142,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 125
+            lineNumber: 132
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -151,47 +151,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 126
+            lineNumber: 133
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 127
+            lineNumber: 134
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 128
+            lineNumber: 135
           },
           __self: this
-        }, Korean.Combination_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Combination_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 131
+            lineNumber: 138
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 132
+            lineNumber: 139
           },
           __self: this
-        }, Korean.Combination_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.Combination_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 136
+            lineNumber: 143
           },
           __self: this
-        }, Korean.Combination_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.Combination_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 140
+            lineNumber: 147
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -199,14 +199,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 141
+            lineNumber: 148
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_cplusplus.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 142
+            lineNumber: 149
           },
           __self: this
         }), " C"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -214,20 +214,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 144
+            lineNumber: 151
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_cplusplus.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 145
+            lineNumber: 152
           },
           __self: this
         }), " Algorithm")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 150
+            lineNumber: 157
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -235,7 +235,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 151
+            lineNumber: 158
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -244,47 +244,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 152
+            lineNumber: 159
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 153
+            lineNumber: 160
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 154
+            lineNumber: 161
           },
           __self: this
-        }, Korean.Calculate_Clock_Angle_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Calculate_Clock_Angle_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 157
+            lineNumber: 164
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 158
+            lineNumber: 165
           },
           __self: this
-        }, Korean.Calculate_Clock_Angle_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.Calculate_Clock_Angle_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 162
+            lineNumber: 169
           },
           __self: this
-        }, Korean.Calculate_Clock_Angle_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.Calculate_Clock_Angle_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 166
+            lineNumber: 173
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -292,14 +292,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 167
+            lineNumber: 174
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_csharp.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 168
+            lineNumber: 175
           },
           __self: this
         }), " C#"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -307,14 +307,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 170
+            lineNumber: 177
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_csharp.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 171
+            lineNumber: 178
           },
           __self: this
         }), " Algorithm"))))))
@@ -326,20 +326,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         content: __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 186
+            lineNumber: 193
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           columns: 4,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 187
+            lineNumber: 194
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 188
+            lineNumber: 195
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -347,7 +347,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 189
+            lineNumber: 196
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -356,47 +356,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 190
+            lineNumber: 197
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 191
+            lineNumber: 198
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 192
+            lineNumber: 199
           },
           __self: this
-        }, Korean.Android_App_Project_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Android_App_Project_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 195
+            lineNumber: 202
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 196
+            lineNumber: 203
           },
           __self: this
-        }, Korean.Android_App_Project_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.Android_App_Project_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 200
+            lineNumber: 207
           },
           __self: this
-        }, Korean.Android_App_Project_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.Android_App_Project_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 204
+            lineNumber: 211
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -404,14 +404,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 205
+            lineNumber: 212
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 206
+            lineNumber: 213
           },
           __self: this
         }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -419,20 +419,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 208
+            lineNumber: 215
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 209
+            lineNumber: 216
           },
           __self: this
         }), " App Service")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 214
+            lineNumber: 221
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -440,7 +440,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 215
+            lineNumber: 222
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -449,47 +449,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 219
+            lineNumber: 226
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 220
+            lineNumber: 227
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 221
+            lineNumber: 228
           },
           __self: this
-        }, Korean.DBKotlin_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.DBKotlin_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 224
+            lineNumber: 231
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 225
+            lineNumber: 232
           },
           __self: this
-        }, Korean.DBKotlin_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.DBKotlin_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 229
+            lineNumber: 236
           },
           __self: this
-        }, Korean.DBKotlin_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.DBKotlin_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 233
+            lineNumber: 240
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -497,14 +497,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 234
+            lineNumber: 241
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_kotlin.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 235
+            lineNumber: 242
           },
           __self: this
         }), " Kotlin"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -512,20 +512,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 237
+            lineNumber: 244
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_kotlin.png",
+          src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 238
+            lineNumber: 245
           },
           __self: this
         }), " Algorithm")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 243
+            lineNumber: 250
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -533,7 +533,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 244
+            lineNumber: 251
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -542,47 +542,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 245
+            lineNumber: 252
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 246
+            lineNumber: 253
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 247
+            lineNumber: 254
           },
           __self: this
-        }, Korean.WareHouse_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.WareHouse_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 250
+            lineNumber: 257
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 251
+            lineNumber: 258
           },
           __self: this
-        }, Korean.WareHouse_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.WareHouse_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 255
+            lineNumber: 262
           },
           __self: this
-        }, Korean.WareHouse_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.WareHouse_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 259
+            lineNumber: 266
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -590,14 +590,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 260
+            lineNumber: 267
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_kotlin.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 261
+            lineNumber: 268
           },
           __self: this
         }), " Kotlin"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -605,20 +605,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 263
+            lineNumber: 270
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_kotlin.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 264
+            lineNumber: 271
           },
           __self: this
         }), " Algorithm")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 269
+            lineNumber: 276
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -626,7 +626,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 270
+            lineNumber: 277
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -635,47 +635,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 274
+            lineNumber: 281
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 275
+            lineNumber: 282
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 276
+            lineNumber: 283
           },
           __self: this
-        }, Korean.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 279
+            lineNumber: 286
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 280
+            lineNumber: 287
           },
           __self: this
-        }, Korean.Note_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.Note_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 284
+            lineNumber: 291
           },
           __self: this
-        }, Korean.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 288
+            lineNumber: 295
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -683,14 +683,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 289
+            lineNumber: 296
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 290
+            lineNumber: 297
           },
           __self: this
         }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -698,27 +698,27 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 292
+            lineNumber: 299
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 293
+            lineNumber: 300
           },
           __self: this
         }), " App Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           columns: 4,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 299
+            lineNumber: 306
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 300
+            lineNumber: 307
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -726,7 +726,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 301
+            lineNumber: 308
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -735,47 +735,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 305
+            lineNumber: 312
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 306
+            lineNumber: 313
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 307
+            lineNumber: 314
           },
           __self: this
-        }, Korean.DBJava_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.DBJava_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 310
+            lineNumber: 317
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 311
+            lineNumber: 318
           },
           __self: this
-        }, Korean.DBJava_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.DBJava_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 315
+            lineNumber: 322
           },
           __self: this
-        }, Korean.DBJava_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.DBJava_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 319
+            lineNumber: 326
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -783,14 +783,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 320
+            lineNumber: 327
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 321
+            lineNumber: 328
           },
           __self: this
         }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -798,14 +798,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 323
+            lineNumber: 330
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 324
+            lineNumber: 331
           },
           __self: this
         }), " Algorithm"))))))
@@ -817,20 +817,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         content: __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 339
+            lineNumber: 346
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           columns: 4,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 340
+            lineNumber: 347
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 341
+            lineNumber: 348
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -838,7 +838,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 342
+            lineNumber: 349
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -847,47 +847,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 343
+            lineNumber: 350
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 344
+            lineNumber: 351
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 345
+            lineNumber: 352
           },
           __self: this
-        }, Korean.Division_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Division_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 348
+            lineNumber: 355
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 349
+            lineNumber: 356
           },
           __self: this
-        }, Korean.Division_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.Division_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 353
+            lineNumber: 360
           },
           __self: this
-        }, Korean.Division_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.Division_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 357
+            lineNumber: 364
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -895,14 +895,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 358
+            lineNumber: 365
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_js.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 359
+            lineNumber: 366
           },
           __self: this
         }), " JavaScript"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -910,20 +910,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 361
+            lineNumber: 368
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_js.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 362
+            lineNumber: 369
           },
           __self: this
         }), " Web Service")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 367
+            lineNumber: 374
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -931,7 +931,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 368
+            lineNumber: 375
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -940,47 +940,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 372
+            lineNumber: 379
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 373
+            lineNumber: 380
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 374
+            lineNumber: 381
           },
           __self: this
-        }, Korean.DBNodeJS_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.DBNodeJS_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 377
+            lineNumber: 384
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 378
+            lineNumber: 385
           },
           __self: this
-        }, Korean.DBNodeJS_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.DBNodeJS_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 382
+            lineNumber: 389
           },
           __self: this
-        }, Korean.DBNodeJS_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.DBNodeJS_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 386
+            lineNumber: 393
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -988,14 +988,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 387
+            lineNumber: 394
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_nodejs.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 388
+            lineNumber: 395
           },
           __self: this
         }), " NodeJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1003,20 +1003,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 390
+            lineNumber: 397
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_nodejs.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 391
+            lineNumber: 398
           },
           __self: this
         }), " Algorithm")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 396
+            lineNumber: 403
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1024,7 +1024,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 397
+            lineNumber: 404
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1033,47 +1033,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 398
+            lineNumber: 405
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 399
+            lineNumber: 406
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 400
+            lineNumber: 407
           },
           __self: this
-        }, Korean.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 403
+            lineNumber: 410
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 404
+            lineNumber: 411
           },
           __self: this
-        }, Korean.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 408
+            lineNumber: 415
           },
           __self: this
-        }, Korean.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 412
+            lineNumber: 419
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1081,14 +1081,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 413
+            lineNumber: 420
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_reactjs.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 414
+            lineNumber: 421
           },
           __self: this
         }), " ReactJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1096,14 +1096,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 416
+            lineNumber: 423
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_reactjs.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 417
+            lineNumber: 424
           },
           __self: this
         }), " Web Service"))))))
@@ -1115,20 +1115,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         content: __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 432
+            lineNumber: 439
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           columns: 4,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 433
+            lineNumber: 440
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 434
+            lineNumber: 441
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1136,7 +1136,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 435
+            lineNumber: 442
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1145,47 +1145,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 436
+            lineNumber: 443
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 437
+            lineNumber: 444
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 438
+            lineNumber: 445
           },
           __self: this
-        }, Korean.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 441
+            lineNumber: 448
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 442
+            lineNumber: 449
           },
           __self: this
-        }, Korean.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+        }, English.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 446
+            lineNumber: 453
           },
           __self: this
-        }, Korean.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+        }, English.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           extra: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 450
+            lineNumber: 457
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1193,35 +1193,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 451
+            lineNumber: 458
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 452
+            lineNumber: 459
           },
           __self: this
-        }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-          as: "a",
-          image: true,
+        }), " Python")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 454
-          },
-          __self: this
-        }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_python.png",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 455
-          },
-          __self: this
-        }), " Desktop App")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 460
+            lineNumber: 464
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1229,7 +1214,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 461
+            lineNumber: 465
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1238,47 +1223,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 462
+            lineNumber: 466
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 463
+            lineNumber: 467
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 464
+            lineNumber: 468
           },
           __self: this
-        }, Korean.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 467
+            lineNumber: 471
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 468
-          },
-          __self: this
-        }, Korean.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 472
           },
           __self: this
-        }, Korean.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 476
+          },
+          __self: this
+        }, English.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 480
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1286,14 +1271,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 477
+            lineNumber: 481
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 478
+            lineNumber: 482
           },
           __self: this
         }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1301,20 +1286,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 480
+            lineNumber: 484
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 481
+            lineNumber: 485
           },
           __self: this
         }), " Desktop App")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 486
+            lineNumber: 490
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1322,7 +1307,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 487
+            lineNumber: 491
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1331,47 +1316,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 488
+            lineNumber: 492
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 489
+            lineNumber: 493
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 490
+            lineNumber: 494
           },
           __self: this
-        }, Korean.Fibonacci_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Fibonacci_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 493
+            lineNumber: 497
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 494
-          },
-          __self: this
-        }, Korean.Fibonacci_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 498
           },
           __self: this
-        }, Korean.Fibonacci_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.Fibonacci_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 502
+          },
+          __self: this
+        }, English.Fibonacci_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 506
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1379,14 +1364,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 503
+            lineNumber: 507
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 504
+            lineNumber: 508
           },
           __self: this
         }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1394,20 +1379,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 506
+            lineNumber: 510
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 507
+            lineNumber: 511
           },
           __self: this
-        }), " Algorithm")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
+        }), " Desktop App")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 512
+            lineNumber: 516
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1415,7 +1400,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 513
+            lineNumber: 517
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1424,47 +1409,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 514
+            lineNumber: 518
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 515
+            lineNumber: 519
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 516
+            lineNumber: 520
           },
           __self: this
-        }, Korean.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 519
+            lineNumber: 523
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 520
-          },
-          __self: this
-        }, Korean.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 524
           },
           __self: this
-        }, Korean.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 528
+          },
+          __self: this
+        }, English.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 532
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1472,14 +1457,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 529
+            lineNumber: 533
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 530
+            lineNumber: 534
           },
           __self: this
         }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1487,14 +1472,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 532
+            lineNumber: 536
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 533
+            lineNumber: 537
           },
           __self: this
         }), " Server"))))))
@@ -1507,19 +1492,19 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         content: __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 551
+            lineNumber: 555
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 552
+            lineNumber: 556
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 553
+            lineNumber: 557
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1527,7 +1512,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 554
+            lineNumber: 558
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1536,47 +1521,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 555
+            lineNumber: 559
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 556
+            lineNumber: 560
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 557
+            lineNumber: 561
           },
           __self: this
-        }, Korean.Combination_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Combination_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 560
+            lineNumber: 564
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 561
-          },
-          __self: this
-        }, Korean.Combination_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 565
           },
           __self: this
-        }, Korean.Combination_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.Combination_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 569
+          },
+          __self: this
+        }, English.Combination_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 573
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1584,14 +1569,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 570
+            lineNumber: 574
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_cplusplus.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 571
+            lineNumber: 575
           },
           __self: this
         }), " C"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1599,26 +1584,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 573
+            lineNumber: 577
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_csharp.png",
+          src: "/static/imgs/icon_cplusplus.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 574
+            lineNumber: 578
           },
           __self: this
         }), " Algorithm"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 580
+            lineNumber: 584
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 581
+            lineNumber: 585
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1626,7 +1611,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 582
+            lineNumber: 586
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1635,47 +1620,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 583
+            lineNumber: 587
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 584
+            lineNumber: 588
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 585
+            lineNumber: 589
           },
           __self: this
-        }, Korean.Calculate_Clock_Angle_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Calculate_Clock_Angle_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 588
+            lineNumber: 592
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 589
-          },
-          __self: this
-        }, Korean.Calculate_Clock_Angle_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 593
           },
           __self: this
-        }, Korean.Calculate_Clock_Angle_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.Calculate_Clock_Angle_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 597
+          },
+          __self: this
+        }, English.Calculate_Clock_Angle_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 601
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1683,14 +1668,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 598
+            lineNumber: 602
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_csharp.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 599
+            lineNumber: 603
           },
           __self: this
         }), " C#"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1698,14 +1683,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 601
+            lineNumber: 605
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_csharp.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 602
+            lineNumber: 606
           },
           __self: this
         }), " Algorithm"))))))
@@ -1717,19 +1702,19 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         content: __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 617
+            lineNumber: 621
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 618
+            lineNumber: 622
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 619
+            lineNumber: 623
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1737,7 +1722,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 620
+            lineNumber: 624
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1746,47 +1731,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 621
+            lineNumber: 625
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 622
+            lineNumber: 626
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 623
+            lineNumber: 627
           },
           __self: this
-        }, Korean.Android_App_Project_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Android_App_Project_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 626
+            lineNumber: 630
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 627
-          },
-          __self: this
-        }, Korean.Android_App_Project_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 631
           },
           __self: this
-        }, Korean.Android_App_Project_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.Android_App_Project_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 635
+          },
+          __self: this
+        }, English.Android_App_Project_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 639
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1794,14 +1779,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 636
+            lineNumber: 640
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 637
+            lineNumber: 641
           },
           __self: this
         }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1809,26 +1794,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 639
+            lineNumber: 643
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 640
+            lineNumber: 644
           },
           __self: this
         }), " App Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 646
+            lineNumber: 650
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 647
+            lineNumber: 651
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1836,7 +1821,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 648
+            lineNumber: 652
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1845,47 +1830,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 652
+            lineNumber: 656
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 653
+            lineNumber: 657
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 654
+            lineNumber: 658
           },
           __self: this
-        }, Korean.DBKotlin_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.DBKotlin_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 657
+            lineNumber: 661
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 658
-          },
-          __self: this
-        }, Korean.DBKotlin_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 662
           },
           __self: this
-        }, Korean.DBKotlin_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.DBKotlin_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 666
+          },
+          __self: this
+        }, English.DBKotlin_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 670
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1893,14 +1878,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 667
+            lineNumber: 671
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_kotlin.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 668
+            lineNumber: 672
           },
           __self: this
         }), " Kotlin"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1908,26 +1893,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 670
+            lineNumber: 674
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_kotlin.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 671
+            lineNumber: 675
           },
           __self: this
         }), " Algorithm"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 677
+            lineNumber: 681
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 678
+            lineNumber: 682
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -1935,7 +1920,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 679
+            lineNumber: 683
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -1944,47 +1929,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 680
+            lineNumber: 684
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 681
+            lineNumber: 685
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 682
+            lineNumber: 686
           },
           __self: this
-        }, Korean.WareHouse_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.WareHouse_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 685
+            lineNumber: 689
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 686
-          },
-          __self: this
-        }, Korean.WareHouse_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 690
           },
           __self: this
-        }, Korean.WareHouse_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.WareHouse_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 694
+          },
+          __self: this
+        }, English.WareHouse_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 698
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -1992,14 +1977,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 695
+            lineNumber: 699
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_kotlin.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 696
+            lineNumber: 700
           },
           __self: this
         }), " Kotlin"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2007,26 +1992,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 698
+            lineNumber: 702
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_kotlin.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 699
+            lineNumber: 703
           },
           __self: this
         }), " Algorithm"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 705
+            lineNumber: 709
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 706
+            lineNumber: 710
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -2034,7 +2019,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 707
+            lineNumber: 711
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -2043,47 +2028,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 711
+            lineNumber: 715
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 712
+            lineNumber: 716
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 713
+            lineNumber: 717
           },
           __self: this
-        }, Korean.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 716
+            lineNumber: 720
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 717
-          },
-          __self: this
-        }, Korean.Note_Data)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 721
           },
           __self: this
-        }, Korean.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.Note_Data)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 725
+          },
+          __self: this
+        }, English.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 729
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2091,14 +2076,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 726
+            lineNumber: 730
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 727
+            lineNumber: 731
           },
           __self: this
         }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2106,26 +2091,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 729
+            lineNumber: 733
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 730
+            lineNumber: 734
           },
           __self: this
         }), " App Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 736
+            lineNumber: 740
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 737
+            lineNumber: 741
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -2133,7 +2118,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 738
+            lineNumber: 742
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -2142,47 +2127,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 742
+            lineNumber: 746
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 743
+            lineNumber: 747
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 744
+            lineNumber: 748
           },
           __self: this
-        }, Korean.DBJava_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.DBJava_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 747
+            lineNumber: 751
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 748
-          },
-          __self: this
-        }, Korean.DBJava_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 752
           },
           __self: this
-        }, Korean.DBJava_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.DBJava_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 756
+          },
+          __self: this
+        }, English.DBJava_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 760
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2190,14 +2175,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 757
+            lineNumber: 761
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 758
+            lineNumber: 762
           },
           __self: this
         }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2205,14 +2190,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 760
+            lineNumber: 764
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_java.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 761
+            lineNumber: 765
           },
           __self: this
         }), " Algorithm"))))))
@@ -2224,19 +2209,19 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         content: __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 776
+            lineNumber: 780
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 777
+            lineNumber: 781
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 778
+            lineNumber: 782
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -2244,7 +2229,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 779
+            lineNumber: 783
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -2253,47 +2238,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 780
+            lineNumber: 784
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 781
+            lineNumber: 785
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 782
+            lineNumber: 786
           },
           __self: this
-        }, Korean.Division_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Division_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 785
+            lineNumber: 789
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 786
-          },
-          __self: this
-        }, Korean.Division_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 790
           },
           __self: this
-        }, Korean.Division_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.Division_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 794
+          },
+          __self: this
+        }, English.Division_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 798
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2301,14 +2286,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 795
+            lineNumber: 799
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_js.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 796
+            lineNumber: 800
           },
           __self: this
         }), " JavaScript"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2316,26 +2301,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 798
+            lineNumber: 802
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_js.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 799
+            lineNumber: 803
           },
           __self: this
         }), " Web Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 805
+            lineNumber: 809
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 806
+            lineNumber: 810
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -2343,7 +2328,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 807
+            lineNumber: 811
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -2352,47 +2337,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 811
+            lineNumber: 815
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 812
+            lineNumber: 816
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 813
+            lineNumber: 817
           },
           __self: this
-        }, Korean.DBNodeJS_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.DBNodeJS_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 816
+            lineNumber: 820
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 817
-          },
-          __self: this
-        }, Korean.DBNodeJS_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 821
           },
           __self: this
-        }, Korean.DBNodeJS_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.DBNodeJS_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 825
+          },
+          __self: this
+        }, English.DBNodeJS_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 829
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2400,14 +2385,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 826
+            lineNumber: 830
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_nodejs.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 827
+            lineNumber: 831
           },
           __self: this
         }), " NodeJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2415,26 +2400,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 829
+            lineNumber: 833
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_nodejs.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 830
+            lineNumber: 834
           },
           __self: this
         }), " Algorithm"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 836
+            lineNumber: 840
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 837
+            lineNumber: 841
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -2442,7 +2427,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 838
+            lineNumber: 842
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -2451,47 +2436,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 839
+            lineNumber: 843
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 840
+            lineNumber: 844
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 841
+            lineNumber: 845
           },
           __self: this
-        }, Korean.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 844
+            lineNumber: 848
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 845
-          },
-          __self: this
-        }, Korean.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 849
           },
           __self: this
-        }, Korean.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 853
+          },
+          __self: this
+        }, English.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 857
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2499,14 +2484,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 854
+            lineNumber: 858
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_reactjs.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 855
+            lineNumber: 859
           },
           __self: this
         }), " ReactJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2514,14 +2499,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 857
+            lineNumber: 861
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_reactjs.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 858
+            lineNumber: 862
           },
           __self: this
         }), " Web Service"))))))
@@ -2533,19 +2518,19 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         content: __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 873
+            lineNumber: 877
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 874
+            lineNumber: 878
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 875
+            lineNumber: 879
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -2553,7 +2538,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 876
+            lineNumber: 880
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -2562,47 +2547,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 877
+            lineNumber: 881
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 878
+            lineNumber: 882
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 879
+            lineNumber: 883
           },
           __self: this
-        }, Korean.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 882
+            lineNumber: 886
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 883
-          },
-          __self: this
-        }, Korean.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 887
           },
           __self: this
-        }, Korean.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 891
+          },
+          __self: this
+        }, English.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 895
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2610,14 +2595,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 892
+            lineNumber: 896
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 893
+            lineNumber: 897
           },
           __self: this
         }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2625,26 +2610,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 895
+            lineNumber: 899
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 896
+            lineNumber: 900
           },
           __self: this
         }), " Desktop App"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 902
+            lineNumber: 906
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 903
+            lineNumber: 907
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -2652,7 +2637,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 904
+            lineNumber: 908
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -2661,47 +2646,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 905
+            lineNumber: 909
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 906
+            lineNumber: 910
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 907
+            lineNumber: 911
           },
           __self: this
-        }, Korean.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 910
+            lineNumber: 914
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 911
-          },
-          __self: this
-        }, Korean.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 915
           },
           __self: this
-        }, Korean.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 919
+          },
+          __self: this
+        }, English.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 923
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2709,14 +2694,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 920
+            lineNumber: 924
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 921
+            lineNumber: 925
           },
           __self: this
         }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2724,26 +2709,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 923
+            lineNumber: 927
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 924
+            lineNumber: 928
           },
           __self: this
         }), " Desktop App"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 930
+            lineNumber: 934
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 931
+            lineNumber: 935
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -2751,7 +2736,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 932
+            lineNumber: 936
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -2760,47 +2745,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 933
+            lineNumber: 937
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 934
+            lineNumber: 938
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 935
+            lineNumber: 939
           },
           __self: this
-        }, Korean.Fibonacci_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.Fibonacci_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 938
+            lineNumber: 942
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 939
-          },
-          __self: this
-        }, Korean.Fibonacci_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 943
           },
           __self: this
-        }, Korean.Fibonacci_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.Fibonacci_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 947
+          },
+          __self: this
+        }, English.Fibonacci_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 951
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2808,14 +2793,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 948
+            lineNumber: 952
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 949
+            lineNumber: 953
           },
           __self: this
         }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2823,26 +2808,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 951
+            lineNumber: 955
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 952
+            lineNumber: 956
           },
           __self: this
         }), " Algorithm"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 958
+            lineNumber: 962
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 959
+            lineNumber: 963
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -2850,7 +2835,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           id: "card",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 960
+            lineNumber: 964
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -2859,47 +2844,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           ui: false,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 961
+            lineNumber: 965
           },
           __self: this
         }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 962
+            lineNumber: 966
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
           id: "default",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 963
+            lineNumber: 967
           },
           __self: this
-        }, Korean.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+        }, English.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 966
+            lineNumber: 970
           },
           __self: this
         }, __jsx("span", {
           className: "date",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 967
-          },
-          __self: this
-        }, Korean.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-          id: "default",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 971
           },
           __self: this
-        }, Korean.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-          extra: true,
+        }, English.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+          id: "default",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 975
+          },
+          __self: this
+        }, English.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+          extra: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 979
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2907,14 +2892,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 976
+            lineNumber: 980
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 977
+            lineNumber: 981
           },
           __self: this
         }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -2922,14 +2907,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           image: true,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 979
+            lineNumber: 983
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
           src: "/static/imgs/icon_python.png",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 980
+            lineNumber: 984
           },
           __self: this
         }), " Server"))))))
@@ -2938,27 +2923,27 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 993
+        lineNumber: 997
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Responsive"], {
       minWidth: 769,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 995
+        lineNumber: 999
       },
       __self: this
     }, __jsx("div", {
       className: "home background",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 996
+        lineNumber: 1000
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 997
+        lineNumber: 1001
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
@@ -2966,55 +2951,55 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       columns: 3,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 998
+        lineNumber: 1002
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 999
+        lineNumber: 1003
       },
       __self: this
     }, __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1000
+        lineNumber: 1004
       },
       __self: this
     }, "> Hello, World!"), __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1001
+        lineNumber: 1005
       },
       __self: this
     }, "> This is Mineru Coding Blog."), __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1002
+        lineNumber: 1006
       },
       __self: this
     }, "> "))))), __jsx("div", {
       className: "home container",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1007
+        lineNumber: 1011
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
       textAlign: "left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1008
+        lineNumber: 1012
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Header"], {
       id: "default",
       as: "h2",
       image: "/static/imgs/project.svg",
-      content: Korean.Project,
+      content: English.Project,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1009
+        lineNumber: 1013
       },
       __self: this
     }), __jsx("p", {
@@ -3022,26 +3007,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "description",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1015
+        lineNumber: 1019
       },
       __self: this
-    }, Korean.Project_Comment), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+    }, English.Project_Comment), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1018
+        lineNumber: 1022
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       columns: 4,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1019
+        lineNumber: 1023
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1020
+        lineNumber: 1024
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3049,7 +3034,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1021
+        lineNumber: 1025
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3058,47 +3043,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1022
+        lineNumber: 1026
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1023
+        lineNumber: 1027
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1024
+        lineNumber: 1028
       },
       __self: this
-    }, Korean.Noticend_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.Noticend_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1027
+        lineNumber: 1031
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1028
-      },
-      __self: this
-    }, Korean.Noticend_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-      id: "default",
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 1032
       },
       __self: this
-    }, Korean.Noticend_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-      extra: true,
+    }, English.Noticend_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+      id: "default",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 1036
+      },
+      __self: this
+    }, English.Noticend_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+      extra: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1040
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3106,35 +3091,35 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1037
+        lineNumber: 1041
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_xamarin.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1038
+        lineNumber: 1042
       },
       __self: this
-    }), " Xamarin"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+    }), " Xamarin.forms"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1040
+        lineNumber: 1044
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_xamarin.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1041
+        lineNumber: 1045
       },
       __self: this
     }), " Web Service")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1046
+        lineNumber: 1050
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3142,7 +3127,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1047
+        lineNumber: 1051
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3151,47 +3136,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1048
+        lineNumber: 1052
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1049
+        lineNumber: 1053
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1050
+        lineNumber: 1054
       },
       __self: this
-    }, Korean.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1053
+        lineNumber: 1057
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1054
-      },
-      __self: this
-    }, Korean.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-      id: "default",
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 1058
       },
       __self: this
-    }, Korean.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-      extra: true,
+    }, English.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+      id: "default",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 1062
+      },
+      __self: this
+    }, English.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+      extra: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1066
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3199,14 +3184,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1063
+        lineNumber: 1067
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_reactjs.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1064
+        lineNumber: 1068
       },
       __self: this
     }), " ReactJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3214,20 +3199,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1066
+        lineNumber: 1070
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_reactjs.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1067
+        lineNumber: 1071
       },
       __self: this
     }), " Web Service")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1072
+        lineNumber: 1076
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3235,7 +3220,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1073
+        lineNumber: 1077
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3244,47 +3229,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1077
+        lineNumber: 1081
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1078
+        lineNumber: 1082
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1079
+        lineNumber: 1083
       },
       __self: this
-    }, Korean.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1082
+        lineNumber: 1086
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1083
-      },
-      __self: this
-    }, Korean.Note_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-      id: "default",
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 1087
       },
       __self: this
-    }, Korean.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-      extra: true,
+    }, English.Note_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+      id: "default",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 1091
+      },
+      __self: this
+    }, English.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+      extra: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1095
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3292,14 +3277,14 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1092
+        lineNumber: 1096
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_java.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1093
+        lineNumber: 1097
       },
       __self: this
     }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3307,27 +3292,27 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1095
+        lineNumber: 1099
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_java.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1096
+        lineNumber: 1100
       },
       __self: this
     }), " App Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       columns: 4,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1102
+        lineNumber: 1106
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1103
+        lineNumber: 1107
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3335,7 +3320,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1104
+        lineNumber: 1108
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3344,47 +3329,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1105
+        lineNumber: 1109
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1106
+        lineNumber: 1110
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1107
+        lineNumber: 1111
       },
       __self: this
-    }, Korean.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1110
+        lineNumber: 1114
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1111
-      },
-      __self: this
-    }, Korean.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
-      id: "default",
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 1115
       },
       __self: this
-    }, Korean.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
-      extra: true,
+    }, English.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+      id: "default",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 1119
+      },
+      __self: this
+    }, English.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+      extra: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1123
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3392,35 +3377,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1120
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1121
-      },
-      __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1123
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 1124
       },
       __self: this
-    }), " Desktop App")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_python.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1129
+        lineNumber: 1125
+      },
+      __self: this
+    }), " Python")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1130
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3428,7 +3398,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1130
+        lineNumber: 1131
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3437,47 +3407,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1131
+        lineNumber: 1132
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1132
+        lineNumber: 1133
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1133
+        lineNumber: 1134
       },
       __self: this
-    }, Korean.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1136
+        lineNumber: 1137
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1137
+        lineNumber: 1138
       },
       __self: this
-    }, Korean.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+    }, English.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1141
+        lineNumber: 1142
       },
       __self: this
-    }, Korean.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+    }, English.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1145
+        lineNumber: 1146
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3485,35 +3455,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1146
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 1147
       },
       __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1149
-      },
-      __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_python.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1150
+        lineNumber: 1148
       },
       __self: this
-    }), " Desktop App")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
+    }), " Python")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1155
+        lineNumber: 1153
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3521,7 +3476,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1156
+        lineNumber: 1154
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3530,47 +3485,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1157
+        lineNumber: 1155
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1158
+        lineNumber: 1156
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1159
+        lineNumber: 1157
       },
       __self: this
-    }, Korean.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1162
+        lineNumber: 1160
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1163
+        lineNumber: 1161
       },
       __self: this
-    }, Korean.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+    }, English.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1167
+        lineNumber: 1165
       },
       __self: this
-    }, Korean.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+    }, English.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1171
+        lineNumber: 1169
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3578,55 +3533,61 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1172
+        lineNumber: 1170
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_python.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1173
+        lineNumber: 1171
       },
       __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1175
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1176
-      },
-      __self: this
-    }), " Server"))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    }), " Python"))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
       textAlign: "left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1184
+        lineNumber: 1179
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Header"], {
       id: "default",
       as: "h2",
       image: "/static/imgs/language.svg",
-      content: Korean.Code,
+      content: English.Code,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1185
+        lineNumber: 1180
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1191
+        lineNumber: 1186
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1187
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1188
+      },
+      __self: this
+    }, __jsx(react_chartjs_2__WEBPACK_IMPORTED_MODULE_2__["Radar"], {
+      data: data_en,
+      height: 150,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1189
+      },
+      __self: this
+    }))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
+      columns: 1,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 1192
@@ -3638,34 +3599,13 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1193
       },
       __self: this
-    }, __jsx(react_chartjs_2__WEBPACK_IMPORTED_MODULE_2__["Radar"], {
-      data: data,
-      height: 150,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1194
-      },
-      __self: this
-    }))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
-      columns: 1,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1197
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1198
-      },
-      __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Accordion"], {
       defaultActiveIndex: [],
       panels: PC,
       exclusive: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1199
+        lineNumber: 1194
       },
       __self: this
     }))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Responsive"], {
@@ -3673,20 +3613,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       maxWidth: 768,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1207
+        lineNumber: 1202
       },
       __self: this
     }, __jsx("div", {
       className: "home background mobile",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1208
+        lineNumber: 1203
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1209
+        lineNumber: 1204
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
@@ -3694,55 +3634,55 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       columns: 1,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1210
+        lineNumber: 1205
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1211
+        lineNumber: 1206
       },
       __self: this
     }, __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1212
+        lineNumber: 1207
       },
       __self: this
     }, "> Hello, World!"), __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1213
+        lineNumber: 1208
       },
       __self: this
     }, "> This is Mineru Coding Blog."), __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1214
+        lineNumber: 1209
       },
       __self: this
     }, "> "))))), __jsx("div", {
       className: "home container mobile",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1219
+        lineNumber: 1214
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
       textAlign: "left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1220
+        lineNumber: 1215
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Header"], {
       id: "default",
       as: "h2",
       image: "/static/imgs/project.svg",
-      content: Korean.Project,
+      content: English.Project,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1221
+        lineNumber: 1216
       },
       __self: this
     }), __jsx("p", {
@@ -3750,25 +3690,25 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "description",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1227
+        lineNumber: 1222
       },
       __self: this
-    }, Korean.Project_Comment), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
+    }, English.Project_Comment), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1230
+        lineNumber: 1225
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1231
+        lineNumber: 1226
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1232
+        lineNumber: 1227
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3776,7 +3716,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1233
+        lineNumber: 1228
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3785,47 +3725,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1234
+        lineNumber: 1229
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1235
+        lineNumber: 1230
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1236
+        lineNumber: 1231
       },
       __self: this
-    }, Korean.Noticend_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.Noticend_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1239
+        lineNumber: 1234
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1240
+        lineNumber: 1235
       },
       __self: this
-    }, Korean.Noticend_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+    }, English.Noticend_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1244
+        lineNumber: 1239
       },
       __self: this
-    }, Korean.Noticend_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+    }, English.Noticend_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1248
+        lineNumber: 1243
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3833,41 +3773,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1249
+        lineNumber: 1244
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_xamarin.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1250
+        lineNumber: 1245
       },
       __self: this
-    }), " Xamarin"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
+    }), " Xamarin.forms"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1252
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_xamarin.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1253
-      },
-      __self: this
-    }), " Web Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1259
+        lineNumber: 1251
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1260
+        lineNumber: 1252
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3875,7 +3800,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1261
+        lineNumber: 1253
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3884,47 +3809,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1262
+        lineNumber: 1254
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1263
+        lineNumber: 1255
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1264
+        lineNumber: 1256
       },
       __self: this
-    }, Korean.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1267
+        lineNumber: 1259
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1268
+        lineNumber: 1260
       },
       __self: this
-    }, Korean.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+    }, English.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1272
+        lineNumber: 1264
       },
       __self: this
-    }, Korean.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+    }, English.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1276
+        lineNumber: 1268
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -3932,41 +3857,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1277
+        lineNumber: 1269
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_reactjs.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1278
+        lineNumber: 1270
       },
       __self: this
-    }), " ReactJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
+    }), " ReactJS"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1280
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_reactjs.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1281
-      },
-      __self: this
-    }), " Web Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1287
+        lineNumber: 1276
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1288
+        lineNumber: 1277
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3974,7 +3884,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1289
+        lineNumber: 1278
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3983,47 +3893,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1293
+        lineNumber: 1282
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1294
+        lineNumber: 1283
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1295
+        lineNumber: 1284
       },
       __self: this
-    }, Korean.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1298
+        lineNumber: 1287
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1299
+        lineNumber: 1288
       },
       __self: this
-    }, Korean.Note_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+    }, English.Note_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1303
+        lineNumber: 1292
       },
       __self: this
-    }, Korean.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+    }, English.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1307
+        lineNumber: 1296
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -4031,41 +3941,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1308
+        lineNumber: 1297
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_java.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1309
+        lineNumber: 1298
       },
       __self: this
-    }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
+    }), " Java"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1311
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_java.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1312
-      },
-      __self: this
-    }), " App Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1318
+        lineNumber: 1304
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1319
+        lineNumber: 1305
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -4073,7 +3968,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1320
+        lineNumber: 1306
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4082,47 +3977,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1321
+        lineNumber: 1307
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1322
+        lineNumber: 1308
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1323
+        lineNumber: 1309
       },
       __self: this
-    }, Korean.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1326
+        lineNumber: 1312
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1327
+        lineNumber: 1313
       },
       __self: this
-    }, Korean.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+    }, English.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1331
+        lineNumber: 1317
       },
       __self: this
-    }, Korean.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+    }, English.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1335
+        lineNumber: 1321
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -4130,41 +4025,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1336
+        lineNumber: 1322
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_python.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1337
+        lineNumber: 1323
       },
       __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
+    }), " Python"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1339
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1340
-      },
-      __self: this
-    }), " Desktop App"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1346
+        lineNumber: 1329
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1347
+        lineNumber: 1330
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -4172,7 +4052,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1348
+        lineNumber: 1331
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4181,47 +4061,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1349
+        lineNumber: 1332
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1350
+        lineNumber: 1333
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1351
+        lineNumber: 1334
       },
       __self: this
-    }, Korean.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1354
+        lineNumber: 1337
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1355
+        lineNumber: 1338
       },
       __self: this
-    }, Korean.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+    }, English.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1359
+        lineNumber: 1342
       },
       __self: this
-    }, Korean.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+    }, English.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1363
+        lineNumber: 1346
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -4229,41 +4109,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1364
+        lineNumber: 1347
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_python.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1365
+        lineNumber: 1348
       },
       __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
+    }), " Python"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1367
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1368
-      },
-      __self: this
-    }), " Desktop App"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1374
+        lineNumber: 1354
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1375
+        lineNumber: 1355
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -4271,7 +4136,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1376
+        lineNumber: 1356
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4280,47 +4145,47 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1377
+        lineNumber: 1357
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1378
+        lineNumber: 1358
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1379
+        lineNumber: 1359
       },
       __self: this
-    }, Korean.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
+    }, English.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1382
+        lineNumber: 1362
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1383
+        lineNumber: 1363
       },
       __self: this
-    }, Korean.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
+    }, English.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1387
+        lineNumber: 1367
       },
       __self: this
-    }, Korean.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
+    }, English.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1391
+        lineNumber: 1371
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
@@ -4328,85 +4193,70 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1392
+        lineNumber: 1372
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
       src: "/static/imgs/icon_python.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1393
+        lineNumber: 1373
       },
       __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1395
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1396
-      },
-      __self: this
-    }), " Server"))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    }), " Python"))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
       textAlign: "left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1404
+        lineNumber: 1381
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Header"], {
       id: "default",
       as: "h2",
       image: "/static/imgs/language.svg",
-      content: Korean.Code,
+      content: English.Code,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1405
+        lineNumber: 1382
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1411
+        lineNumber: 1388
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1412
+        lineNumber: 1389
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1413
+        lineNumber: 1390
       },
       __self: this
     }, __jsx(react_chartjs_2__WEBPACK_IMPORTED_MODULE_2__["Radar"], {
-      data: data,
+      data: data_en,
       height: 300,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1414
+        lineNumber: 1391
       },
       __self: this
     }))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       columns: 1,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1417
+        lineNumber: 1394
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1418
+        lineNumber: 1395
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Accordion"], {
@@ -4415,7 +4265,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       exclusive: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1419
+        lineNumber: 1396
       },
       __self: this
     }))))))));
@@ -4423,7 +4273,40 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (HomeKR);
+/* harmony default export */ __webpack_exports__["default"] = (HomeEN);
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/array/is-array */ "./node_modules/core-js/library/fn/array/is-array.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/assign.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/assign */ "./node_modules/core-js/library/fn/object/assign.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/create.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "./node_modules/core-js/library/fn/object/create.js");
 
 /***/ }),
 
@@ -4438,14 +4321,229 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/define-proper
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-descriptor */ "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ "./node_modules/core-js/library/fn/object/get-prototype-of.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "./node_modules/core-js/library/fn/object/set-prototype-of.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/set.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/set.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/set */ "./node_modules/core-js/library/fn/set.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/symbol */ "./node_modules/core-js/library/fn/symbol/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "./node_modules/core-js/library/fn/symbol/iterator.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/weak-map.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/weak-map.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/weak-map */ "./node_modules/core-js/library/fn/weak-map.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+module.exports = _assertThisInitialized;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+module.exports = _classCallCheck;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js":
 /*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/createClass.js ***!
   \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./node_modules/core-js/library/fn/object/keys.js");
+var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+
+    _Object$defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+module.exports = _createClass;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/extends.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/extends.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$assign = __webpack_require__(/*! ../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+
+function _extends() {
+  module.exports = _extends = _Object$assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+module.exports = _extends;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$getPrototypeOf = __webpack_require__(/*! ../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
+
+var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+
+function _getPrototypeOf(o) {
+  module.exports = _getPrototypeOf = _Object$setPrototypeOf ? _Object$getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || _Object$getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+module.exports = _getPrototypeOf;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/inherits.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$create = __webpack_require__(/*! ../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js");
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = _Object$create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) setPrototypeOf(subClass, superClass);
+}
+
+module.exports = _inherits;
 
 /***/ }),
 
@@ -4463,6 +4561,153 @@ function _interopRequireDefault(obj) {
 }
 
 module.exports = _interopRequireDefault;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$getOwnPropertyDescriptor = __webpack_require__(/*! ../core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
+
+var _Object$defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js");
+
+var _WeakMap = __webpack_require__(/*! ../core-js/weak-map */ "./node_modules/@babel/runtime-corejs2/core-js/weak-map.js");
+
+function _getRequireWildcardCache() {
+  if (typeof _WeakMap !== "function") return null;
+  var cache = new _WeakMap();
+
+  _getRequireWildcardCache = function _getRequireWildcardCache() {
+    return cache;
+  };
+
+  return cache;
+}
+
+function _interopRequireWildcard(obj) {
+  if (obj && obj.__esModule) {
+    return obj;
+  }
+
+  if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") {
+    return {
+      "default": obj
+    };
+  }
+
+  var cache = _getRequireWildcardCache();
+
+  if (cache && cache.has(obj)) {
+    return cache.get(obj);
+  }
+
+  var newObj = {};
+  var hasPropertyDescriptor = _Object$defineProperty && _Object$getOwnPropertyDescriptor;
+
+  for (var key in obj) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) {
+      var desc = hasPropertyDescriptor ? _Object$getOwnPropertyDescriptor(obj, key) : null;
+
+      if (desc && (desc.get || desc.set)) {
+        _Object$defineProperty(newObj, key, desc);
+      } else {
+        newObj[key] = obj[key];
+      }
+    }
+  }
+
+  newObj["default"] = obj;
+
+  if (cache) {
+    cache.set(obj, newObj);
+  }
+
+  return newObj;
+}
+
+module.exports = _interopRequireWildcard;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js");
+
+var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js");
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (_typeof(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return assertThisInitialized(self);
+}
+
+module.exports = _possibleConstructorReturn;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Object$setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
+
+function _setPrototypeOf(o, p) {
+  module.exports = _setPrototypeOf = _Object$setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+module.exports = _setPrototypeOf;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/typeof.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _Symbol$iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
+
+var _Symbol = __webpack_require__(/*! ../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
+
+function _typeof2(obj) { if (typeof _Symbol === "function" && typeof _Symbol$iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
+
+function _typeof(obj) {
+  if (typeof _Symbol === "function" && _typeof2(_Symbol$iterator) === "symbol") {
+    module.exports = _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    module.exports = _typeof = function _typeof(obj) {
+      return obj && typeof _Symbol === "function" && obj.constructor === _Symbol && obj !== _Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
+
+  return _typeof(obj);
+}
+
+module.exports = _typeof;
 
 /***/ }),
 
@@ -22595,6 +22840,48 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/fn/array/is-array.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/array/is-array.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.array.is-array */ "./node_modules/core-js/library/modules/es6.array.is-array.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Array.isArray;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/assign.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/assign.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.assign */ "./node_modules/core-js/library/modules/es6.object.assign.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.assign;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/create.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/create.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.create */ "./node_modules/core-js/library/modules/es6.object.create.js");
+var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object;
+module.exports = function create(P, D) {
+  return $Object.create(P, D);
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/fn/object/define-property.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/core-js/library/fn/object/define-property.js ***!
@@ -22611,15 +22898,110 @@ module.exports = function defineProperty(it, key, desc) {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/fn/object/keys.js":
-/*!********************************************************!*\
-  !*** ./node_modules/core-js/library/fn/object/keys.js ***!
-  \********************************************************/
+/***/ "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js":
+/*!*******************************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-own-property-descriptor.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.keys */ "./node_modules/core-js/library/modules/es6.object.keys.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.keys;
+__webpack_require__(/*! ../../modules/es6.object.get-own-property-descriptor */ "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js");
+var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object;
+module.exports = function getOwnPropertyDescriptor(it, key) {
+  return $Object.getOwnPropertyDescriptor(it, key);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/get-prototype-of.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/get-prototype-of.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getPrototypeOf;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/set-prototype-of.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/set-prototype-of.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.setPrototypeOf;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/set.js":
+/*!************************************************!*\
+  !*** ./node_modules/core-js/library/fn/set.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/es6.object.to-string */ "./node_modules/core-js/library/modules/es6.object.to-string.js");
+__webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
+__webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
+__webpack_require__(/*! ../modules/es6.set */ "./node_modules/core-js/library/modules/es6.set.js");
+__webpack_require__(/*! ../modules/es7.set.to-json */ "./node_modules/core-js/library/modules/es7.set.to-json.js");
+__webpack_require__(/*! ../modules/es7.set.of */ "./node_modules/core-js/library/modules/es7.set.of.js");
+__webpack_require__(/*! ../modules/es7.set.from */ "./node_modules/core-js/library/modules/es7.set.from.js");
+module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Set;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/symbol/index.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/symbol/index.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.symbol */ "./node_modules/core-js/library/modules/es6.symbol.js");
+__webpack_require__(/*! ../../modules/es6.object.to-string */ "./node_modules/core-js/library/modules/es6.object.to-string.js");
+__webpack_require__(/*! ../../modules/es7.symbol.async-iterator */ "./node_modules/core-js/library/modules/es7.symbol.async-iterator.js");
+__webpack_require__(/*! ../../modules/es7.symbol.observable */ "./node_modules/core-js/library/modules/es7.symbol.observable.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Symbol;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/symbol/iterator.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/fn/symbol/iterator.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
+__webpack_require__(/*! ../../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
+module.exports = __webpack_require__(/*! ../../modules/_wks-ext */ "./node_modules/core-js/library/modules/_wks-ext.js").f('iterator');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/weak-map.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/core-js/library/fn/weak-map.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/es6.object.to-string */ "./node_modules/core-js/library/modules/es6.object.to-string.js");
+__webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
+__webpack_require__(/*! ../modules/es6.weak-map */ "./node_modules/core-js/library/modules/es6.weak-map.js");
+__webpack_require__(/*! ../modules/es7.weak-map.of */ "./node_modules/core-js/library/modules/es7.weak-map.of.js");
+__webpack_require__(/*! ../modules/es7.weak-map.from */ "./node_modules/core-js/library/modules/es7.weak-map.from.js");
+module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/library/modules/_core.js").WeakMap;
 
 
 /***/ }),
@@ -22639,6 +23021,34 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_add-to-unscopables.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_add-to-unscopables.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function () { /* empty */ };
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_an-instance.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_an-instance.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (it, Constructor, name, forbiddenField) {
+  if (!(it instanceof Constructor) || (forbiddenField !== undefined && forbiddenField in it)) {
+    throw TypeError(name + ': incorrect invocation!');
+  } return it;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_an-object.js":
 /*!************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_an-object.js ***!
@@ -22650,6 +23060,24 @@ var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/l
 module.exports = function (it) {
   if (!isObject(it)) throw TypeError(it + ' is not an object!');
   return it;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_array-from-iterable.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_array-from-iterable.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
+
+module.exports = function (iter, ITERATOR) {
+  var result = [];
+  forOf(iter, false, result.push, result, ITERATOR);
+  return result;
 };
 
 
@@ -22689,6 +23117,139 @@ module.exports = function (IS_INCLUDES) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_array-methods.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_array-methods.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 0 -> Array#forEach
+// 1 -> Array#map
+// 2 -> Array#filter
+// 3 -> Array#some
+// 4 -> Array#every
+// 5 -> Array#find
+// 6 -> Array#findIndex
+var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
+var IObject = __webpack_require__(/*! ./_iobject */ "./node_modules/core-js/library/modules/_iobject.js");
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js");
+var asc = __webpack_require__(/*! ./_array-species-create */ "./node_modules/core-js/library/modules/_array-species-create.js");
+module.exports = function (TYPE, $create) {
+  var IS_MAP = TYPE == 1;
+  var IS_FILTER = TYPE == 2;
+  var IS_SOME = TYPE == 3;
+  var IS_EVERY = TYPE == 4;
+  var IS_FIND_INDEX = TYPE == 6;
+  var NO_HOLES = TYPE == 5 || IS_FIND_INDEX;
+  var create = $create || asc;
+  return function ($this, callbackfn, that) {
+    var O = toObject($this);
+    var self = IObject(O);
+    var f = ctx(callbackfn, that, 3);
+    var length = toLength(self.length);
+    var index = 0;
+    var result = IS_MAP ? create($this, length) : IS_FILTER ? create($this, 0) : undefined;
+    var val, res;
+    for (;length > index; index++) if (NO_HOLES || index in self) {
+      val = self[index];
+      res = f(val, index, O);
+      if (TYPE) {
+        if (IS_MAP) result[index] = res;   // map
+        else if (res) switch (TYPE) {
+          case 3: return true;             // some
+          case 5: return val;              // find
+          case 6: return index;            // findIndex
+          case 2: result.push(val);        // filter
+        } else if (IS_EVERY) return false; // every
+      }
+    }
+    return IS_FIND_INDEX ? -1 : IS_SOME || IS_EVERY ? IS_EVERY : result;
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_array-species-constructor.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_array-species-constructor.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+var isArray = __webpack_require__(/*! ./_is-array */ "./node_modules/core-js/library/modules/_is-array.js");
+var SPECIES = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('species');
+
+module.exports = function (original) {
+  var C;
+  if (isArray(original)) {
+    C = original.constructor;
+    // cross-realm fallback
+    if (typeof C == 'function' && (C === Array || isArray(C.prototype))) C = undefined;
+    if (isObject(C)) {
+      C = C[SPECIES];
+      if (C === null) C = undefined;
+    }
+  } return C === undefined ? Array : C;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_array-species-create.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_array-species-create.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 9.4.2.3 ArraySpeciesCreate(originalArray, length)
+var speciesConstructor = __webpack_require__(/*! ./_array-species-constructor */ "./node_modules/core-js/library/modules/_array-species-constructor.js");
+
+module.exports = function (original, length) {
+  return new (speciesConstructor(original))(length);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_classof.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_classof.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// getting tag from 19.1.3.6 Object.prototype.toString()
+var cof = __webpack_require__(/*! ./_cof */ "./node_modules/core-js/library/modules/_cof.js");
+var TAG = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('toStringTag');
+// ES3 wrong here
+var ARG = cof(function () { return arguments; }()) == 'Arguments';
+
+// fallback for IE11 Script Access Denied error
+var tryGet = function (it, key) {
+  try {
+    return it[key];
+  } catch (e) { /* empty */ }
+};
+
+module.exports = function (it) {
+  var O, T, B;
+  return it === undefined ? 'Undefined' : it === null ? 'Null'
+    // @@toStringTag case
+    : typeof (T = tryGet(O = Object(it), TAG)) == 'string' ? T
+    // builtinTag case
+    : ARG ? cof(O)
+    // ES3 arguments fallback
+    : (B = cof(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : B;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_cof.js":
 /*!******************************************************!*\
   !*** ./node_modules/core-js/library/modules/_cof.js ***!
@@ -22700,6 +23261,350 @@ var toString = {}.toString;
 
 module.exports = function (it) {
   return toString.call(it).slice(8, -1);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_collection-strong.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_collection-strong.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
+var create = __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js");
+var redefineAll = __webpack_require__(/*! ./_redefine-all */ "./node_modules/core-js/library/modules/_redefine-all.js");
+var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
+var anInstance = __webpack_require__(/*! ./_an-instance */ "./node_modules/core-js/library/modules/_an-instance.js");
+var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
+var $iterDefine = __webpack_require__(/*! ./_iter-define */ "./node_modules/core-js/library/modules/_iter-define.js");
+var step = __webpack_require__(/*! ./_iter-step */ "./node_modules/core-js/library/modules/_iter-step.js");
+var setSpecies = __webpack_require__(/*! ./_set-species */ "./node_modules/core-js/library/modules/_set-species.js");
+var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
+var fastKey = __webpack_require__(/*! ./_meta */ "./node_modules/core-js/library/modules/_meta.js").fastKey;
+var validate = __webpack_require__(/*! ./_validate-collection */ "./node_modules/core-js/library/modules/_validate-collection.js");
+var SIZE = DESCRIPTORS ? '_s' : 'size';
+
+var getEntry = function (that, key) {
+  // fast case
+  var index = fastKey(key);
+  var entry;
+  if (index !== 'F') return that._i[index];
+  // frozen object case
+  for (entry = that._f; entry; entry = entry.n) {
+    if (entry.k == key) return entry;
+  }
+};
+
+module.exports = {
+  getConstructor: function (wrapper, NAME, IS_MAP, ADDER) {
+    var C = wrapper(function (that, iterable) {
+      anInstance(that, C, NAME, '_i');
+      that._t = NAME;         // collection type
+      that._i = create(null); // index
+      that._f = undefined;    // first entry
+      that._l = undefined;    // last entry
+      that[SIZE] = 0;         // size
+      if (iterable != undefined) forOf(iterable, IS_MAP, that[ADDER], that);
+    });
+    redefineAll(C.prototype, {
+      // 23.1.3.1 Map.prototype.clear()
+      // 23.2.3.2 Set.prototype.clear()
+      clear: function clear() {
+        for (var that = validate(this, NAME), data = that._i, entry = that._f; entry; entry = entry.n) {
+          entry.r = true;
+          if (entry.p) entry.p = entry.p.n = undefined;
+          delete data[entry.i];
+        }
+        that._f = that._l = undefined;
+        that[SIZE] = 0;
+      },
+      // 23.1.3.3 Map.prototype.delete(key)
+      // 23.2.3.4 Set.prototype.delete(value)
+      'delete': function (key) {
+        var that = validate(this, NAME);
+        var entry = getEntry(that, key);
+        if (entry) {
+          var next = entry.n;
+          var prev = entry.p;
+          delete that._i[entry.i];
+          entry.r = true;
+          if (prev) prev.n = next;
+          if (next) next.p = prev;
+          if (that._f == entry) that._f = next;
+          if (that._l == entry) that._l = prev;
+          that[SIZE]--;
+        } return !!entry;
+      },
+      // 23.2.3.6 Set.prototype.forEach(callbackfn, thisArg = undefined)
+      // 23.1.3.5 Map.prototype.forEach(callbackfn, thisArg = undefined)
+      forEach: function forEach(callbackfn /* , that = undefined */) {
+        validate(this, NAME);
+        var f = ctx(callbackfn, arguments.length > 1 ? arguments[1] : undefined, 3);
+        var entry;
+        while (entry = entry ? entry.n : this._f) {
+          f(entry.v, entry.k, this);
+          // revert to the last existing entry
+          while (entry && entry.r) entry = entry.p;
+        }
+      },
+      // 23.1.3.7 Map.prototype.has(key)
+      // 23.2.3.7 Set.prototype.has(value)
+      has: function has(key) {
+        return !!getEntry(validate(this, NAME), key);
+      }
+    });
+    if (DESCRIPTORS) dP(C.prototype, 'size', {
+      get: function () {
+        return validate(this, NAME)[SIZE];
+      }
+    });
+    return C;
+  },
+  def: function (that, key, value) {
+    var entry = getEntry(that, key);
+    var prev, index;
+    // change existing entry
+    if (entry) {
+      entry.v = value;
+    // create new entry
+    } else {
+      that._l = entry = {
+        i: index = fastKey(key, true), // <- index
+        k: key,                        // <- key
+        v: value,                      // <- value
+        p: prev = that._l,             // <- previous entry
+        n: undefined,                  // <- next entry
+        r: false                       // <- removed
+      };
+      if (!that._f) that._f = entry;
+      if (prev) prev.n = entry;
+      that[SIZE]++;
+      // add to index
+      if (index !== 'F') that._i[index] = entry;
+    } return that;
+  },
+  getEntry: getEntry,
+  setStrong: function (C, NAME, IS_MAP) {
+    // add .keys, .values, .entries, [@@iterator]
+    // 23.1.3.4, 23.1.3.8, 23.1.3.11, 23.1.3.12, 23.2.3.5, 23.2.3.8, 23.2.3.10, 23.2.3.11
+    $iterDefine(C, NAME, function (iterated, kind) {
+      this._t = validate(iterated, NAME); // target
+      this._k = kind;                     // kind
+      this._l = undefined;                // previous
+    }, function () {
+      var that = this;
+      var kind = that._k;
+      var entry = that._l;
+      // revert to the last existing entry
+      while (entry && entry.r) entry = entry.p;
+      // get next entry
+      if (!that._t || !(that._l = entry = entry ? entry.n : that._t._f)) {
+        // or finish the iteration
+        that._t = undefined;
+        return step(1);
+      }
+      // return step by kind
+      if (kind == 'keys') return step(0, entry.k);
+      if (kind == 'values') return step(0, entry.v);
+      return step(0, [entry.k, entry.v]);
+    }, IS_MAP ? 'entries' : 'values', !IS_MAP, true);
+
+    // add [@@species], 23.1.2.2, 23.2.2.2
+    setSpecies(NAME);
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_collection-to-json.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_collection-to-json.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://github.com/DavidBruant/Map-Set.prototype.toJSON
+var classof = __webpack_require__(/*! ./_classof */ "./node_modules/core-js/library/modules/_classof.js");
+var from = __webpack_require__(/*! ./_array-from-iterable */ "./node_modules/core-js/library/modules/_array-from-iterable.js");
+module.exports = function (NAME) {
+  return function toJSON() {
+    if (classof(this) != NAME) throw TypeError(NAME + "#toJSON isn't generic");
+    return from(this);
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_collection-weak.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_collection-weak.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var redefineAll = __webpack_require__(/*! ./_redefine-all */ "./node_modules/core-js/library/modules/_redefine-all.js");
+var getWeak = __webpack_require__(/*! ./_meta */ "./node_modules/core-js/library/modules/_meta.js").getWeak;
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+var anInstance = __webpack_require__(/*! ./_an-instance */ "./node_modules/core-js/library/modules/_an-instance.js");
+var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
+var createArrayMethod = __webpack_require__(/*! ./_array-methods */ "./node_modules/core-js/library/modules/_array-methods.js");
+var $has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
+var validate = __webpack_require__(/*! ./_validate-collection */ "./node_modules/core-js/library/modules/_validate-collection.js");
+var arrayFind = createArrayMethod(5);
+var arrayFindIndex = createArrayMethod(6);
+var id = 0;
+
+// fallback for uncaught frozen keys
+var uncaughtFrozenStore = function (that) {
+  return that._l || (that._l = new UncaughtFrozenStore());
+};
+var UncaughtFrozenStore = function () {
+  this.a = [];
+};
+var findUncaughtFrozen = function (store, key) {
+  return arrayFind(store.a, function (it) {
+    return it[0] === key;
+  });
+};
+UncaughtFrozenStore.prototype = {
+  get: function (key) {
+    var entry = findUncaughtFrozen(this, key);
+    if (entry) return entry[1];
+  },
+  has: function (key) {
+    return !!findUncaughtFrozen(this, key);
+  },
+  set: function (key, value) {
+    var entry = findUncaughtFrozen(this, key);
+    if (entry) entry[1] = value;
+    else this.a.push([key, value]);
+  },
+  'delete': function (key) {
+    var index = arrayFindIndex(this.a, function (it) {
+      return it[0] === key;
+    });
+    if (~index) this.a.splice(index, 1);
+    return !!~index;
+  }
+};
+
+module.exports = {
+  getConstructor: function (wrapper, NAME, IS_MAP, ADDER) {
+    var C = wrapper(function (that, iterable) {
+      anInstance(that, C, NAME, '_i');
+      that._t = NAME;      // collection type
+      that._i = id++;      // collection id
+      that._l = undefined; // leak store for uncaught frozen objects
+      if (iterable != undefined) forOf(iterable, IS_MAP, that[ADDER], that);
+    });
+    redefineAll(C.prototype, {
+      // 23.3.3.2 WeakMap.prototype.delete(key)
+      // 23.4.3.3 WeakSet.prototype.delete(value)
+      'delete': function (key) {
+        if (!isObject(key)) return false;
+        var data = getWeak(key);
+        if (data === true) return uncaughtFrozenStore(validate(this, NAME))['delete'](key);
+        return data && $has(data, this._i) && delete data[this._i];
+      },
+      // 23.3.3.4 WeakMap.prototype.has(key)
+      // 23.4.3.4 WeakSet.prototype.has(value)
+      has: function has(key) {
+        if (!isObject(key)) return false;
+        var data = getWeak(key);
+        if (data === true) return uncaughtFrozenStore(validate(this, NAME)).has(key);
+        return data && $has(data, this._i);
+      }
+    });
+    return C;
+  },
+  def: function (that, key, value) {
+    var data = getWeak(anObject(key), true);
+    if (data === true) uncaughtFrozenStore(that).set(key, value);
+    else data[that._i] = value;
+    return that;
+  },
+  ufstore: uncaughtFrozenStore
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_collection.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_collection.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var meta = __webpack_require__(/*! ./_meta */ "./node_modules/core-js/library/modules/_meta.js");
+var fails = __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js");
+var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
+var redefineAll = __webpack_require__(/*! ./_redefine-all */ "./node_modules/core-js/library/modules/_redefine-all.js");
+var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
+var anInstance = __webpack_require__(/*! ./_an-instance */ "./node_modules/core-js/library/modules/_an-instance.js");
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "./node_modules/core-js/library/modules/_set-to-string-tag.js");
+var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
+var each = __webpack_require__(/*! ./_array-methods */ "./node_modules/core-js/library/modules/_array-methods.js")(0);
+var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
+
+module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
+  var Base = global[NAME];
+  var C = Base;
+  var ADDER = IS_MAP ? 'set' : 'add';
+  var proto = C && C.prototype;
+  var O = {};
+  if (!DESCRIPTORS || typeof C != 'function' || !(IS_WEAK || proto.forEach && !fails(function () {
+    new C().entries().next();
+  }))) {
+    // create collection constructor
+    C = common.getConstructor(wrapper, NAME, IS_MAP, ADDER);
+    redefineAll(C.prototype, methods);
+    meta.NEED = true;
+  } else {
+    C = wrapper(function (target, iterable) {
+      anInstance(target, C, NAME, '_c');
+      target._c = new Base();
+      if (iterable != undefined) forOf(iterable, IS_MAP, target[ADDER], target);
+    });
+    each('add,clear,delete,forEach,get,has,set,keys,values,entries,toJSON'.split(','), function (KEY) {
+      var IS_ADDER = KEY == 'add' || KEY == 'set';
+      if (KEY in proto && !(IS_WEAK && KEY == 'clear')) hide(C.prototype, KEY, function (a, b) {
+        anInstance(this, C, KEY);
+        if (!IS_ADDER && IS_WEAK && !isObject(a)) return KEY == 'get' ? undefined : false;
+        var result = this._c[KEY](a === 0 ? 0 : a, b);
+        return IS_ADDER ? this : result;
+      });
+    });
+    IS_WEAK || dP(C.prototype, 'size', {
+      get: function () {
+        return this._c.size;
+      }
+    });
+  }
+
+  setToStringTag(C, NAME);
+
+  O[NAME] = C;
+  $export($export.G + $export.W + $export.F, O);
+
+  if (!IS_WEAK) common.setStrong(C, NAME, IS_MAP);
+
+  return C;
 };
 
 
@@ -22813,6 +23718,32 @@ module.exports = (
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_enum-keys.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_enum-keys.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// all enumerable object keys, includes symbols
+var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+var gOPS = __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js");
+var pIE = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js");
+module.exports = function (it) {
+  var result = getKeys(it);
+  var getSymbols = gOPS.f;
+  if (getSymbols) {
+    var symbols = getSymbols(it);
+    var isEnum = pIE.f;
+    var i = 0;
+    var key;
+    while (symbols.length > i) if (isEnum.call(it, key = symbols[i++])) result.push(key);
+  } return result;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_export.js":
 /*!*********************************************************!*\
   !*** ./node_modules/core-js/library/modules/_export.js ***!
@@ -22904,6 +23835,42 @@ module.exports = function (exec) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_for-of.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_for-of.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
+var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js");
+var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js");
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js");
+var getIterFn = __webpack_require__(/*! ./core.get-iterator-method */ "./node_modules/core-js/library/modules/core.get-iterator-method.js");
+var BREAK = {};
+var RETURN = {};
+var exports = module.exports = function (iterable, entries, fn, that, ITERATOR) {
+  var iterFn = ITERATOR ? function () { return iterable; } : getIterFn(iterable);
+  var f = ctx(fn, that, entries ? 2 : 1);
+  var index = 0;
+  var length, step, iterator, result;
+  if (typeof iterFn != 'function') throw TypeError(iterable + ' is not iterable!');
+  // fast case for arrays with default iterator
+  if (isArrayIter(iterFn)) for (length = toLength(iterable.length); length > index; index++) {
+    result = entries ? f(anObject(step = iterable[index])[0], step[1]) : f(iterable[index]);
+    if (result === BREAK || result === RETURN) return result;
+  } else for (iterator = iterFn.call(iterable); !(step = iterator.next()).done;) {
+    result = call(iterator, f, step.value, entries);
+    if (result === BREAK || result === RETURN) return result;
+  }
+};
+exports.BREAK = BREAK;
+exports.RETURN = RETURN;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_global.js":
 /*!*********************************************************!*\
   !*** ./node_modules/core-js/library/modules/_global.js ***!
@@ -22955,6 +23922,19 @@ module.exports = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_html.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_html.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var document = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").document;
+module.exports = document && document.documentElement;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_ie8-dom-define.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_ie8-dom-define.js ***!
@@ -22986,6 +23966,41 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_is-array-iter.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_is-array-iter.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// check on default Array iterator
+var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
+var ITERATOR = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator');
+var ArrayProto = Array.prototype;
+
+module.exports = function (it) {
+  return it !== undefined && (Iterators.Array === it || ArrayProto[ITERATOR] === it);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_is-array.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_is-array.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 7.2.2 IsArray(argument)
+var cof = __webpack_require__(/*! ./_cof */ "./node_modules/core-js/library/modules/_cof.js");
+module.exports = Array.isArray || function isArray(arg) {
+  return cof(arg) == 'Array';
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_is-object.js":
 /*!************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_is-object.js ***!
@@ -23000,6 +24015,161 @@ module.exports = function (it) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_iter-call.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iter-call.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// call something on iterator step with safe closing on error
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+module.exports = function (iterator, fn, value, entries) {
+  try {
+    return entries ? fn(anObject(value)[0], value[1]) : fn(value);
+  // 7.4.6 IteratorClose(iterator, completion)
+  } catch (e) {
+    var ret = iterator['return'];
+    if (ret !== undefined) anObject(ret.call(iterator));
+    throw e;
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iter-create.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iter-create.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var create = __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js");
+var descriptor = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
+var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "./node_modules/core-js/library/modules/_set-to-string-tag.js");
+var IteratorPrototype = {};
+
+// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
+__webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js")(IteratorPrototype, __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator'), function () { return this; });
+
+module.exports = function (Constructor, NAME, next) {
+  Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });
+  setToStringTag(Constructor, NAME + ' Iterator');
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iter-define.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iter-define.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var LIBRARY = __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js");
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var redefine = __webpack_require__(/*! ./_redefine */ "./node_modules/core-js/library/modules/_redefine.js");
+var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
+var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
+var $iterCreate = __webpack_require__(/*! ./_iter-create */ "./node_modules/core-js/library/modules/_iter-create.js");
+var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "./node_modules/core-js/library/modules/_set-to-string-tag.js");
+var getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ "./node_modules/core-js/library/modules/_object-gpo.js");
+var ITERATOR = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator');
+var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
+var FF_ITERATOR = '@@iterator';
+var KEYS = 'keys';
+var VALUES = 'values';
+
+var returnThis = function () { return this; };
+
+module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED) {
+  $iterCreate(Constructor, NAME, next);
+  var getMethod = function (kind) {
+    if (!BUGGY && kind in proto) return proto[kind];
+    switch (kind) {
+      case KEYS: return function keys() { return new Constructor(this, kind); };
+      case VALUES: return function values() { return new Constructor(this, kind); };
+    } return function entries() { return new Constructor(this, kind); };
+  };
+  var TAG = NAME + ' Iterator';
+  var DEF_VALUES = DEFAULT == VALUES;
+  var VALUES_BUG = false;
+  var proto = Base.prototype;
+  var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAULT && proto[DEFAULT];
+  var $default = $native || getMethod(DEFAULT);
+  var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;
+  var $anyNative = NAME == 'Array' ? proto.entries || $native : $native;
+  var methods, key, IteratorPrototype;
+  // Fix native
+  if ($anyNative) {
+    IteratorPrototype = getPrototypeOf($anyNative.call(new Base()));
+    if (IteratorPrototype !== Object.prototype && IteratorPrototype.next) {
+      // Set @@toStringTag to native iterators
+      setToStringTag(IteratorPrototype, TAG, true);
+      // fix for some old engines
+      if (!LIBRARY && typeof IteratorPrototype[ITERATOR] != 'function') hide(IteratorPrototype, ITERATOR, returnThis);
+    }
+  }
+  // fix Array#{values, @@iterator}.name in V8 / FF
+  if (DEF_VALUES && $native && $native.name !== VALUES) {
+    VALUES_BUG = true;
+    $default = function values() { return $native.call(this); };
+  }
+  // Define iterator
+  if ((!LIBRARY || FORCED) && (BUGGY || VALUES_BUG || !proto[ITERATOR])) {
+    hide(proto, ITERATOR, $default);
+  }
+  // Plug for library
+  Iterators[NAME] = $default;
+  Iterators[TAG] = returnThis;
+  if (DEFAULT) {
+    methods = {
+      values: DEF_VALUES ? $default : getMethod(VALUES),
+      keys: IS_SET ? $default : getMethod(KEYS),
+      entries: $entries
+    };
+    if (FORCED) for (key in methods) {
+      if (!(key in proto)) redefine(proto, key, methods[key]);
+    } else $export($export.P + $export.F * (BUGGY || VALUES_BUG), NAME, methods);
+  }
+  return methods;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iter-step.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iter-step.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (done, value) {
+  return { value: value, done: !!done };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_iterators.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_iterators.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_library.js":
 /*!**********************************************************!*\
   !*** ./node_modules/core-js/library/modules/_library.js ***!
@@ -23008,6 +24178,172 @@ module.exports = function (it) {
 /***/ (function(module, exports) {
 
 module.exports = true;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_meta.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_meta.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var META = __webpack_require__(/*! ./_uid */ "./node_modules/core-js/library/modules/_uid.js")('meta');
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
+var setDesc = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
+var id = 0;
+var isExtensible = Object.isExtensible || function () {
+  return true;
+};
+var FREEZE = !__webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
+  return isExtensible(Object.preventExtensions({}));
+});
+var setMeta = function (it) {
+  setDesc(it, META, { value: {
+    i: 'O' + ++id, // object ID
+    w: {}          // weak collections IDs
+  } });
+};
+var fastKey = function (it, create) {
+  // return primitive with prefix
+  if (!isObject(it)) return typeof it == 'symbol' ? it : (typeof it == 'string' ? 'S' : 'P') + it;
+  if (!has(it, META)) {
+    // can't set metadata to uncaught frozen object
+    if (!isExtensible(it)) return 'F';
+    // not necessary to add metadata
+    if (!create) return 'E';
+    // add missing metadata
+    setMeta(it);
+  // return object ID
+  } return it[META].i;
+};
+var getWeak = function (it, create) {
+  if (!has(it, META)) {
+    // can't set metadata to uncaught frozen object
+    if (!isExtensible(it)) return true;
+    // not necessary to add metadata
+    if (!create) return false;
+    // add missing metadata
+    setMeta(it);
+  // return hash weak collections IDs
+  } return it[META].w;
+};
+// add metadata on freeze-family methods calling
+var onFreeze = function (it) {
+  if (FREEZE && meta.NEED && isExtensible(it) && !has(it, META)) setMeta(it);
+  return it;
+};
+var meta = module.exports = {
+  KEY: META,
+  NEED: false,
+  fastKey: fastKey,
+  getWeak: getWeak,
+  onFreeze: onFreeze
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-assign.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-assign.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// 19.1.2.1 Object.assign(target, source, ...)
+var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
+var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+var gOPS = __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js");
+var pIE = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js");
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var IObject = __webpack_require__(/*! ./_iobject */ "./node_modules/core-js/library/modules/_iobject.js");
+var $assign = Object.assign;
+
+// should work with symbols and should have deterministic property order (V8 bug)
+module.exports = !$assign || __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
+  var A = {};
+  var B = {};
+  // eslint-disable-next-line no-undef
+  var S = Symbol();
+  var K = 'abcdefghijklmnopqrst';
+  A[S] = 7;
+  K.split('').forEach(function (k) { B[k] = k; });
+  return $assign({}, A)[S] != 7 || Object.keys($assign({}, B)).join('') != K;
+}) ? function assign(target, source) { // eslint-disable-line no-unused-vars
+  var T = toObject(target);
+  var aLen = arguments.length;
+  var index = 1;
+  var getSymbols = gOPS.f;
+  var isEnum = pIE.f;
+  while (aLen > index) {
+    var S = IObject(arguments[index++]);
+    var keys = getSymbols ? getKeys(S).concat(getSymbols(S)) : getKeys(S);
+    var length = keys.length;
+    var j = 0;
+    var key;
+    while (length > j) {
+      key = keys[j++];
+      if (!DESCRIPTORS || isEnum.call(S, key)) T[key] = S[key];
+    }
+  } return T;
+} : $assign;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-create.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-create.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var dPs = __webpack_require__(/*! ./_object-dps */ "./node_modules/core-js/library/modules/_object-dps.js");
+var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ "./node_modules/core-js/library/modules/_enum-bug-keys.js");
+var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "./node_modules/core-js/library/modules/_shared-key.js")('IE_PROTO');
+var Empty = function () { /* empty */ };
+var PROTOTYPE = 'prototype';
+
+// Create object with fake `null` prototype: use iframe Object with cleared prototype
+var createDict = function () {
+  // Thrash, waste and sodomy: IE GC bug
+  var iframe = __webpack_require__(/*! ./_dom-create */ "./node_modules/core-js/library/modules/_dom-create.js")('iframe');
+  var i = enumBugKeys.length;
+  var lt = '<';
+  var gt = '>';
+  var iframeDocument;
+  iframe.style.display = 'none';
+  __webpack_require__(/*! ./_html */ "./node_modules/core-js/library/modules/_html.js").appendChild(iframe);
+  iframe.src = 'javascript:'; // eslint-disable-line no-script-url
+  // createDict = iframe.contentWindow.Object;
+  // html.removeChild(iframe);
+  iframeDocument = iframe.contentWindow.document;
+  iframeDocument.open();
+  iframeDocument.write(lt + 'script' + gt + 'document.F=Object' + lt + '/script' + gt);
+  iframeDocument.close();
+  createDict = iframeDocument.F;
+  while (i--) delete createDict[PROTOTYPE][enumBugKeys[i]];
+  return createDict();
+};
+
+module.exports = Object.create || function create(O, Properties) {
+  var result;
+  if (O !== null) {
+    Empty[PROTOTYPE] = anObject(O);
+    result = new Empty();
+    Empty[PROTOTYPE] = null;
+    // add "__proto__" for Object.getPrototypeOf polyfill
+    result[IE_PROTO] = O;
+  } else result = createDict();
+  return Properties === undefined ? result : dPs(result, Properties);
+};
 
 
 /***/ }),
@@ -23034,6 +24370,141 @@ exports.f = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/li
   if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported!');
   if ('value' in Attributes) O[P] = Attributes.value;
   return O;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-dps.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-dps.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+
+module.exports = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") ? Object.defineProperties : function defineProperties(O, Properties) {
+  anObject(O);
+  var keys = getKeys(Properties);
+  var length = keys.length;
+  var i = 0;
+  var P;
+  while (length > i) dP.f(O, P = keys[i++], Properties[P]);
+  return O;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gopd.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gopd.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pIE = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js");
+var createDesc = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+var toPrimitive = __webpack_require__(/*! ./_to-primitive */ "./node_modules/core-js/library/modules/_to-primitive.js");
+var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
+var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ "./node_modules/core-js/library/modules/_ie8-dom-define.js");
+var gOPD = Object.getOwnPropertyDescriptor;
+
+exports.f = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") ? gOPD : function getOwnPropertyDescriptor(O, P) {
+  O = toIObject(O);
+  P = toPrimitive(P, true);
+  if (IE8_DOM_DEFINE) try {
+    return gOPD(O, P);
+  } catch (e) { /* empty */ }
+  if (has(O, P)) return createDesc(!pIE.f.call(O, P), O[P]);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gopn-ext.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gopn-ext.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+var gOPN = __webpack_require__(/*! ./_object-gopn */ "./node_modules/core-js/library/modules/_object-gopn.js").f;
+var toString = {}.toString;
+
+var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
+  ? Object.getOwnPropertyNames(window) : [];
+
+var getWindowNames = function (it) {
+  try {
+    return gOPN(it);
+  } catch (e) {
+    return windowNames.slice();
+  }
+};
+
+module.exports.f = function getOwnPropertyNames(it) {
+  return windowNames && toString.call(it) == '[object Window]' ? getWindowNames(it) : gOPN(toIObject(it));
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gopn.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gopn.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
+var $keys = __webpack_require__(/*! ./_object-keys-internal */ "./node_modules/core-js/library/modules/_object-keys-internal.js");
+var hiddenKeys = __webpack_require__(/*! ./_enum-bug-keys */ "./node_modules/core-js/library/modules/_enum-bug-keys.js").concat('length', 'prototype');
+
+exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
+  return $keys(O, hiddenKeys);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gops.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gops.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+exports.f = Object.getOwnPropertySymbols;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_object-gpo.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-gpo.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
+var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "./node_modules/core-js/library/modules/_shared-key.js")('IE_PROTO');
+var ObjectProto = Object.prototype;
+
+module.exports = Object.getPrototypeOf || function (O) {
+  O = toObject(O);
+  if (has(O, IE_PROTO)) return O[IE_PROTO];
+  if (typeof O.constructor == 'function' && O instanceof O.constructor) {
+    return O.constructor.prototype;
+  } return O instanceof Object ? ObjectProto : null;
 };
 
 
@@ -23085,6 +24556,18 @@ module.exports = Object.keys || function keys(O) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_object-pie.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-pie.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+exports.f = {}.propertyIsEnumerable;
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_object-sap.js":
 /*!*************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_object-sap.js ***!
@@ -23125,6 +24608,180 @@ module.exports = function (bitmap, value) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_redefine-all.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_redefine-all.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
+module.exports = function (target, src, safe) {
+  for (var key in src) {
+    if (safe && target[key]) target[key] = src[key];
+    else hide(target, key, src[key]);
+  } return target;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_redefine.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_redefine.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_set-collection-from.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_set-collection-from.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// https://tc39.github.io/proposal-setmap-offrom/
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var aFunction = __webpack_require__(/*! ./_a-function */ "./node_modules/core-js/library/modules/_a-function.js");
+var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
+var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
+
+module.exports = function (COLLECTION) {
+  $export($export.S, COLLECTION, { from: function from(source /* , mapFn, thisArg */) {
+    var mapFn = arguments[1];
+    var mapping, A, n, cb;
+    aFunction(this);
+    mapping = mapFn !== undefined;
+    if (mapping) aFunction(mapFn);
+    if (source == undefined) return new this();
+    A = [];
+    if (mapping) {
+      n = 0;
+      cb = ctx(mapFn, arguments[2], 2);
+      forOf(source, false, function (nextItem) {
+        A.push(cb(nextItem, n++));
+      });
+    } else {
+      forOf(source, false, A.push, A);
+    }
+    return new this(A);
+  } });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_set-collection-of.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_set-collection-of.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// https://tc39.github.io/proposal-setmap-offrom/
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+
+module.exports = function (COLLECTION) {
+  $export($export.S, COLLECTION, { of: function of() {
+    var length = arguments.length;
+    var A = new Array(length);
+    while (length--) A[length] = arguments[length];
+    return new this(A);
+  } });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_set-proto.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_set-proto.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Works with __proto__ only. Old v8 can't work with null proto objects.
+/* eslint-disable no-proto */
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var check = function (O, proto) {
+  anObject(O);
+  if (!isObject(proto) && proto !== null) throw TypeError(proto + ": can't set as prototype!");
+};
+module.exports = {
+  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
+    function (test, buggy, set) {
+      try {
+        set = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js")(Function.call, __webpack_require__(/*! ./_object-gopd */ "./node_modules/core-js/library/modules/_object-gopd.js").f(Object.prototype, '__proto__').set, 2);
+        set(test, []);
+        buggy = !(test instanceof Array);
+      } catch (e) { buggy = true; }
+      return function setPrototypeOf(O, proto) {
+        check(O, proto);
+        if (buggy) O.__proto__ = proto;
+        else set(O, proto);
+        return O;
+      };
+    }({}, false) : undefined),
+  check: check
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_set-species.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_set-species.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var core = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js");
+var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
+var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
+var SPECIES = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('species');
+
+module.exports = function (KEY) {
+  var C = typeof core[KEY] == 'function' ? core[KEY] : global[KEY];
+  if (DESCRIPTORS && C && !C[SPECIES]) dP.f(C, SPECIES, {
+    configurable: true,
+    get: function () { return this; }
+  });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_set-to-string-tag.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_set-to-string-tag.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var def = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
+var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
+var TAG = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('toStringTag');
+
+module.exports = function (it, tag, stat) {
+  if (it && !has(it = stat ? it : it.prototype, TAG)) def(it, TAG, { configurable: true, value: tag });
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_shared-key.js":
 /*!*************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_shared-key.js ***!
@@ -23160,6 +24817,34 @@ var store = global[SHARED] || (global[SHARED] = {});
   mode: __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js") ? 'pure' : 'global',
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_string-at.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_string-at.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toInteger = __webpack_require__(/*! ./_to-integer */ "./node_modules/core-js/library/modules/_to-integer.js");
+var defined = __webpack_require__(/*! ./_defined */ "./node_modules/core-js/library/modules/_defined.js");
+// true  -> String#at
+// false -> String#codePointAt
+module.exports = function (TO_STRING) {
+  return function (that, pos) {
+    var s = String(defined(that));
+    var i = toInteger(pos);
+    var l = s.length;
+    var a, b;
+    if (i < 0 || i >= l) return TO_STRING ? '' : undefined;
+    a = s.charCodeAt(i);
+    return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff
+      ? TO_STRING ? s.charAt(i) : a
+      : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
+  };
+};
 
 
 /***/ }),
@@ -23288,6 +24973,185 @@ module.exports = function (key) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_validate-collection.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_validate-collection.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+module.exports = function (it, TYPE) {
+  if (!isObject(it) || it._t !== TYPE) throw TypeError('Incompatible receiver, ' + TYPE + ' required!');
+  return it;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_wks-define.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_wks-define.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var core = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js");
+var LIBRARY = __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js");
+var wksExt = __webpack_require__(/*! ./_wks-ext */ "./node_modules/core-js/library/modules/_wks-ext.js");
+var defineProperty = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
+module.exports = function (name) {
+  var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
+  if (name.charAt(0) != '_' && !(name in $Symbol)) defineProperty($Symbol, name, { value: wksExt.f(name) });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_wks-ext.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_wks-ext.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports.f = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_wks.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_wks.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var store = __webpack_require__(/*! ./_shared */ "./node_modules/core-js/library/modules/_shared.js")('wks');
+var uid = __webpack_require__(/*! ./_uid */ "./node_modules/core-js/library/modules/_uid.js");
+var Symbol = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").Symbol;
+var USE_SYMBOL = typeof Symbol == 'function';
+
+var $exports = module.exports = function (name) {
+  return store[name] || (store[name] =
+    USE_SYMBOL && Symbol[name] || (USE_SYMBOL ? Symbol : uid)('Symbol.' + name));
+};
+
+$exports.store = store;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/core.get-iterator-method.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/core.get-iterator-method.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var classof = __webpack_require__(/*! ./_classof */ "./node_modules/core-js/library/modules/_classof.js");
+var ITERATOR = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator');
+var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
+module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js").getIteratorMethod = function (it) {
+  if (it != undefined) return it[ITERATOR]
+    || it['@@iterator']
+    || Iterators[classof(it)];
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.array.is-array.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.array.is-array.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 22.1.2.2 / 15.4.3.2 Array.isArray(arg)
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+
+$export($export.S, 'Array', { isArray: __webpack_require__(/*! ./_is-array */ "./node_modules/core-js/library/modules/_is-array.js") });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.array.iterator.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.array.iterator.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var addToUnscopables = __webpack_require__(/*! ./_add-to-unscopables */ "./node_modules/core-js/library/modules/_add-to-unscopables.js");
+var step = __webpack_require__(/*! ./_iter-step */ "./node_modules/core-js/library/modules/_iter-step.js");
+var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+
+// 22.1.3.4 Array.prototype.entries()
+// 22.1.3.13 Array.prototype.keys()
+// 22.1.3.29 Array.prototype.values()
+// 22.1.3.30 Array.prototype[@@iterator]()
+module.exports = __webpack_require__(/*! ./_iter-define */ "./node_modules/core-js/library/modules/_iter-define.js")(Array, 'Array', function (iterated, kind) {
+  this._t = toIObject(iterated); // target
+  this._i = 0;                   // next index
+  this._k = kind;                // kind
+// 22.1.5.2.1 %ArrayIteratorPrototype%.next()
+}, function () {
+  var O = this._t;
+  var kind = this._k;
+  var index = this._i++;
+  if (!O || index >= O.length) {
+    this._t = undefined;
+    return step(1);
+  }
+  if (kind == 'keys') return step(0, index);
+  if (kind == 'values') return step(0, O[index]);
+  return step(0, [index, O[index]]);
+}, 'values');
+
+// argumentsList[@@iterator] is %ArrayProto_values% (9.4.4.6, 9.4.4.7)
+Iterators.Arguments = Iterators.Array;
+
+addToUnscopables('keys');
+addToUnscopables('values');
+addToUnscopables('entries');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.assign.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.assign.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.3.1 Object.assign(target, source)
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ "./node_modules/core-js/library/modules/_object-assign.js") });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.create.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.create.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
+$export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js") });
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/es6.object.define-property.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/core-js/library/modules/es6.object.define-property.js ***!
@@ -23302,22 +25166,573 @@ $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./no
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/es6.object.keys.js":
+/***/ "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+var $getOwnPropertyDescriptor = __webpack_require__(/*! ./_object-gopd */ "./node_modules/core-js/library/modules/_object-gopd.js").f;
+
+__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('getOwnPropertyDescriptor', function () {
+  return function getOwnPropertyDescriptor(it, key) {
+    return $getOwnPropertyDescriptor(toIObject(it), key);
+  };
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.get-prototype-of.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.9 Object.getPrototypeOf(O)
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var $getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ "./node_modules/core-js/library/modules/_object-gpo.js");
+
+__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('getPrototypeOf', function () {
+  return function getPrototypeOf(it) {
+    return $getPrototypeOf(toObject(it));
+  };
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js":
+/*!*****************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.set-prototype-of.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.3.19 Object.setPrototypeOf(O, proto)
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-proto */ "./node_modules/core-js/library/modules/_set-proto.js").set });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.object.to-string.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.object.to-string.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.set.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.set.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var strong = __webpack_require__(/*! ./_collection-strong */ "./node_modules/core-js/library/modules/_collection-strong.js");
+var validate = __webpack_require__(/*! ./_validate-collection */ "./node_modules/core-js/library/modules/_validate-collection.js");
+var SET = 'Set';
+
+// 23.2 Set Objects
+module.exports = __webpack_require__(/*! ./_collection */ "./node_modules/core-js/library/modules/_collection.js")(SET, function (get) {
+  return function Set() { return get(this, arguments.length > 0 ? arguments[0] : undefined); };
+}, {
+  // 23.2.3.1 Set.prototype.add(value)
+  add: function add(value) {
+    return strong.def(validate(this, SET), value = value === 0 ? 0 : value, value);
+  }
+}, strong);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.string.iterator.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.string.iterator.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $at = __webpack_require__(/*! ./_string-at */ "./node_modules/core-js/library/modules/_string-at.js")(true);
+
+// 21.1.3.27 String.prototype[@@iterator]()
+__webpack_require__(/*! ./_iter-define */ "./node_modules/core-js/library/modules/_iter-define.js")(String, 'String', function (iterated) {
+  this._t = String(iterated); // target
+  this._i = 0;                // next index
+// 21.1.5.2.1 %StringIteratorPrototype%.next()
+}, function () {
+  var O = this._t;
+  var index = this._i;
+  var point;
+  if (index >= O.length) return { value: undefined, done: true };
+  point = $at(O, index);
+  this._i += point.length;
+  return { value: point, done: false };
+});
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.symbol.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.symbol.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// ECMAScript 6 symbols shim
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
+var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var redefine = __webpack_require__(/*! ./_redefine */ "./node_modules/core-js/library/modules/_redefine.js");
+var META = __webpack_require__(/*! ./_meta */ "./node_modules/core-js/library/modules/_meta.js").KEY;
+var $fails = __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js");
+var shared = __webpack_require__(/*! ./_shared */ "./node_modules/core-js/library/modules/_shared.js");
+var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "./node_modules/core-js/library/modules/_set-to-string-tag.js");
+var uid = __webpack_require__(/*! ./_uid */ "./node_modules/core-js/library/modules/_uid.js");
+var wks = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js");
+var wksExt = __webpack_require__(/*! ./_wks-ext */ "./node_modules/core-js/library/modules/_wks-ext.js");
+var wksDefine = __webpack_require__(/*! ./_wks-define */ "./node_modules/core-js/library/modules/_wks-define.js");
+var enumKeys = __webpack_require__(/*! ./_enum-keys */ "./node_modules/core-js/library/modules/_enum-keys.js");
+var isArray = __webpack_require__(/*! ./_is-array */ "./node_modules/core-js/library/modules/_is-array.js");
+var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+var toPrimitive = __webpack_require__(/*! ./_to-primitive */ "./node_modules/core-js/library/modules/_to-primitive.js");
+var createDesc = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
+var _create = __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js");
+var gOPNExt = __webpack_require__(/*! ./_object-gopn-ext */ "./node_modules/core-js/library/modules/_object-gopn-ext.js");
+var $GOPD = __webpack_require__(/*! ./_object-gopd */ "./node_modules/core-js/library/modules/_object-gopd.js");
+var $GOPS = __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js");
+var $DP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
+var $keys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+var gOPD = $GOPD.f;
+var dP = $DP.f;
+var gOPN = gOPNExt.f;
+var $Symbol = global.Symbol;
+var $JSON = global.JSON;
+var _stringify = $JSON && $JSON.stringify;
+var PROTOTYPE = 'prototype';
+var HIDDEN = wks('_hidden');
+var TO_PRIMITIVE = wks('toPrimitive');
+var isEnum = {}.propertyIsEnumerable;
+var SymbolRegistry = shared('symbol-registry');
+var AllSymbols = shared('symbols');
+var OPSymbols = shared('op-symbols');
+var ObjectProto = Object[PROTOTYPE];
+var USE_NATIVE = typeof $Symbol == 'function' && !!$GOPS.f;
+var QObject = global.QObject;
+// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173
+var setter = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;
+
+// fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687
+var setSymbolDesc = DESCRIPTORS && $fails(function () {
+  return _create(dP({}, 'a', {
+    get: function () { return dP(this, 'a', { value: 7 }).a; }
+  })).a != 7;
+}) ? function (it, key, D) {
+  var protoDesc = gOPD(ObjectProto, key);
+  if (protoDesc) delete ObjectProto[key];
+  dP(it, key, D);
+  if (protoDesc && it !== ObjectProto) dP(ObjectProto, key, protoDesc);
+} : dP;
+
+var wrap = function (tag) {
+  var sym = AllSymbols[tag] = _create($Symbol[PROTOTYPE]);
+  sym._k = tag;
+  return sym;
+};
+
+var isSymbol = USE_NATIVE && typeof $Symbol.iterator == 'symbol' ? function (it) {
+  return typeof it == 'symbol';
+} : function (it) {
+  return it instanceof $Symbol;
+};
+
+var $defineProperty = function defineProperty(it, key, D) {
+  if (it === ObjectProto) $defineProperty(OPSymbols, key, D);
+  anObject(it);
+  key = toPrimitive(key, true);
+  anObject(D);
+  if (has(AllSymbols, key)) {
+    if (!D.enumerable) {
+      if (!has(it, HIDDEN)) dP(it, HIDDEN, createDesc(1, {}));
+      it[HIDDEN][key] = true;
+    } else {
+      if (has(it, HIDDEN) && it[HIDDEN][key]) it[HIDDEN][key] = false;
+      D = _create(D, { enumerable: createDesc(0, false) });
+    } return setSymbolDesc(it, key, D);
+  } return dP(it, key, D);
+};
+var $defineProperties = function defineProperties(it, P) {
+  anObject(it);
+  var keys = enumKeys(P = toIObject(P));
+  var i = 0;
+  var l = keys.length;
+  var key;
+  while (l > i) $defineProperty(it, key = keys[i++], P[key]);
+  return it;
+};
+var $create = function create(it, P) {
+  return P === undefined ? _create(it) : $defineProperties(_create(it), P);
+};
+var $propertyIsEnumerable = function propertyIsEnumerable(key) {
+  var E = isEnum.call(this, key = toPrimitive(key, true));
+  if (this === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return false;
+  return E || !has(this, key) || !has(AllSymbols, key) || has(this, HIDDEN) && this[HIDDEN][key] ? E : true;
+};
+var $getOwnPropertyDescriptor = function getOwnPropertyDescriptor(it, key) {
+  it = toIObject(it);
+  key = toPrimitive(key, true);
+  if (it === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return;
+  var D = gOPD(it, key);
+  if (D && has(AllSymbols, key) && !(has(it, HIDDEN) && it[HIDDEN][key])) D.enumerable = true;
+  return D;
+};
+var $getOwnPropertyNames = function getOwnPropertyNames(it) {
+  var names = gOPN(toIObject(it));
+  var result = [];
+  var i = 0;
+  var key;
+  while (names.length > i) {
+    if (!has(AllSymbols, key = names[i++]) && key != HIDDEN && key != META) result.push(key);
+  } return result;
+};
+var $getOwnPropertySymbols = function getOwnPropertySymbols(it) {
+  var IS_OP = it === ObjectProto;
+  var names = gOPN(IS_OP ? OPSymbols : toIObject(it));
+  var result = [];
+  var i = 0;
+  var key;
+  while (names.length > i) {
+    if (has(AllSymbols, key = names[i++]) && (IS_OP ? has(ObjectProto, key) : true)) result.push(AllSymbols[key]);
+  } return result;
+};
+
+// 19.4.1.1 Symbol([description])
+if (!USE_NATIVE) {
+  $Symbol = function Symbol() {
+    if (this instanceof $Symbol) throw TypeError('Symbol is not a constructor!');
+    var tag = uid(arguments.length > 0 ? arguments[0] : undefined);
+    var $set = function (value) {
+      if (this === ObjectProto) $set.call(OPSymbols, value);
+      if (has(this, HIDDEN) && has(this[HIDDEN], tag)) this[HIDDEN][tag] = false;
+      setSymbolDesc(this, tag, createDesc(1, value));
+    };
+    if (DESCRIPTORS && setter) setSymbolDesc(ObjectProto, tag, { configurable: true, set: $set });
+    return wrap(tag);
+  };
+  redefine($Symbol[PROTOTYPE], 'toString', function toString() {
+    return this._k;
+  });
+
+  $GOPD.f = $getOwnPropertyDescriptor;
+  $DP.f = $defineProperty;
+  __webpack_require__(/*! ./_object-gopn */ "./node_modules/core-js/library/modules/_object-gopn.js").f = gOPNExt.f = $getOwnPropertyNames;
+  __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js").f = $propertyIsEnumerable;
+  $GOPS.f = $getOwnPropertySymbols;
+
+  if (DESCRIPTORS && !__webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js")) {
+    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
+  }
+
+  wksExt.f = function (name) {
+    return wrap(wks(name));
+  };
+}
+
+$export($export.G + $export.W + $export.F * !USE_NATIVE, { Symbol: $Symbol });
+
+for (var es6Symbols = (
+  // 19.4.2.2, 19.4.2.3, 19.4.2.4, 19.4.2.6, 19.4.2.8, 19.4.2.9, 19.4.2.10, 19.4.2.11, 19.4.2.12, 19.4.2.13, 19.4.2.14
+  'hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables'
+).split(','), j = 0; es6Symbols.length > j;)wks(es6Symbols[j++]);
+
+for (var wellKnownSymbols = $keys(wks.store), k = 0; wellKnownSymbols.length > k;) wksDefine(wellKnownSymbols[k++]);
+
+$export($export.S + $export.F * !USE_NATIVE, 'Symbol', {
+  // 19.4.2.1 Symbol.for(key)
+  'for': function (key) {
+    return has(SymbolRegistry, key += '')
+      ? SymbolRegistry[key]
+      : SymbolRegistry[key] = $Symbol(key);
+  },
+  // 19.4.2.5 Symbol.keyFor(sym)
+  keyFor: function keyFor(sym) {
+    if (!isSymbol(sym)) throw TypeError(sym + ' is not a symbol!');
+    for (var key in SymbolRegistry) if (SymbolRegistry[key] === sym) return key;
+  },
+  useSetter: function () { setter = true; },
+  useSimple: function () { setter = false; }
+});
+
+$export($export.S + $export.F * !USE_NATIVE, 'Object', {
+  // 19.1.2.2 Object.create(O [, Properties])
+  create: $create,
+  // 19.1.2.4 Object.defineProperty(O, P, Attributes)
+  defineProperty: $defineProperty,
+  // 19.1.2.3 Object.defineProperties(O, Properties)
+  defineProperties: $defineProperties,
+  // 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
+  getOwnPropertyDescriptor: $getOwnPropertyDescriptor,
+  // 19.1.2.7 Object.getOwnPropertyNames(O)
+  getOwnPropertyNames: $getOwnPropertyNames,
+  // 19.1.2.8 Object.getOwnPropertySymbols(O)
+  getOwnPropertySymbols: $getOwnPropertySymbols
+});
+
+// Chrome 38 and 39 `Object.getOwnPropertySymbols` fails on primitives
+// https://bugs.chromium.org/p/v8/issues/detail?id=3443
+var FAILS_ON_PRIMITIVES = $fails(function () { $GOPS.f(1); });
+
+$export($export.S + $export.F * FAILS_ON_PRIMITIVES, 'Object', {
+  getOwnPropertySymbols: function getOwnPropertySymbols(it) {
+    return $GOPS.f(toObject(it));
+  }
+});
+
+// 24.3.2 JSON.stringify(value [, replacer [, space]])
+$JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {
+  var S = $Symbol();
+  // MS Edge converts symbol values to JSON as {}
+  // WebKit converts symbol values to JSON as null
+  // V8 throws on boxed symbols
+  return _stringify([S]) != '[null]' || _stringify({ a: S }) != '{}' || _stringify(Object(S)) != '{}';
+})), 'JSON', {
+  stringify: function stringify(it) {
+    var args = [it];
+    var i = 1;
+    var replacer, $replacer;
+    while (arguments.length > i) args.push(arguments[i++]);
+    $replacer = replacer = args[1];
+    if (!isObject(replacer) && it === undefined || isSymbol(it)) return; // IE8 returns string on undefined
+    if (!isArray(replacer)) replacer = function (key, value) {
+      if (typeof $replacer == 'function') value = $replacer.call(this, key, value);
+      if (!isSymbol(value)) return value;
+    };
+    args[1] = replacer;
+    return _stringify.apply($JSON, args);
+  }
+});
+
+// 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
+$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js")($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
+// 19.4.3.5 Symbol.prototype[@@toStringTag]
+setToStringTag($Symbol, 'Symbol');
+// 20.2.1.9 Math[@@toStringTag]
+setToStringTag(Math, 'Math', true);
+// 24.3.3 JSON[@@toStringTag]
+setToStringTag(global.JSON, 'JSON', true);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.weak-map.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.weak-map.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var each = __webpack_require__(/*! ./_array-methods */ "./node_modules/core-js/library/modules/_array-methods.js")(0);
+var redefine = __webpack_require__(/*! ./_redefine */ "./node_modules/core-js/library/modules/_redefine.js");
+var meta = __webpack_require__(/*! ./_meta */ "./node_modules/core-js/library/modules/_meta.js");
+var assign = __webpack_require__(/*! ./_object-assign */ "./node_modules/core-js/library/modules/_object-assign.js");
+var weak = __webpack_require__(/*! ./_collection-weak */ "./node_modules/core-js/library/modules/_collection-weak.js");
+var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
+var validate = __webpack_require__(/*! ./_validate-collection */ "./node_modules/core-js/library/modules/_validate-collection.js");
+var NATIVE_WEAK_MAP = __webpack_require__(/*! ./_validate-collection */ "./node_modules/core-js/library/modules/_validate-collection.js");
+var IS_IE11 = !global.ActiveXObject && 'ActiveXObject' in global;
+var WEAK_MAP = 'WeakMap';
+var getWeak = meta.getWeak;
+var isExtensible = Object.isExtensible;
+var uncaughtFrozenStore = weak.ufstore;
+var InternalMap;
+
+var wrapper = function (get) {
+  return function WeakMap() {
+    return get(this, arguments.length > 0 ? arguments[0] : undefined);
+  };
+};
+
+var methods = {
+  // 23.3.3.3 WeakMap.prototype.get(key)
+  get: function get(key) {
+    if (isObject(key)) {
+      var data = getWeak(key);
+      if (data === true) return uncaughtFrozenStore(validate(this, WEAK_MAP)).get(key);
+      return data ? data[this._i] : undefined;
+    }
+  },
+  // 23.3.3.5 WeakMap.prototype.set(key, value)
+  set: function set(key, value) {
+    return weak.def(validate(this, WEAK_MAP), key, value);
+  }
+};
+
+// 23.3 WeakMap Objects
+var $WeakMap = module.exports = __webpack_require__(/*! ./_collection */ "./node_modules/core-js/library/modules/_collection.js")(WEAK_MAP, wrapper, methods, weak, true, true);
+
+// IE11 WeakMap frozen keys fix
+if (NATIVE_WEAK_MAP && IS_IE11) {
+  InternalMap = weak.getConstructor(wrapper, WEAK_MAP);
+  assign(InternalMap.prototype, methods);
+  meta.NEED = true;
+  each(['delete', 'has', 'get', 'set'], function (key) {
+    var proto = $WeakMap.prototype;
+    var method = proto[key];
+    redefine(proto, key, function (a, b) {
+      // store frozen objects on internal weakmap shim
+      if (isObject(a) && !isExtensible(a)) {
+        if (!this._f) this._f = new InternalMap();
+        var result = this._f[key](a, b);
+        return key == 'set' ? this : result;
+      // store all the rest on native weakmap
+      } return method.call(this, a, b);
+    });
+  });
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.set.from.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.set.from.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://tc39.github.io/proposal-setmap-offrom/#sec-set.from
+__webpack_require__(/*! ./_set-collection-from */ "./node_modules/core-js/library/modules/_set-collection-from.js")('Set');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.set.of.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.set.of.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://tc39.github.io/proposal-setmap-offrom/#sec-set.of
+__webpack_require__(/*! ./_set-collection-of */ "./node_modules/core-js/library/modules/_set-collection-of.js")('Set');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.set.to-json.js":
 /*!*****************************************************************!*\
-  !*** ./node_modules/core-js/library/modules/es6.object.keys.js ***!
+  !*** ./node_modules/core-js/library/modules/es7.set.to-json.js ***!
   \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.2.14 Object.keys(O)
-var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
-var $keys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+// https://github.com/DavidBruant/Map-Set.prototype.toJSON
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
 
-__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('keys', function () {
-  return function keys(it) {
-    return $keys(toObject(it));
-  };
-});
+$export($export.P + $export.R, 'Set', { toJSON: __webpack_require__(/*! ./_collection-to-json */ "./node_modules/core-js/library/modules/_collection-to-json.js")('Set') });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.symbol.async-iterator.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.symbol.async-iterator.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ./_wks-define */ "./node_modules/core-js/library/modules/_wks-define.js")('asyncIterator');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.symbol.observable.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.symbol.observable.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ./_wks-define */ "./node_modules/core-js/library/modules/_wks-define.js")('observable');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.weak-map.from.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.weak-map.from.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.from
+__webpack_require__(/*! ./_set-collection-from */ "./node_modules/core-js/library/modules/_set-collection-from.js")('WeakMap');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.weak-map.of.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.weak-map.of.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://tc39.github.io/proposal-setmap-offrom/#sec-weakmap.of
+__webpack_require__(/*! ./_set-collection-of */ "./node_modules/core-js/library/modules/_set-collection-of.js")('WeakMap');
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/web.dom.iterable.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/web.dom.iterable.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ./es6.array.iterator */ "./node_modules/core-js/library/modules/es6.array.iterator.js");
+var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
+var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
+var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
+var TO_STRING_TAG = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('toStringTag');
+
+var DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +
+  'DOMTokenList,DataTransferItemList,FileList,HTMLAllCollection,HTMLCollection,HTMLFormElement,HTMLSelectElement,' +
+  'MediaList,MimeTypeArray,NamedNodeMap,NodeList,PaintRequestList,Plugin,PluginArray,SVGLengthList,SVGNumberList,' +
+  'SVGPathSegList,SVGPointList,SVGStringList,SVGTransformList,SourceBufferList,StyleSheetList,TextTrackCueList,' +
+  'TextTrackList,TouchList').split(',');
+
+for (var i = 0; i < DOMIterables.length; i++) {
+  var NAME = DOMIterables[i];
+  var Collection = global[NAME];
+  var proto = Collection && Collection.prototype;
+  if (proto && !proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);
+  Iterators[NAME] = Iterators.Array;
+}
 
 
 /***/ }),
@@ -57751,15 +60166,231 @@ webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "./node_modules/next/app.js":
-/*!**********************************!*\
-  !*** ./node_modules/next/app.js ***!
-  \**********************************/
+/***/ "./node_modules/next-seo/lib/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/next-seo/lib/index.js ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
+"use strict";
+var _interopRequireWildcard=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js"),_interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),_Object$defineProperty(exports,"DefaultSeo",{enumerable:!0,get:function get(){return _defaultSEO["default"]}}),_Object$defineProperty(exports,"NextSeo",{enumerable:!0,get:function get(){return _nextSEO["default"]}}),_Object$defineProperty(exports,"ArticleJsonLd",{enumerable:!0,get:function get(){return _article["default"]}}),_Object$defineProperty(exports,"ArticleJsonLdProps",{enumerable:!0,get:function get(){return _article.ArticleJsonLdProps}}),_Object$defineProperty(exports,"BreadcrumbJsonLd",{enumerable:!0,get:function get(){return _breadcrumb["default"]}}),_Object$defineProperty(exports,"BreadCrumbJsonLdProps",{enumerable:!0,get:function get(){return _breadcrumb.BreadCrumbJsonLdProps}}),_Object$defineProperty(exports,"FAQPageJsonLd",{enumerable:!0,get:function get(){return _faqPage["default"]}}),_Object$defineProperty(exports,"FAQPageJsonLdProps",{enumerable:!0,get:function get(){return _faqPage.FAQPageJsonLdProps}}),_Object$defineProperty(exports,"JobPostingJsonLd",{enumerable:!0,get:function get(){return _jobPosting["default"]}}),_Object$defineProperty(exports,"JobPostingJsonLdProps",{enumerable:!0,get:function get(){return _jobPosting.JobPostingJsonLdProps}}),_Object$defineProperty(exports,"BlogJsonLd",{enumerable:!0,get:function get(){return _blog["default"]}}),_Object$defineProperty(exports,"BlogJsonLdProps",{enumerable:!0,get:function get(){return _blog.BlogJsonLdProps}}),_Object$defineProperty(exports,"CourseJsonLd",{enumerable:!0,get:function get(){return _course["default"]}}),_Object$defineProperty(exports,"CourseJsonLdProps",{enumerable:!0,get:function get(){return _course.CourseJsonLdProps}}),_Object$defineProperty(exports,"LocalBusinessJsonLd",{enumerable:!0,get:function get(){return _localBusiness["default"]}}),_Object$defineProperty(exports,"LocalBusinessJsonLdProps",{enumerable:!0,get:function get(){return _localBusiness.LocalBusinessJsonLdProps}}),_Object$defineProperty(exports,"LogoJsonLd",{enumerable:!0,get:function get(){return _logo["default"]}}),_Object$defineProperty(exports,"LogoJsonLdProps",{enumerable:!0,get:function get(){return _logo.LogoJsonLdProps}}),_Object$defineProperty(exports,"ProductJsonLd",{enumerable:!0,get:function get(){return _product["default"]}}),_Object$defineProperty(exports,"ProductJsonLdProps",{enumerable:!0,get:function get(){return _product.ProductJsonLdProps}}),_Object$defineProperty(exports,"SocialProfileJsonLd",{enumerable:!0,get:function get(){return _socialProfile["default"]}}),_Object$defineProperty(exports,"SocialProfileJsonLdProps",{enumerable:!0,get:function get(){return _socialProfile.SocialProfileJsonLdProps}}),_Object$defineProperty(exports,"CorporateContactJsonLd",{enumerable:!0,get:function get(){return _corporateContact["default"]}}),_Object$defineProperty(exports,"CorporateContactJsonLdProps",{enumerable:!0,get:function get(){return _corporateContact.CorporateContactJsonLdProps}}),_Object$defineProperty(exports,"NewsArticleJsonLd",{enumerable:!0,get:function get(){return _newsarticle["default"]}}),_Object$defineProperty(exports,"NewsArticleJsonLdProps",{enumerable:!0,get:function get(){return _newsarticle.NewsArticleJsonLdProps}}),_Object$defineProperty(exports,"DefaultSeoProps",{enumerable:!0,get:function get(){return _types.DefaultSeoProps}}),_Object$defineProperty(exports,"NextSeoProps",{enumerable:!0,get:function get(){return _types.NextSeoProps}});var _defaultSEO=_interopRequireDefault(__webpack_require__(/*! ./meta/defaultSEO */ "./node_modules/next-seo/lib/meta/defaultSEO.js")),_nextSEO=_interopRequireDefault(__webpack_require__(/*! ./meta/nextSEO */ "./node_modules/next-seo/lib/meta/nextSEO.js")),_article=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/article */ "./node_modules/next-seo/lib/jsonld/article.js")),_breadcrumb=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/breadcrumb */ "./node_modules/next-seo/lib/jsonld/breadcrumb.js")),_faqPage=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/faqPage */ "./node_modules/next-seo/lib/jsonld/faqPage.js")),_jobPosting=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/jobPosting */ "./node_modules/next-seo/lib/jsonld/jobPosting.js")),_blog=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/blog */ "./node_modules/next-seo/lib/jsonld/blog.js")),_course=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/course */ "./node_modules/next-seo/lib/jsonld/course.js")),_localBusiness=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/localBusiness */ "./node_modules/next-seo/lib/jsonld/localBusiness.js")),_logo=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/logo */ "./node_modules/next-seo/lib/jsonld/logo.js")),_product=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/product */ "./node_modules/next-seo/lib/jsonld/product.js")),_socialProfile=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/socialProfile */ "./node_modules/next-seo/lib/jsonld/socialProfile.js")),_corporateContact=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/corporateContact */ "./node_modules/next-seo/lib/jsonld/corporateContact.js")),_newsarticle=_interopRequireWildcard(__webpack_require__(/*! ./jsonld/newsarticle */ "./node_modules/next-seo/lib/jsonld/newsarticle.js")),_types=__webpack_require__(/*! ./types */ "./node_modules/next-seo/lib/types.js");
 
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/article.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/article.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,ArticleJsonLd=function(a){var b=a.url,c=a.title,d=a.images,e=void 0===d?[]:d,f=a.datePublished,g=a.dateModified,h=void 0===g?null:g,i=a.authorName,j=a.description,k=a.publisherName,l=a.publisherLogo,m="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Article\",\n    \"mainEntityOfPage\": {\n      \"@type\": \"WebPage\",\n      \"@id\": \"".concat(b,"\"\n    },\n    \"headline\": \"").concat(c,"\",\n    \"image\": [\n      ").concat(e.map(function(a){return"\"".concat(a,"\"")}),"\n     ],\n    \"datePublished\": \"").concat(f,"\",\n    \"dateModified\": \"").concat(h||f,"\",\n    \"author\": {\n      \"@type\": \"Person\",\n      \"name\": \"").concat(i,"\"\n    },\n    \"publisher\": {\n      \"@type\": \"Organization\",\n      \"name\": \"").concat(k,"\",\n      \"logo\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"").concat(l,"\"\n      }\n    },\n    \"description\": \"").concat(j,"\"\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(m),key:"jsonld-article"}))},_default=ArticleJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/blog.js":
+/*!**************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/blog.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,BlogJsonLd=function(a){var b=a.url,c=a.title,d=a.images,e=void 0===d?[]:d,f=a.datePublished,g=a.dateModified,h=void 0===g?null:g,i=a.authorName,j=a.description,k="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Blog\",\n    \"mainEntityOfPage\": {\n      \"@type\": \"WebPage\",\n      \"@id\": \"".concat(b,"\"\n    },\n    \"headline\": \"").concat(c,"\",\n    \"image\": [\n      ").concat(e.map(function(a){return"\"".concat(a,"\"")}),"\n     ],\n    \"datePublished\": \"").concat(f,"\",\n    \"dateModified\": \"").concat(h||f,"\",\n    \"author\": {\n      \"@type\": \"Person\",\n      \"name\": \"").concat(i,"\"\n    },\n    \"description\": \"").concat(j,"\"\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(k),key:"jsonld-blog"}))},_default=BlogJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/breadcrumb.js":
+/*!********************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/breadcrumb.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,BreadCrumbJsonLd=function(a){var b=a.itemListElements,c=void 0===b?[]:b,d="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"BreadcrumbList\",\n    \"itemListElement\": [\n      ".concat(c.map(function(a){return"{\n        \"@type\": \"ListItem\",\n        \"position\": ".concat(a.position,",\n        \"item\": {\n          \"@id\": \"").concat(a.item,"\",\n          \"name\": \"").concat(a.name,"\"\n        }\n      }")}),"\n     ]\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(d),key:"jsonld-breadcrumb"}))},_default=BreadCrumbJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/corporateContact.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/corporateContact.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _isArray=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js")),_react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,formatIfArray=function(a){return(0,_isArray["default"])(a)?"[".concat(a.map(function(a){return"\"".concat(a,"\"")}),"]"):"\"".concat(a,"\"")},buildContactPoint=function(a){return a.map(function(a){return"{\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"".concat(a.telephone,"\",\n    \"contactType\": \"").concat(a.contactType,"\"").concat(a.areaServed?",\n    \"areaServed\": ".concat(formatIfArray(a.areaServed)):"").concat(a.availableLanguage?",\n    \"availableLanguage\": ".concat(formatIfArray(a.availableLanguage)):"").concat(a.contactOption?",\n    \"contactOption\": \"".concat(a.contactOption,"\""):"","\n    }")})},CorporateContactJsonLd=function(a){var b=a.url,c=a.logo,d=a.contactPoint,e="{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Organization\",\n    \"url\": \"".concat(b,"\",\n    ").concat(c?"\"logo\": \"".concat(c,"\","):"","\n    \"contactPoint\": [").concat(buildContactPoint(d),"]\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(e),key:"jsonld-corporate-contact"}))},_default=CorporateContactJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/course.js":
+/*!****************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/course.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,CourseJsonLd=function(a){var b=a.courseName,c=a.description,d=a.providerName,e=a.providerUrl,f="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Course\",\n    \"name\": \"".concat(b,"\",\n    \"description\": \"").concat(c,"\",\n    \"provider\": {\n      \"@type\": \"Organization\",\n      \"name\": \"").concat(d,"\"").concat(e?",\n      \"sameAs\": \"".concat(e,"\""):"","\n    }\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(f),key:"jsonld-course"}))},_default=CourseJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/faqPage.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/faqPage.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,buildQuestions=function(a){return"\n  ".concat(a.map(function(a){return"{\n      \"@type\": \"Question\",\n      \"name\": \"".concat(a.questionName,"\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"").concat(a.acceptedAnswerText,"\"\n      }\n  }")}))},FAQPageJsonLd=function(a){var b=a.mainEntity,c=void 0===b?[]:b,d="{\n    \"@context\": \"http://schema.org/\",\n    \"@type\": \"FAQPage\",\n    \"mainEntity\": [".concat(buildQuestions(c),"]\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(d),key:"jsonld-faq-page"}))},_default=FAQPageJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/jobPosting.js":
+/*!********************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/jobPosting.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,buildBaseSalary=function(a){return"\n  \"baseSalary\": {\n    \"@type\": \"MonetaryAmount\",\n    ".concat(a.currency?"\"currency\": \"".concat(a.currency,"\","):"","\n    \"value\": {\n      \"@type\": \"QuantitativeValue\",\n      ").concat(a.value?"\"value\": \"".concat(a.value,"\","):"","\n      ").concat(a.unitText?"\"unitText\": \"".concat(a.unitText,"\""):"","\n    }\n  },\n")},JobPostingJsonLd=function(a){var b=a.baseSalary,c=a.datePosted,d=a.description,e=a.employmentType,f=a.hiringOrganization,g=a.jobLocation,h=a.applicantLocationRequirements,i=a.jobLocationType,j=a.title,k=a.validThrough,l="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"JobPosting\",\n    ".concat(b?buildBaseSalary(b):"","\n    \"datePosted\": \"").concat(c,"\",\n    \"description\": \"").concat(d,"\",\n    ").concat(e?"\"employmentType\": \"".concat(e,"\","):"","\n    \"hiringOrganization\" : {\n      \"@type\" : \"Organization\",\n      \"name\" : \"").concat(f.name,"\",\n      \"sameAs\" : \"").concat(f.sameAs,"\"\n    },\n    \n    \"jobLocation\": {\n      \"@type\": \"Place\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"").concat(g.addressLocality,"\",\n        \"addressRegion\": \"").concat(g.addressRegion,"\",\n        \"postalCode\" : \"").concat(g.postalCode,"\",\n        \"streetAddress\" : \"").concat(g.streetAddress,"\",\n        \"addressCountry\" : \"").concat(g.addressCountry,"\"\n      }\n    },\n    ").concat(h?" \"applicantLocationRequirements\": {\n        \"@type\": \"Country\",\n        \"name\": \"".concat(h,"\"\n    },"):"","\n    ").concat(i?"\"jobLocationType\": \"".concat(i,"\","):"","\n    ").concat(k?"\"validThrough\": \"".concat(k,"\","):"","\n    \"title\": \"").concat(j,"\"\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(l),key:"jsonld-jobPosting"}))},_default=JobPostingJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/localBusiness.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/localBusiness.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _isArray=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js")),_react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),_formatIfArray=_interopRequireDefault(__webpack_require__(/*! ../utils/formatIfArray */ "./node_modules/next-seo/lib/utils/formatIfArray.js")),__jsx=_react["default"].createElement,buildGeo=function(a){return"\n  \"geo\": {\n    \"@type\": \"GeoCoordinates\",\n    \"latitude\": \"".concat(a.latitude,"\",\n    \"longitude\": \"").concat(a.longitude,"\"\n  },\n")},buildAddress=function(a){return"\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"".concat(a.streetAddress,"\",\n    \"addressLocality\": \"").concat(a.addressLocality,"\",\n    ").concat(a.addressRegion?"\"addressRegion\": \"".concat(a.addressRegion,"\","):"","\n    \"postalCode\": \"").concat(a.postalCode,"\",\n    \"addressCountry\": \"").concat(a.addressCountry,"\"\n  },\n")},buildRating=function(a){return"\n  \"aggregateRating\": {\n    \"@type\": \"AggregateRating\",\n    \"ratingValue\": \"".concat(a.ratingValue,"\",\n    \"ratingCount\": \"").concat(a.ratingCount,"\"\n  },\n")},buildOpeningHours=function(a){return"\n  {\n    \"@type\": \"OpeningHoursSpecification\",\n    \"opens\": \"".concat(a.opens,"\",\n    \"closes\": \"").concat(a.closes,"\",\n    ").concat(a.dayOfWeek?"\"dayOfWeek\": ".concat((0,_formatIfArray["default"])(a.dayOfWeek),","):"","\n    ").concat(a.validFrom?"\"validFrom\": \"".concat(a.validFrom,"\","):"","\n    ").concat(a.validThrough?"\"validThrough\": \"".concat(a.validThrough,"\""):"","\n  }\n")},LocalBusinessJsonLd=function(a){var b=a.type,c=a.id,d=a.name,e=a.description,f=a.url,g=a.telephone,h=a.address,i=a.geo,j=a.images,k=a.rating,l=a.priceRange,m=a.sameAs,n=a.openingHours,o="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"".concat(b,"\",\n    \"@id\": \"").concat(c,"\",\n    ").concat(e?"\"description\": \"".concat(e,"\","):"","\n    ").concat(f?"\"url\": \"".concat(f,"\","):"","\n    ").concat(g?"\"telephone\": \"".concat(g,"\","):"","\n    ").concat(buildAddress(h),"\n    ").concat(i?"".concat(buildGeo(i)):"","\n    ").concat(k?"".concat(buildRating(k)):"","\n    ").concat(l?"\"priceRange\": \"".concat(l,"\","):"","\n    \"image\":").concat((0,_formatIfArray["default"])(j),",\n    ").concat(m?"\"sameAs\": [".concat(m.map(function(a){return"\"".concat(a,"\"")}),"],"):"","\n    ").concat(n?"\"openingHoursSpecification\": ".concat((0,_isArray["default"])(n)?"[".concat(n.map(function(a){return"".concat(buildOpeningHours(a))}),"]"):buildOpeningHours(n),","):"","\n    \"name\": \"").concat(d,"\"\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(o),key:"jsonld-local-business"}))},_default=LocalBusinessJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/logo.js":
+/*!**************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/logo.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,LogoJsonLd=function(a){var b=a.url,c=a.logo,d="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"Organization\",\n    \"url\": \"".concat(b,"\",\n    \"logo\": \"").concat(c,"\"\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(d),key:"jsonld-logo"}))},_default=LogoJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/newsarticle.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/newsarticle.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,NewsArticleJsonLd=function(a){var b=a.url,c=a.title,d=a.images,e=void 0===d?[]:d,f=a.section,g=a.keywords,h=a.datePublished,i=a.dateCreated,j=void 0===i?null:i,k=a.dateModified,l=void 0===k?null:k,m=a.authorName,n=a.description,o=a.body,p=a.publisherName,q=a.publisherLogo,r="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"NewsArticle\",\n    \"mainEntityOfPage\": {\n      \"@type\": \"WebPage\",\n      \"@id\": \"".concat(b,"\"\n    },\n    \"headline\": \"").concat(c,"\",\n    \"image\": [\n      ").concat(e.map(function(a){return"\"".concat(a,"\"")}),"\n     ],\n    \"articleSection\":\"").concat(f,"\",\n    \"keywords\": \"").concat(g,"\",    \n    \"datePublished\": \"").concat(h,"\",\n    \"dateCreated\": \"").concat(j||h,"\",\n    \"dateModified\": \"").concat(l||h,"\",\n    \"author\": {\n      \"@type\": \"Person\",\n      \"name\": \"").concat(m,"\"\n    },\n    \"publisher\": {\n      \"@type\": \"Organization\",\n      \"name\": \"").concat(p,"\",\n      \"logo\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"").concat(q,"\"\n      }\n    },\n    \"description\": \"").concat(n,"\",\n    \"articleBody\": \"").concat(o,"\"\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(r),key:"jsonld-newsarticle"}))},_default=NewsArticleJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/product.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/product.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),_formatIfArray=_interopRequireDefault(__webpack_require__(/*! ../utils/formatIfArray */ "./node_modules/next-seo/lib/utils/formatIfArray.js")),__jsx=_react["default"].createElement,buildBrand=function(a){return"\n  \"brand\": {\n      \"@type\": \"Thing\",\n      \"name\": \"".concat(a,"\"\n    },\n")},buildReviewRating=function(a){return a?"\"reviewRating\": {\n          \"@type\": \"Rating\",\n          ".concat(a.bestRating?"\"bestRating\": \"".concat(a.bestRating,"\","):"","\n          ").concat(a.worstRating?"\"worstRating\": \"".concat(a.worstRating,"\","):"","\n          \"ratingValue\": \"").concat(a.ratingValue,"\"\n        },"):""},buildReviews=function(a){return"\n\"review\": [\n  ".concat(a.map(function(a){return"{\n      \"@type\": \"Review\",\n      ".concat(a.datePublished?"\"datePublished\": \"".concat(a.datePublished,"\","):"","\n      ").concat(a.reviewBody?"\"reviewBody\": \"".concat(a.reviewBody,"\","):"","\n      ").concat(a.name?"\"name\": \"".concat(a.name,"\","):"","\n      ").concat(buildReviewRating(a.reviewRating),"\n      \"author\": \"").concat(a.author,"\"\n  }")}),"],")},buildAggregateRating=function(a){return"\n  \"aggregateRating\": {\n      \"@type\": \"AggregateRating\",\n      \"ratingValue\": \"".concat(a.ratingValue,"\",\n      \"reviewCount\": \"").concat(a.reviewCount,"\"\n    },\n")},buildOffers=function(a){return"\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"priceCurrency\": \"".concat(a.priceCurrency,"\",\n    ").concat(a.priceValidUntil?"\"priceValidUntil\": \"".concat(a.priceValidUntil,"\","):"","\n    ").concat(a.itemCondition?"\"itemCondition\": \"".concat(a.itemCondition,"\","):"","\n    ").concat(a.availability?"\"availability\": \"".concat(a.availability,"\","):"","\n    ").concat(a.url?"\"url\": \"".concat(a.url,"\","):"","\n    ").concat(a.seller?"\n      \"seller\": {\n      \"@type\": \"Organization\",\n      \"name\": \"".concat(a.seller.name,"\"\n    },\n    "):"","\n    \"price\": \"").concat(a.price,"\"\n  },\n")},ProductJsonLd=function(a){var b=a.productName,c=a.images,d=void 0===c?[]:c,e=a.description,f=a.sku,g=a.gtin8,h=a.gtin13,i=a.gtin14,j=a.mpn,k=a.brand,l=a.reviews,m=void 0===l?[]:l,n=a.aggregateRating,o=a.offers,p="{\n    \"@context\": \"http://schema.org/\",\n    \"@type\": \"Product\",\n    \"image\":".concat((0,_formatIfArray["default"])(d),",\n    ").concat(e?"\"description\": \"".concat(e,"\","):"","\n    ").concat(j?"\"mpn\": \"".concat(j,"\","):"","\n    ").concat(f?"\"sku\": \"".concat(f,"\","):"","\n    ").concat(g?"\"gtin8\": \"".concat(g,"\","):"","\n    ").concat(h?"\"gtin13\": \"".concat(h,"\","):"","\n    ").concat(i?"\"gtin14\": \"".concat(i,"\","):"","\n    ").concat(k?buildBrand(k):"","\n    ").concat(m.length?buildReviews(m):"","\n    ").concat(n?buildAggregateRating(n):"","\n    ").concat(o?buildOffers(o):"","\n    \"name\": \"").concat(b,"\"\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(p),key:"jsonld-product"}))},_default=ProductJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/jsonld/socialProfile.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/next-seo/lib/jsonld/socialProfile.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_markup=_interopRequireDefault(__webpack_require__(/*! ../utils/markup */ "./node_modules/next-seo/lib/utils/markup.js")),__jsx=_react["default"].createElement,SocialProfileJsonLd=function(a){var b=a.type,c=a.name,d=a.url,e=a.sameAs,f=void 0===e?[]:e,g="{\n    \"@context\": \"http://schema.org\",\n    \"@type\": \"".concat(b,"\",\n    \"name\": \"").concat(c,"\",\n    \"url\": \"").concat(d,"\",\n    \"sameAs\": [\n      ").concat(f.map(function(a){return"\"".concat(a,"\"")}),"\n     ]\n  }");return _react["default"].createElement(_head["default"],null,_react["default"].createElement("script",{type:"application/ld+json",dangerouslySetInnerHTML:(0,_markup["default"])(g),key:"jsonld-social"}))},_default=SocialProfileJsonLd;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/meta/buildTags.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/next-seo/lib/meta/buildTags.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _extends2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/extends */ "./node_modules/@babel/runtime-corejs2/helpers/extends.js")),_react=_interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js")),__jsx=_react["default"].createElement,defaults={templateTitle:"",noindex:!1,nofollow:!1,defaultOpenGraphImageWidth:0,defaultOpenGraphImageHeight:0,defaultOpenGraphVideoWidth:0,defaultOpenGraphVideoHeight:0},buildTags=function(a){var b=[];a.titleTemplate&&(defaults.templateTitle=a.titleTemplate);var c="";a.title&&(c=a.title,defaults.templateTitle&&(c=defaults.templateTitle.replace(/%s/g,function(){return c})),b.push(_react["default"].createElement("title",{key:"title"},c)));var d=a.noindex||defaults.noindex||a.dangerouslySetAllPagesToNoIndex,e=a.nofollow||defaults.nofollow||a.dangerouslySetAllPagesToNoFollow;if(d||e?(a.dangerouslySetAllPagesToNoIndex&&(defaults.noindex=!0),a.dangerouslySetAllPagesToNoFollow&&(defaults.nofollow=!0),b.push(_react["default"].createElement("meta",{key:"robots",name:"robots",content:"".concat(d?"noindex":"index",",").concat(e?"nofollow":"follow")})),b.push(_react["default"].createElement("meta",{key:"googlebot",name:"googlebot",content:"".concat(d?"noindex":"index",",").concat(e?"nofollow":"follow")}))):(b.push(_react["default"].createElement("meta",{key:"robots",name:"robots",content:"index,follow"})),b.push(_react["default"].createElement("meta",{key:"googlebot",name:"googlebot",content:"index,follow"}))),a.description&&b.push(_react["default"].createElement("meta",{key:"description",name:"description",content:a.description})),a.mobileAlternate&&b.push(_react["default"].createElement("link",{rel:"alternate",key:"mobileAlternate",media:a.mobileAlternate.media,href:a.mobileAlternate.href})),a.languageAlternates&&0<a.languageAlternates.length&&a.languageAlternates.forEach(function(a){b.push(_react["default"].createElement("link",{rel:"alternate",key:"languageAlternate-".concat(a.hrefLang),hrefLang:a.hrefLang,href:a.href}))}),a.twitter&&(a.twitter.cardType&&b.push(_react["default"].createElement("meta",{key:"twitter:card",name:"twitter:card",content:a.twitter.cardType})),a.twitter.site&&b.push(_react["default"].createElement("meta",{key:"twitter:site",name:"twitter:site",content:a.twitter.site})),a.twitter.handle&&b.push(_react["default"].createElement("meta",{key:"twitter:creator",name:"twitter:creator",content:a.twitter.handle}))),a.facebook&&a.facebook.appId&&b.push(_react["default"].createElement("meta",{key:"fb:app_id",property:"fb:app_id",content:a.facebook.appId})),a.openGraph){if((a.openGraph.url||a.canonical)&&b.push(_react["default"].createElement("meta",{key:"og:url",property:"og:url",content:a.openGraph.url||a.canonical})),a.openGraph.type){var f=a.openGraph.type.toLowerCase();b.push(_react["default"].createElement("meta",{key:"og:type",property:"og:type",content:f})),"profile"===f&&a.openGraph.profile?(a.openGraph.profile.firstName&&b.push(_react["default"].createElement("meta",{key:"profile:first_name",property:"profile:first_name",content:a.openGraph.profile.firstName})),a.openGraph.profile.lastName&&b.push(_react["default"].createElement("meta",{key:"profile:last_name",property:"profile:last_name",content:a.openGraph.profile.lastName})),a.openGraph.profile.username&&b.push(_react["default"].createElement("meta",{key:"profile:username",property:"profile:username",content:a.openGraph.profile.username})),a.openGraph.profile.gender&&b.push(_react["default"].createElement("meta",{key:"profile:gender",property:"profile:gender",content:a.openGraph.profile.gender}))):"book"===f&&a.openGraph.book?(a.openGraph.book.authors&&a.openGraph.book.authors.length&&a.openGraph.book.authors.forEach(function(a,c){b.push(_react["default"].createElement("meta",{key:"book:author:0".concat(c),property:"book:author",content:a}))}),a.openGraph.book.isbn&&b.push(_react["default"].createElement("meta",{key:"book:isbn",property:"book:isbn",content:a.openGraph.book.isbn})),a.openGraph.book.releaseDate&&b.push(_react["default"].createElement("meta",{key:"book:release_date",property:"book:release_date",content:a.openGraph.book.releaseDate})),a.openGraph.book.tags&&a.openGraph.book.tags.length&&a.openGraph.book.tags.forEach(function(a,c){b.push(_react["default"].createElement("meta",{key:"book:tag:0".concat(c),property:"book:tag",content:a}))})):"article"===f&&a.openGraph.article?(a.openGraph.article.publishedTime&&b.push(_react["default"].createElement("meta",{key:"article:published_time",property:"article:published_time",content:a.openGraph.article.publishedTime})),a.openGraph.article.modifiedTime&&b.push(_react["default"].createElement("meta",{key:"article:modified_time",property:"article:modified_time",content:a.openGraph.article.modifiedTime})),a.openGraph.article.expirationTime&&b.push(_react["default"].createElement("meta",{key:"article:expiration_time",property:"article:expiration_time",content:a.openGraph.article.expirationTime})),a.openGraph.article.authors&&a.openGraph.article.authors.length&&a.openGraph.article.authors.forEach(function(a,c){b.push(_react["default"].createElement("meta",{key:"article:author:0".concat(c),property:"article:author",content:a}))}),a.openGraph.article.section&&b.push(_react["default"].createElement("meta",{key:"article:section",property:"article:section",content:a.openGraph.article.section})),a.openGraph.article.tags&&a.openGraph.article.tags.length&&a.openGraph.article.tags.forEach(function(a,c){b.push(_react["default"].createElement("meta",{key:"article:tag:0".concat(c),property:"article:tag",content:a}))})):("video.movie"===f||"video.episode"===f||"video.tv_show"===f||"video.other"===f)&&a.openGraph.video&&(a.openGraph.video.actors&&a.openGraph.video.actors.length&&a.openGraph.video.actors.forEach(function(a,c){a.profile&&b.push(_react["default"].createElement("meta",{key:"video:actor:0".concat(c),property:"video:actor",content:a.profile})),a.role&&b.push(_react["default"].createElement("meta",{key:"video:actor:role:0".concat(c),property:"video:actor:role",content:a.role}))}),a.openGraph.video.directors&&a.openGraph.video.directors.length&&a.openGraph.video.directors.forEach(function(a,c){b.push(_react["default"].createElement("meta",{key:"video:director:0".concat(c),property:"video:director",content:a}))}),a.openGraph.video.writers&&a.openGraph.video.writers.length&&a.openGraph.video.writers.forEach(function(a,c){b.push(_react["default"].createElement("meta",{key:"video:writer:0".concat(c),property:"video:writer",content:a}))}),a.openGraph.video.duration&&b.push(_react["default"].createElement("meta",{key:"video:duration",property:"video:duration",content:a.openGraph.video.duration.toString()})),a.openGraph.video.releaseDate&&b.push(_react["default"].createElement("meta",{key:"video:release_date",property:"video:release_date",content:a.openGraph.video.releaseDate})),a.openGraph.video.tags&&a.openGraph.video.tags.length&&a.openGraph.video.tags.forEach(function(a,c){b.push(_react["default"].createElement("meta",{key:"video:tag:0".concat(c),property:"video:tag",content:a}))}),a.openGraph.video.series&&b.push(_react["default"].createElement("meta",{key:"video:series",property:"video:series",content:a.openGraph.video.series})))}(a.openGraph.title||a.title)&&b.push(_react["default"].createElement("meta",{key:"og:title",property:"og:title",content:a.openGraph.title||c})),(a.openGraph.description||a.description)&&b.push(_react["default"].createElement("meta",{key:"og:description",property:"og:description",content:a.openGraph.description||a.description})),a.defaultOpenGraphImageWidth&&(defaults.defaultOpenGraphImageWidth=a.defaultOpenGraphImageWidth),a.defaultOpenGraphImageHeight&&(defaults.defaultOpenGraphImageHeight=a.defaultOpenGraphImageHeight),a.openGraph.images&&a.openGraph.images.length&&a.openGraph.images.forEach(function(a,c){b.push(_react["default"].createElement("meta",{key:"og:image:0".concat(c),property:"og:image",content:a.url})),a.alt&&b.push(_react["default"].createElement("meta",{key:"og:image:alt0".concat(c),property:"og:image:alt",content:a.alt})),a.width?b.push(_react["default"].createElement("meta",{key:"og:image:width0".concat(c),property:"og:image:width",content:a.width.toString()})):defaults.defaultOpenGraphImageWidth&&b.push(_react["default"].createElement("meta",{key:"og:image:width0".concat(c),property:"og:image:width",content:defaults.defaultOpenGraphImageWidth.toString()})),a.height?b.push(_react["default"].createElement("meta",{key:"og:image:height".concat(c),property:"og:image:height",content:a.height.toString()})):defaults.defaultOpenGraphImageHeight&&b.push(_react["default"].createElement("meta",{key:"og:image:height".concat(c),property:"og:image:height",content:defaults.defaultOpenGraphImageHeight.toString()}))}),a.defaultOpenGraphVideoWidth&&(defaults.defaultOpenGraphVideoWidth=a.defaultOpenGraphVideoWidth),a.defaultOpenGraphVideoHeight&&(defaults.defaultOpenGraphVideoHeight=a.defaultOpenGraphVideoHeight),a.openGraph.videos&&a.openGraph.videos.length&&a.openGraph.videos.forEach(function(a,c){b.push(_react["default"].createElement("meta",{key:"og:video:0".concat(c),property:"og:video",content:a.url})),a.alt&&b.push(_react["default"].createElement("meta",{key:"og:video:alt0".concat(c),property:"og:video:alt",content:a.alt})),a.width?b.push(_react["default"].createElement("meta",{key:"og:video:width0".concat(c),property:"og:video:width",content:a.width.toString()})):defaults.defaultOpenGraphVideoWidth&&b.push(_react["default"].createElement("meta",{key:"og:video:width0".concat(c),property:"og:video:width",content:defaults.defaultOpenGraphVideoWidth.toString()})),a.height?b.push(_react["default"].createElement("meta",{key:"og:video:height".concat(c),property:"og:video:height",content:a.height.toString()})):defaults.defaultOpenGraphVideoHeight&&b.push(_react["default"].createElement("meta",{key:"og:video:height".concat(c),property:"og:video:height",content:defaults.defaultOpenGraphVideoHeight.toString()}))}),a.openGraph.locale&&b.push(_react["default"].createElement("meta",{key:"og:locale",property:"og:locale",content:a.openGraph.locale})),a.openGraph.site_name&&b.push(_react["default"].createElement("meta",{key:"og:site_name",property:"og:site_name",content:a.openGraph.site_name}))}return a.canonical&&b.push(_react["default"].createElement("link",{rel:"canonical",href:a.canonical,key:"canonical"})),a.additionalMetaTags&&0<a.additionalMetaTags.length&&a.additionalMetaTags.forEach(function(a){b.push(_react["default"].createElement("meta",(0,_extends2["default"])({key:a.name?a.name:a.property},a)))}),b},_default=buildTags;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/meta/defaultSEO.js":
+/*!******************************************************!*\
+  !*** ./node_modules/next-seo/lib/meta/defaultSEO.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireWildcard=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js"),_interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _classCallCheck2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js")),_createClass2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js")),_possibleConstructorReturn2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js")),_getPrototypeOf2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js")),_inherits2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_react=_interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_buildTags=_interopRequireDefault(__webpack_require__(/*! ./buildTags */ "./node_modules/next-seo/lib/meta/buildTags.js")),__jsx=_react["default"].createElement,_default=/*#__PURE__*/function(a){function b(){return(0,_classCallCheck2["default"])(this,b),(0,_possibleConstructorReturn2["default"])(this,(0,_getPrototypeOf2["default"])(b).apply(this,arguments))}return(0,_inherits2["default"])(b,a),(0,_createClass2["default"])(b,[{key:"render",value:function render(){var a=this.props,b=a.title,c=a.titleTemplate,d=a.dangerouslySetAllPagesToNoIndex,e=a.dangerouslySetAllPagesToNoFollow,f=a.description,g=a.canonical,h=a.facebook,i=a.openGraph,j=a.additionalMetaTags,k=a.twitter,l=a.defaultOpenGraphImageWidth,m=a.defaultOpenGraphImageHeight,n=a.defaultOpenGraphVideoWidth,o=a.defaultOpenGraphVideoHeight,p=a.mobileAlternate,q=a.languageAlternates;return _react["default"].createElement(_head["default"],null,(0,_buildTags["default"])({title:b,titleTemplate:c,dangerouslySetAllPagesToNoIndex:void 0!==d&&d,dangerouslySetAllPagesToNoFollow:void 0!==e&&e,description:f,canonical:g,facebook:h,openGraph:i,additionalMetaTags:j,twitter:k,defaultOpenGraphImageWidth:l,defaultOpenGraphImageHeight:m,defaultOpenGraphVideoWidth:n,defaultOpenGraphVideoHeight:o,mobileAlternate:p,languageAlternates:q}))}}]),b}(_react.Component);exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/meta/nextSEO.js":
+/*!***************************************************!*\
+  !*** ./node_modules/next-seo/lib/meta/nextSEO.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireWildcard=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireWildcard */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js"),_interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _classCallCheck2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js")),_createClass2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js")),_possibleConstructorReturn2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js")),_getPrototypeOf2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js")),_inherits2=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js")),_head=_interopRequireDefault(__webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js")),_react=_interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js")),_buildTags=_interopRequireDefault(__webpack_require__(/*! ./buildTags */ "./node_modules/next-seo/lib/meta/buildTags.js")),__jsx=_react["default"].createElement,_default=/*#__PURE__*/function(a){function b(){return(0,_classCallCheck2["default"])(this,b),(0,_possibleConstructorReturn2["default"])(this,(0,_getPrototypeOf2["default"])(b).apply(this,arguments))}return(0,_inherits2["default"])(b,a),(0,_createClass2["default"])(b,[{key:"render",value:function render(){var a=this.props,b=a.title,c=a.noindex,d=a.nofollow,e=a.description,f=a.canonical,g=a.openGraph,h=a.facebook,i=a.twitter,j=a.additionalMetaTags,k=a.titleTemplate,l=a.mobileAlternate,m=a.languageAlternates;return _react["default"].createElement(_head["default"],null,(0,_buildTags["default"])({title:b,noindex:void 0!==c&&c,nofollow:d,description:e,canonical:f,facebook:h,openGraph:g,additionalMetaTags:j,twitter:i,titleTemplate:k,mobileAlternate:l,languageAlternates:m}))}}]),b}(_react.Component);exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/types.js":
+/*!********************************************!*\
+  !*** ./node_modules/next-seo/lib/types.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/utils/formatIfArray.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/next-seo/lib/utils/formatIfArray.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _interopRequireDefault=__webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js"),_Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var _isArray=_interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js")),formatIfArray=function(a){return(0,_isArray["default"])(a)?"[".concat(a.map(function(a){return"\"".concat(a,"\"")}),"]"):"\"".concat(a,"\"")},_default=formatIfArray;exports["default"]=_default;
+
+/***/ }),
+
+/***/ "./node_modules/next-seo/lib/utils/markup.js":
+/*!***************************************************!*\
+  !*** ./node_modules/next-seo/lib/utils/markup.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+var _Object$defineProperty=__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");_Object$defineProperty(exports,"__esModule",{value:!0}),exports["default"]=void 0;var markup=function(a){return{__html:a}},_default=markup;exports["default"]=_default;
 
 /***/ }),
 
@@ -57774,21 +60405,21 @@ module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Findex.js!./":
-/*!***************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Findex.js ***!
-  \***************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fen&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Fen.js!./":
+/*!**************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fen&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Fen.js ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var mod = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/en", function() {
+      var mod = __webpack_require__(/*! ./pages/en.js */ "./pages/en.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage)
+        module.hot.accept(/*! ./pages/en.js */ "./pages/en.js", function() {
+          if(!next.router.components["/en"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/en.js */ "./pages/en.js")
+          next.router.update("/en", updatedPage)
         })
       }
       return mod
@@ -57797,17 +60428,299 @@ module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/next-server/lib/utils.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/utils.js ***!
-  \*********************************************************/
+/***/ "./node_modules/next/dist/next-server/lib/amp-context.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/amp-context.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _Object$keys = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  result["default"] = mod;
+  return result;
+};
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+const React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.AmpStateContext = React.createContext({});
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/amp.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/amp.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+const amp_context_1 = __webpack_require__(/*! ./amp-context */ "./node_modules/next/dist/next-server/lib/amp-context.js");
+
+function isInAmpMode({
+  ampFirst = false,
+  hybrid = false,
+  hasQuery = false
+} = {}) {
+  return ampFirst || hybrid && hasQuery;
+}
+
+exports.isInAmpMode = isInAmpMode;
+
+function useAmp() {
+  // Don't assign the context value to a variable to save bytes
+  return isInAmpMode(react_1.default.useContext(amp_context_1.AmpStateContext));
+}
+
+exports.useAmp = useAmp;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/head-manager-context.js":
+/*!************************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/head-manager-context.js ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  result["default"] = mod;
+  return result;
+};
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+const React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.HeadManagerContext = React.createContext(null);
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/head.js":
+/*!********************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/head.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _Set = __webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js");
+
+var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+_Object$defineProperty(exports, "__esModule", {
+  value: true
+});
+
+const react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+const side_effect_1 = __importDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next/dist/next-server/lib/side-effect.js"));
+
+const amp_context_1 = __webpack_require__(/*! ./amp-context */ "./node_modules/next/dist/next-server/lib/amp-context.js");
+
+const head_manager_context_1 = __webpack_require__(/*! ./head-manager-context */ "./node_modules/next/dist/next-server/lib/head-manager-context.js");
+
+const amp_1 = __webpack_require__(/*! ./amp */ "./node_modules/next/dist/next-server/lib/amp.js");
+
+function defaultHead(inAmpMode = false) {
+  const head = [react_1.default.createElement("meta", {
+    charSet: "utf-8"
+  })];
+
+  if (!inAmpMode) {
+    head.push(react_1.default.createElement("meta", {
+      name: "viewport",
+      content: "width=device-width,minimum-scale=1,initial-scale=1"
+    }));
+  }
+
+  return head;
+}
+
+exports.defaultHead = defaultHead;
+
+function onlyReactElement(list, child) {
+  // React children can be "string" or "number" in this case we ignore them for backwards compat
+  if (typeof child === 'string' || typeof child === 'number') {
+    return list;
+  } // Adds support for React.Fragment
+
+
+  if (child.type === react_1.default.Fragment) {
+    return list.concat(react_1.default.Children.toArray(child.props.children).reduce((fragmentList, fragmentChild) => {
+      if (typeof fragmentChild === 'string' || typeof fragmentChild === 'number') {
+        return fragmentList;
+      }
+
+      return fragmentList.concat(fragmentChild);
+    }, []));
+  }
+
+  return list.concat(child);
+}
+
+const METATYPES = ['name', 'httpEquiv', 'charSet', 'itemProp'];
+/*
+ returns a function for filtering head child elements
+ which shouldn't be duplicated, like <title/>
+ Also adds support for deduplicated `key` properties
+*/
+
+function unique() {
+  const keys = new _Set();
+  const tags = new _Set();
+  const metaTypes = new _Set();
+  const metaCategories = {};
+  return h => {
+    let unique = true;
+
+    if (h.key && typeof h.key !== 'number' && h.key.indexOf('$') > 0) {
+      const key = h.key.slice(h.key.indexOf('$') + 1);
+
+      if (keys.has(key)) {
+        unique = false;
+      } else {
+        keys.add(key);
+      }
+    } // eslint-disable-next-line default-case
+
+
+    switch (h.type) {
+      case 'title':
+      case 'base':
+        if (tags.has(h.type)) {
+          unique = false;
+        } else {
+          tags.add(h.type);
+        }
+
+        break;
+
+      case 'meta':
+        for (let i = 0, len = METATYPES.length; i < len; i++) {
+          const metatype = METATYPES[i];
+          if (!h.props.hasOwnProperty(metatype)) continue;
+
+          if (metatype === 'charSet') {
+            if (metaTypes.has(metatype)) {
+              unique = false;
+            } else {
+              metaTypes.add(metatype);
+            }
+          } else {
+            const category = h.props[metatype];
+            const categories = metaCategories[metatype] || new _Set();
+
+            if (categories.has(category)) {
+              unique = false;
+            } else {
+              categories.add(category);
+              metaCategories[metatype] = categories;
+            }
+          }
+        }
+
+        break;
+    }
+
+    return unique;
+  };
+}
+/**
+ *
+ * @param headElement List of multiple <Head> instances
+ */
+
+
+function reduceComponents(headElements, props) {
+  return headElements.reduce((list, headElement) => {
+    const headElementChildren = react_1.default.Children.toArray(headElement.props.children);
+    return list.concat(headElementChildren);
+  }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead(props.inAmpMode)).filter(unique()).reverse().map((c, i) => {
+    const key = c.key || i;
+    return react_1.default.cloneElement(c, {
+      key
+    });
+  });
+}
+
+const Effect = side_effect_1.default();
+/**
+ * This component injects elements to `<head>` of your page.
+ * To avoid duplicated `tags` in `<head>` you can use the `key` property, which will make sure every tag is only rendered once.
+ */
+
+function Head({
+  children
+}) {
+  return react_1.default.createElement(amp_context_1.AmpStateContext.Consumer, null, ampState => react_1.default.createElement(head_manager_context_1.HeadManagerContext.Consumer, null, updateHead => react_1.default.createElement(Effect, {
+    reduceComponentsToState: reduceComponents,
+    handleStateChange: updateHead,
+    inAmpMode: amp_1.isInAmpMode(ampState)
+  }, children)));
+}
+
+Head.rewind = Effect.rewind;
+exports.default = Head;
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/next-server/lib/side-effect.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/next/dist/next-server/lib/side-effect.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _Set = __webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js");
 
 var _Object$defineProperty = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
 
@@ -57815,259 +60728,60 @@ _Object$defineProperty(exports, "__esModule", {
   value: true
 });
 
-const url_1 = __webpack_require__(/*! url */ "./node_modules/url/url.js");
-/**
- * Utils
- */
+const react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
+const isServer = false;
 
-function execOnce(fn) {
-  let used = false;
-  let result = null;
-  return (...args) => {
-    if (!used) {
-      used = true;
-      result = fn.apply(this, args);
+exports.default = () => {
+  const mountedInstances = new _Set();
+  let state;
+
+  function emitChange(component) {
+    state = component.props.reduceComponentsToState([...mountedInstances], component.props);
+
+    if (component.props.handleStateChange) {
+      component.props.handleStateChange(state);
+    }
+  }
+
+  return class extends react_1.Component {
+    // Used when server rendering
+    static rewind() {
+      const recordedState = state;
+      state = undefined;
+      mountedInstances.clear();
+      return recordedState;
     }
 
-    return result;
+    constructor(props) {
+      super(props);
+
+      if (isServer) {
+        mountedInstances.add(this);
+        emitChange(this);
+      }
+    }
+
+    componentDidMount() {
+      mountedInstances.add(this);
+      emitChange(this);
+    }
+
+    componentDidUpdate() {
+      emitChange(this);
+    }
+
+    componentWillUnmount() {
+      mountedInstances.delete(this);
+      emitChange(this);
+    }
+
+    render() {
+      return null;
+    }
+
   };
-}
-
-exports.execOnce = execOnce;
-
-function getLocationOrigin() {
-  const {
-    protocol,
-    hostname,
-    port
-  } = window.location;
-  return "".concat(protocol, "//").concat(hostname).concat(port ? ':' + port : '');
-}
-
-exports.getLocationOrigin = getLocationOrigin;
-
-function getURL() {
-  const {
-    href
-  } = window.location;
-  const origin = getLocationOrigin();
-  return href.substring(origin.length);
-}
-
-exports.getURL = getURL;
-
-function getDisplayName(Component) {
-  return typeof Component === 'string' ? Component : Component.displayName || Component.name || 'Unknown';
-}
-
-exports.getDisplayName = getDisplayName;
-
-function isResSent(res) {
-  return res.finished || res.headersSent;
-}
-
-exports.isResSent = isResSent;
-
-async function loadGetInitialProps(App, ctx) {
-  var _a;
-
-  if (true) {
-    if ((_a = App.prototype) === null || _a === void 0 ? void 0 : _a.getInitialProps) {
-      const message = "\"".concat(getDisplayName(App), ".getInitialProps()\" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.");
-      throw new Error(message);
-    }
-  } // when called from _app `ctx` is nested in `ctx`
-
-
-  const res = ctx.res || ctx.ctx && ctx.ctx.res;
-
-  if (!App.getInitialProps) {
-    if (ctx.ctx && ctx.Component) {
-      // @ts-ignore pageProps default
-      return {
-        pageProps: await loadGetInitialProps(ctx.Component, ctx.ctx)
-      };
-    }
-
-    return {};
-  }
-
-  const props = await App.getInitialProps(ctx);
-
-  if (res && isResSent(res)) {
-    return props;
-  }
-
-  if (!props) {
-    const message = "\"".concat(getDisplayName(App), ".getInitialProps()\" should resolve to an object. But found \"").concat(props, "\" instead.");
-    throw new Error(message);
-  }
-
-  if (true) {
-    if (_Object$keys(props).length === 0 && !ctx.ctx) {
-      console.warn("".concat(getDisplayName(App), " returned an empty object from `getInitialProps`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps"));
-    }
-  }
-
-  return props;
-}
-
-exports.loadGetInitialProps = loadGetInitialProps;
-exports.urlObjectKeys = ['auth', 'hash', 'host', 'hostname', 'href', 'path', 'pathname', 'port', 'protocol', 'query', 'search', 'slashes'];
-
-function formatWithValidation(url, options) {
-  if (true) {
-    if (url !== null && typeof url === 'object') {
-      _Object$keys(url).forEach(key => {
-        if (exports.urlObjectKeys.indexOf(key) === -1) {
-          console.warn("Unknown key passed via urlObject into url.format: ".concat(key));
-        }
-      });
-    }
-  }
-
-  return url_1.format(url, options);
-}
-
-exports.formatWithValidation = formatWithValidation;
-exports.SP = typeof performance !== 'undefined';
-exports.ST = exports.SP && typeof performance.mark === 'function' && typeof performance.measure === 'function';
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/pages/_app.js":
-/*!**********************************************!*\
-  !*** ./node_modules/next/dist/pages/_app.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _Object$assign = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/next/dist/build/polyfills/object-assign.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.Container = Container;
-exports.createUrl = createUrl;
-exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _utils = __webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");
-
-exports.AppInitialProps = _utils.AppInitialProps;
-/**
-* `App` component is used for initialize of pages. It allows for overwriting and full control of the `page` initialization.
-* This allows for keeping state between navigation, custom error handling, injecting additional data.
-*/
-
-async function appGetInitialProps(_ref) {
-  var {
-    Component,
-    ctx
-  } = _ref;
-  var pageProps = await (0, _utils.loadGetInitialProps)(Component, ctx);
-  return {
-    pageProps
-  };
-}
-
-class App extends _react.default.Component {
-  // Kept here for backwards compatibility.
-  // When someone ended App they could call `super.componentDidCatch`.
-  // @deprecated This method is no longer needed. Errors are caught at the top level
-  componentDidCatch(error, _errorInfo) {
-    throw error;
-  }
-
-  render() {
-    var {
-      router,
-      Component,
-      pageProps
-    } = this.props;
-    var url = createUrl(router);
-    return _react.default.createElement(Component, _Object$assign({}, pageProps, {
-      url: url
-    }));
-  }
-
-}
-
-exports.default = App;
-App.origGetInitialProps = appGetInitialProps;
-App.getInitialProps = appGetInitialProps;
-var warnContainer;
-var warnUrl;
-
-if (true) {
-  warnContainer = (0, _utils.execOnce)(() => {
-    console.warn("Warning: the `Container` in `_app` has been deprecated and should be removed. https://err.sh/zeit/next.js/app-container-deprecated");
-  });
-  warnUrl = (0, _utils.execOnce)(() => {
-    console.error("Warning: the 'url' property is deprecated. https://err.sh/zeit/next.js/url-deprecated");
-  });
-} // @deprecated noop for now until removal
-
-
-function Container(p) {
-  if (true) warnContainer();
-  return p.children;
-}
-
-function createUrl(router) {
-  // This is to make sure we don't references the router object at call time
-  var {
-    pathname,
-    asPath,
-    query
-  } = router;
-  return {
-    get query() {
-      if (true) warnUrl();
-      return query;
-    },
-
-    get pathname() {
-      if (true) warnUrl();
-      return pathname;
-    },
-
-    get asPath() {
-      if (true) warnUrl();
-      return asPath;
-    },
-
-    back: () => {
-      if (true) warnUrl();
-      router.back();
-    },
-    push: (url, as) => {
-      if (true) warnUrl();
-      return router.push(url, as);
-    },
-    pushTo: (href, as) => {
-      if (true) warnUrl();
-      var pushRoute = as ? href : '';
-      var pushUrl = as || href;
-      return router.push(pushRoute, pushUrl);
-    },
-    replace: (url, as) => {
-      if (true) warnUrl();
-      return router.replace(url, as);
-    },
-    replaceTo: (href, as) => {
-      if (true) warnUrl();
-      var replaceRoute = as ? href : '';
-      var replaceUrl = as || href;
-      return router.replace(replaceRoute, replaceUrl);
-    }
-  };
-}
+};
 
 /***/ }),
 
@@ -58132,537 +60846,6 @@ module.exports = function(module) {
 	return module;
 };
 
-
-/***/ }),
-
-/***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
-;(function(root) {
-
-	/** Detect free variables */
-	var freeExports =  true && exports &&
-		!exports.nodeType && exports;
-	var freeModule =  true && module &&
-		!module.nodeType && module;
-	var freeGlobal = typeof global == 'object' && global;
-	if (
-		freeGlobal.global === freeGlobal ||
-		freeGlobal.window === freeGlobal ||
-		freeGlobal.self === freeGlobal
-	) {
-		root = freeGlobal;
-	}
-
-	/**
-	 * The `punycode` object.
-	 * @name punycode
-	 * @type Object
-	 */
-	var punycode,
-
-	/** Highest positive signed 32-bit float value */
-	maxInt = 2147483647, // aka. 0x7FFFFFFF or 2^31-1
-
-	/** Bootstring parameters */
-	base = 36,
-	tMin = 1,
-	tMax = 26,
-	skew = 38,
-	damp = 700,
-	initialBias = 72,
-	initialN = 128, // 0x80
-	delimiter = '-', // '\x2D'
-
-	/** Regular expressions */
-	regexPunycode = /^xn--/,
-	regexNonASCII = /[^\x20-\x7E]/, // unprintable ASCII chars + non-ASCII chars
-	regexSeparators = /[\x2E\u3002\uFF0E\uFF61]/g, // RFC 3490 separators
-
-	/** Error messages */
-	errors = {
-		'overflow': 'Overflow: input needs wider integers to process',
-		'not-basic': 'Illegal input >= 0x80 (not a basic code point)',
-		'invalid-input': 'Invalid input'
-	},
-
-	/** Convenience shortcuts */
-	baseMinusTMin = base - tMin,
-	floor = Math.floor,
-	stringFromCharCode = String.fromCharCode,
-
-	/** Temporary variable */
-	key;
-
-	/*--------------------------------------------------------------------------*/
-
-	/**
-	 * A generic error utility function.
-	 * @private
-	 * @param {String} type The error type.
-	 * @returns {Error} Throws a `RangeError` with the applicable error message.
-	 */
-	function error(type) {
-		throw new RangeError(errors[type]);
-	}
-
-	/**
-	 * A generic `Array#map` utility function.
-	 * @private
-	 * @param {Array} array The array to iterate over.
-	 * @param {Function} callback The function that gets called for every array
-	 * item.
-	 * @returns {Array} A new array of values returned by the callback function.
-	 */
-	function map(array, fn) {
-		var length = array.length;
-		var result = [];
-		while (length--) {
-			result[length] = fn(array[length]);
-		}
-		return result;
-	}
-
-	/**
-	 * A simple `Array#map`-like wrapper to work with domain name strings or email
-	 * addresses.
-	 * @private
-	 * @param {String} domain The domain name or email address.
-	 * @param {Function} callback The function that gets called for every
-	 * character.
-	 * @returns {Array} A new string of characters returned by the callback
-	 * function.
-	 */
-	function mapDomain(string, fn) {
-		var parts = string.split('@');
-		var result = '';
-		if (parts.length > 1) {
-			// In email addresses, only the domain name should be punycoded. Leave
-			// the local part (i.e. everything up to `@`) intact.
-			result = parts[0] + '@';
-			string = parts[1];
-		}
-		// Avoid `split(regex)` for IE8 compatibility. See #17.
-		string = string.replace(regexSeparators, '\x2E');
-		var labels = string.split('.');
-		var encoded = map(labels, fn).join('.');
-		return result + encoded;
-	}
-
-	/**
-	 * Creates an array containing the numeric code points of each Unicode
-	 * character in the string. While JavaScript uses UCS-2 internally,
-	 * this function will convert a pair of surrogate halves (each of which
-	 * UCS-2 exposes as separate characters) into a single code point,
-	 * matching UTF-16.
-	 * @see `punycode.ucs2.encode`
-	 * @see <https://mathiasbynens.be/notes/javascript-encoding>
-	 * @memberOf punycode.ucs2
-	 * @name decode
-	 * @param {String} string The Unicode input string (UCS-2).
-	 * @returns {Array} The new array of code points.
-	 */
-	function ucs2decode(string) {
-		var output = [],
-		    counter = 0,
-		    length = string.length,
-		    value,
-		    extra;
-		while (counter < length) {
-			value = string.charCodeAt(counter++);
-			if (value >= 0xD800 && value <= 0xDBFF && counter < length) {
-				// high surrogate, and there is a next character
-				extra = string.charCodeAt(counter++);
-				if ((extra & 0xFC00) == 0xDC00) { // low surrogate
-					output.push(((value & 0x3FF) << 10) + (extra & 0x3FF) + 0x10000);
-				} else {
-					// unmatched surrogate; only append this code unit, in case the next
-					// code unit is the high surrogate of a surrogate pair
-					output.push(value);
-					counter--;
-				}
-			} else {
-				output.push(value);
-			}
-		}
-		return output;
-	}
-
-	/**
-	 * Creates a string based on an array of numeric code points.
-	 * @see `punycode.ucs2.decode`
-	 * @memberOf punycode.ucs2
-	 * @name encode
-	 * @param {Array} codePoints The array of numeric code points.
-	 * @returns {String} The new Unicode string (UCS-2).
-	 */
-	function ucs2encode(array) {
-		return map(array, function(value) {
-			var output = '';
-			if (value > 0xFFFF) {
-				value -= 0x10000;
-				output += stringFromCharCode(value >>> 10 & 0x3FF | 0xD800);
-				value = 0xDC00 | value & 0x3FF;
-			}
-			output += stringFromCharCode(value);
-			return output;
-		}).join('');
-	}
-
-	/**
-	 * Converts a basic code point into a digit/integer.
-	 * @see `digitToBasic()`
-	 * @private
-	 * @param {Number} codePoint The basic numeric code point value.
-	 * @returns {Number} The numeric value of a basic code point (for use in
-	 * representing integers) in the range `0` to `base - 1`, or `base` if
-	 * the code point does not represent a value.
-	 */
-	function basicToDigit(codePoint) {
-		if (codePoint - 48 < 10) {
-			return codePoint - 22;
-		}
-		if (codePoint - 65 < 26) {
-			return codePoint - 65;
-		}
-		if (codePoint - 97 < 26) {
-			return codePoint - 97;
-		}
-		return base;
-	}
-
-	/**
-	 * Converts a digit/integer into a basic code point.
-	 * @see `basicToDigit()`
-	 * @private
-	 * @param {Number} digit The numeric value of a basic code point.
-	 * @returns {Number} The basic code point whose value (when used for
-	 * representing integers) is `digit`, which needs to be in the range
-	 * `0` to `base - 1`. If `flag` is non-zero, the uppercase form is
-	 * used; else, the lowercase form is used. The behavior is undefined
-	 * if `flag` is non-zero and `digit` has no uppercase form.
-	 */
-	function digitToBasic(digit, flag) {
-		//  0..25 map to ASCII a..z or A..Z
-		// 26..35 map to ASCII 0..9
-		return digit + 22 + 75 * (digit < 26) - ((flag != 0) << 5);
-	}
-
-	/**
-	 * Bias adaptation function as per section 3.4 of RFC 3492.
-	 * https://tools.ietf.org/html/rfc3492#section-3.4
-	 * @private
-	 */
-	function adapt(delta, numPoints, firstTime) {
-		var k = 0;
-		delta = firstTime ? floor(delta / damp) : delta >> 1;
-		delta += floor(delta / numPoints);
-		for (/* no initialization */; delta > baseMinusTMin * tMax >> 1; k += base) {
-			delta = floor(delta / baseMinusTMin);
-		}
-		return floor(k + (baseMinusTMin + 1) * delta / (delta + skew));
-	}
-
-	/**
-	 * Converts a Punycode string of ASCII-only symbols to a string of Unicode
-	 * symbols.
-	 * @memberOf punycode
-	 * @param {String} input The Punycode string of ASCII-only symbols.
-	 * @returns {String} The resulting string of Unicode symbols.
-	 */
-	function decode(input) {
-		// Don't use UCS-2
-		var output = [],
-		    inputLength = input.length,
-		    out,
-		    i = 0,
-		    n = initialN,
-		    bias = initialBias,
-		    basic,
-		    j,
-		    index,
-		    oldi,
-		    w,
-		    k,
-		    digit,
-		    t,
-		    /** Cached calculation results */
-		    baseMinusT;
-
-		// Handle the basic code points: let `basic` be the number of input code
-		// points before the last delimiter, or `0` if there is none, then copy
-		// the first basic code points to the output.
-
-		basic = input.lastIndexOf(delimiter);
-		if (basic < 0) {
-			basic = 0;
-		}
-
-		for (j = 0; j < basic; ++j) {
-			// if it's not a basic code point
-			if (input.charCodeAt(j) >= 0x80) {
-				error('not-basic');
-			}
-			output.push(input.charCodeAt(j));
-		}
-
-		// Main decoding loop: start just after the last delimiter if any basic code
-		// points were copied; start at the beginning otherwise.
-
-		for (index = basic > 0 ? basic + 1 : 0; index < inputLength; /* no final expression */) {
-
-			// `index` is the index of the next character to be consumed.
-			// Decode a generalized variable-length integer into `delta`,
-			// which gets added to `i`. The overflow checking is easier
-			// if we increase `i` as we go, then subtract off its starting
-			// value at the end to obtain `delta`.
-			for (oldi = i, w = 1, k = base; /* no condition */; k += base) {
-
-				if (index >= inputLength) {
-					error('invalid-input');
-				}
-
-				digit = basicToDigit(input.charCodeAt(index++));
-
-				if (digit >= base || digit > floor((maxInt - i) / w)) {
-					error('overflow');
-				}
-
-				i += digit * w;
-				t = k <= bias ? tMin : (k >= bias + tMax ? tMax : k - bias);
-
-				if (digit < t) {
-					break;
-				}
-
-				baseMinusT = base - t;
-				if (w > floor(maxInt / baseMinusT)) {
-					error('overflow');
-				}
-
-				w *= baseMinusT;
-
-			}
-
-			out = output.length + 1;
-			bias = adapt(i - oldi, out, oldi == 0);
-
-			// `i` was supposed to wrap around from `out` to `0`,
-			// incrementing `n` each time, so we'll fix that now:
-			if (floor(i / out) > maxInt - n) {
-				error('overflow');
-			}
-
-			n += floor(i / out);
-			i %= out;
-
-			// Insert `n` at position `i` of the output
-			output.splice(i++, 0, n);
-
-		}
-
-		return ucs2encode(output);
-	}
-
-	/**
-	 * Converts a string of Unicode symbols (e.g. a domain name label) to a
-	 * Punycode string of ASCII-only symbols.
-	 * @memberOf punycode
-	 * @param {String} input The string of Unicode symbols.
-	 * @returns {String} The resulting Punycode string of ASCII-only symbols.
-	 */
-	function encode(input) {
-		var n,
-		    delta,
-		    handledCPCount,
-		    basicLength,
-		    bias,
-		    j,
-		    m,
-		    q,
-		    k,
-		    t,
-		    currentValue,
-		    output = [],
-		    /** `inputLength` will hold the number of code points in `input`. */
-		    inputLength,
-		    /** Cached calculation results */
-		    handledCPCountPlusOne,
-		    baseMinusT,
-		    qMinusT;
-
-		// Convert the input in UCS-2 to Unicode
-		input = ucs2decode(input);
-
-		// Cache the length
-		inputLength = input.length;
-
-		// Initialize the state
-		n = initialN;
-		delta = 0;
-		bias = initialBias;
-
-		// Handle the basic code points
-		for (j = 0; j < inputLength; ++j) {
-			currentValue = input[j];
-			if (currentValue < 0x80) {
-				output.push(stringFromCharCode(currentValue));
-			}
-		}
-
-		handledCPCount = basicLength = output.length;
-
-		// `handledCPCount` is the number of code points that have been handled;
-		// `basicLength` is the number of basic code points.
-
-		// Finish the basic string - if it is not empty - with a delimiter
-		if (basicLength) {
-			output.push(delimiter);
-		}
-
-		// Main encoding loop:
-		while (handledCPCount < inputLength) {
-
-			// All non-basic code points < n have been handled already. Find the next
-			// larger one:
-			for (m = maxInt, j = 0; j < inputLength; ++j) {
-				currentValue = input[j];
-				if (currentValue >= n && currentValue < m) {
-					m = currentValue;
-				}
-			}
-
-			// Increase `delta` enough to advance the decoder's <n,i> state to <m,0>,
-			// but guard against overflow
-			handledCPCountPlusOne = handledCPCount + 1;
-			if (m - n > floor((maxInt - delta) / handledCPCountPlusOne)) {
-				error('overflow');
-			}
-
-			delta += (m - n) * handledCPCountPlusOne;
-			n = m;
-
-			for (j = 0; j < inputLength; ++j) {
-				currentValue = input[j];
-
-				if (currentValue < n && ++delta > maxInt) {
-					error('overflow');
-				}
-
-				if (currentValue == n) {
-					// Represent delta as a generalized variable-length integer
-					for (q = delta, k = base; /* no condition */; k += base) {
-						t = k <= bias ? tMin : (k >= bias + tMax ? tMax : k - bias);
-						if (q < t) {
-							break;
-						}
-						qMinusT = q - t;
-						baseMinusT = base - t;
-						output.push(
-							stringFromCharCode(digitToBasic(t + qMinusT % baseMinusT, 0))
-						);
-						q = floor(qMinusT / baseMinusT);
-					}
-
-					output.push(stringFromCharCode(digitToBasic(q, 0)));
-					bias = adapt(delta, handledCPCountPlusOne, handledCPCount == basicLength);
-					delta = 0;
-					++handledCPCount;
-				}
-			}
-
-			++delta;
-			++n;
-
-		}
-		return output.join('');
-	}
-
-	/**
-	 * Converts a Punycode string representing a domain name or an email address
-	 * to Unicode. Only the Punycoded parts of the input will be converted, i.e.
-	 * it doesn't matter if you call it on a string that has already been
-	 * converted to Unicode.
-	 * @memberOf punycode
-	 * @param {String} input The Punycoded domain name or email address to
-	 * convert to Unicode.
-	 * @returns {String} The Unicode representation of the given Punycode
-	 * string.
-	 */
-	function toUnicode(input) {
-		return mapDomain(input, function(string) {
-			return regexPunycode.test(string)
-				? decode(string.slice(4).toLowerCase())
-				: string;
-		});
-	}
-
-	/**
-	 * Converts a Unicode string representing a domain name or an email address to
-	 * Punycode. Only the non-ASCII parts of the domain name will be converted,
-	 * i.e. it doesn't matter if you call it with a domain that's already in
-	 * ASCII.
-	 * @memberOf punycode
-	 * @param {String} input The domain name or email address to convert, as a
-	 * Unicode string.
-	 * @returns {String} The Punycode representation of the given domain name or
-	 * email address.
-	 */
-	function toASCII(input) {
-		return mapDomain(input, function(string) {
-			return regexNonASCII.test(string)
-				? 'xn--' + encode(string)
-				: string;
-		});
-	}
-
-	/*--------------------------------------------------------------------------*/
-
-	/** Define the public API */
-	punycode = {
-		/**
-		 * A string representing the current Punycode.js version number.
-		 * @memberOf punycode
-		 * @type String
-		 */
-		'version': '1.4.1',
-		/**
-		 * An object of methods to convert from JavaScript's internal character
-		 * representation (UCS-2) to Unicode code points, and back.
-		 * @see <https://mathiasbynens.be/notes/javascript-encoding>
-		 * @memberOf punycode
-		 * @type Object
-		 */
-		'ucs2': {
-			'decode': ucs2decode,
-			'encode': ucs2encode
-		},
-		'decode': decode,
-		'encode': encode,
-		'toASCII': toASCII,
-		'toUnicode': toUnicode
-	};
-
-	/** Expose `punycode` */
-	// Some AMD build optimizers, like r.js, check for specific condition patterns
-	// like the following:
-	if (
-		true
-	) {
-		!(__WEBPACK_AMD_DEFINE_RESULT__ = (function() {
-			return punycode;
-		}).call(exports, __webpack_require__, exports, module),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	} else {}
-
-}(this));
-
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../next/node_modules/webpack/buildin/module.js */ "./node_modules/next/node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../next/node_modules/webpack/buildin/global.js */ "./node_modules/next/node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -62379,215 +64562,6 @@ if (true) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = (__webpack_require__(/*! dll-reference dll_5f137288facb1107b491 */ "dll-reference dll_5f137288facb1107b491"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/decode.js":
-/*!************************************************!*\
-  !*** ./node_modules/querystring-es3/decode.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-// If obj.hasOwnProperty has been overridden, then calling
-// obj.hasOwnProperty(prop) will break.
-// See: https://github.com/joyent/node/issues/1707
-function hasOwnProperty(obj, prop) {
-  return Object.prototype.hasOwnProperty.call(obj, prop);
-}
-
-module.exports = function(qs, sep, eq, options) {
-  sep = sep || '&';
-  eq = eq || '=';
-  var obj = {};
-
-  if (typeof qs !== 'string' || qs.length === 0) {
-    return obj;
-  }
-
-  var regexp = /\+/g;
-  qs = qs.split(sep);
-
-  var maxKeys = 1000;
-  if (options && typeof options.maxKeys === 'number') {
-    maxKeys = options.maxKeys;
-  }
-
-  var len = qs.length;
-  // maxKeys <= 0 means that we should not limit keys count
-  if (maxKeys > 0 && len > maxKeys) {
-    len = maxKeys;
-  }
-
-  for (var i = 0; i < len; ++i) {
-    var x = qs[i].replace(regexp, '%20'),
-        idx = x.indexOf(eq),
-        kstr, vstr, k, v;
-
-    if (idx >= 0) {
-      kstr = x.substr(0, idx);
-      vstr = x.substr(idx + 1);
-    } else {
-      kstr = x;
-      vstr = '';
-    }
-
-    k = decodeURIComponent(kstr);
-    v = decodeURIComponent(vstr);
-
-    if (!hasOwnProperty(obj, k)) {
-      obj[k] = v;
-    } else if (isArray(obj[k])) {
-      obj[k].push(v);
-    } else {
-      obj[k] = [obj[k], v];
-    }
-  }
-
-  return obj;
-};
-
-var isArray = Array.isArray || function (xs) {
-  return Object.prototype.toString.call(xs) === '[object Array]';
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/encode.js":
-/*!************************************************!*\
-  !*** ./node_modules/querystring-es3/encode.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-var stringifyPrimitive = function(v) {
-  switch (typeof v) {
-    case 'string':
-      return v;
-
-    case 'boolean':
-      return v ? 'true' : 'false';
-
-    case 'number':
-      return isFinite(v) ? v : '';
-
-    default:
-      return '';
-  }
-};
-
-module.exports = function(obj, sep, eq, name) {
-  sep = sep || '&';
-  eq = eq || '=';
-  if (obj === null) {
-    obj = undefined;
-  }
-
-  if (typeof obj === 'object') {
-    return map(objectKeys(obj), function(k) {
-      var ks = encodeURIComponent(stringifyPrimitive(k)) + eq;
-      if (isArray(obj[k])) {
-        return map(obj[k], function(v) {
-          return ks + encodeURIComponent(stringifyPrimitive(v));
-        }).join(sep);
-      } else {
-        return ks + encodeURIComponent(stringifyPrimitive(obj[k]));
-      }
-    }).join(sep);
-
-  }
-
-  if (!name) return '';
-  return encodeURIComponent(stringifyPrimitive(name)) + eq +
-         encodeURIComponent(stringifyPrimitive(obj));
-};
-
-var isArray = Array.isArray || function (xs) {
-  return Object.prototype.toString.call(xs) === '[object Array]';
-};
-
-function map (xs, f) {
-  if (xs.map) return xs.map(f);
-  var res = [];
-  for (var i = 0; i < xs.length; i++) {
-    res.push(f(xs[i], i));
-  }
-  return res;
-}
-
-var objectKeys = Object.keys || function (obj) {
-  var res = [];
-  for (var key in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) res.push(key);
-  }
-  return res;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/index.js":
-/*!***********************************************!*\
-  !*** ./node_modules/querystring-es3/index.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
-exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
-
 
 /***/ }),
 
@@ -90917,778 +92891,6 @@ module.exports = function shallowEqual(objA, objB, compare, compareContext) {
 
 /***/ }),
 
-/***/ "./node_modules/url/url.js":
-/*!*********************************!*\
-  !*** ./node_modules/url/url.js ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-var punycode = __webpack_require__(/*! punycode */ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js");
-var util = __webpack_require__(/*! ./util */ "./node_modules/url/util.js");
-
-exports.parse = urlParse;
-exports.resolve = urlResolve;
-exports.resolveObject = urlResolveObject;
-exports.format = urlFormat;
-
-exports.Url = Url;
-
-function Url() {
-  this.protocol = null;
-  this.slashes = null;
-  this.auth = null;
-  this.host = null;
-  this.port = null;
-  this.hostname = null;
-  this.hash = null;
-  this.search = null;
-  this.query = null;
-  this.pathname = null;
-  this.path = null;
-  this.href = null;
-}
-
-// Reference: RFC 3986, RFC 1808, RFC 2396
-
-// define these here so at least they only have to be
-// compiled once on the first module load.
-var protocolPattern = /^([a-z0-9.+-]+:)/i,
-    portPattern = /:[0-9]*$/,
-
-    // Special case for a simple path URL
-    simplePathPattern = /^(\/\/?(?!\/)[^\?\s]*)(\?[^\s]*)?$/,
-
-    // RFC 2396: characters reserved for delimiting URLs.
-    // We actually just auto-escape these.
-    delims = ['<', '>', '"', '`', ' ', '\r', '\n', '\t'],
-
-    // RFC 2396: characters not allowed for various reasons.
-    unwise = ['{', '}', '|', '\\', '^', '`'].concat(delims),
-
-    // Allowed by RFCs, but cause of XSS attacks.  Always escape these.
-    autoEscape = ['\''].concat(unwise),
-    // Characters that are never ever allowed in a hostname.
-    // Note that any invalid chars are also handled, but these
-    // are the ones that are *expected* to be seen, so we fast-path
-    // them.
-    nonHostChars = ['%', '/', '?', ';', '#'].concat(autoEscape),
-    hostEndingChars = ['/', '?', '#'],
-    hostnameMaxLen = 255,
-    hostnamePartPattern = /^[+a-z0-9A-Z_-]{0,63}$/,
-    hostnamePartStart = /^([+a-z0-9A-Z_-]{0,63})(.*)$/,
-    // protocols that can allow "unsafe" and "unwise" chars.
-    unsafeProtocol = {
-      'javascript': true,
-      'javascript:': true
-    },
-    // protocols that never have a hostname.
-    hostlessProtocol = {
-      'javascript': true,
-      'javascript:': true
-    },
-    // protocols that always contain a // bit.
-    slashedProtocol = {
-      'http': true,
-      'https': true,
-      'ftp': true,
-      'gopher': true,
-      'file': true,
-      'http:': true,
-      'https:': true,
-      'ftp:': true,
-      'gopher:': true,
-      'file:': true
-    },
-    querystring = __webpack_require__(/*! querystring */ "./node_modules/querystring-es3/index.js");
-
-function urlParse(url, parseQueryString, slashesDenoteHost) {
-  if (url && util.isObject(url) && url instanceof Url) return url;
-
-  var u = new Url;
-  u.parse(url, parseQueryString, slashesDenoteHost);
-  return u;
-}
-
-Url.prototype.parse = function(url, parseQueryString, slashesDenoteHost) {
-  if (!util.isString(url)) {
-    throw new TypeError("Parameter 'url' must be a string, not " + typeof url);
-  }
-
-  // Copy chrome, IE, opera backslash-handling behavior.
-  // Back slashes before the query string get converted to forward slashes
-  // See: https://code.google.com/p/chromium/issues/detail?id=25916
-  var queryIndex = url.indexOf('?'),
-      splitter =
-          (queryIndex !== -1 && queryIndex < url.indexOf('#')) ? '?' : '#',
-      uSplit = url.split(splitter),
-      slashRegex = /\\/g;
-  uSplit[0] = uSplit[0].replace(slashRegex, '/');
-  url = uSplit.join(splitter);
-
-  var rest = url;
-
-  // trim before proceeding.
-  // This is to support parse stuff like "  http://foo.com  \n"
-  rest = rest.trim();
-
-  if (!slashesDenoteHost && url.split('#').length === 1) {
-    // Try fast path regexp
-    var simplePath = simplePathPattern.exec(rest);
-    if (simplePath) {
-      this.path = rest;
-      this.href = rest;
-      this.pathname = simplePath[1];
-      if (simplePath[2]) {
-        this.search = simplePath[2];
-        if (parseQueryString) {
-          this.query = querystring.parse(this.search.substr(1));
-        } else {
-          this.query = this.search.substr(1);
-        }
-      } else if (parseQueryString) {
-        this.search = '';
-        this.query = {};
-      }
-      return this;
-    }
-  }
-
-  var proto = protocolPattern.exec(rest);
-  if (proto) {
-    proto = proto[0];
-    var lowerProto = proto.toLowerCase();
-    this.protocol = lowerProto;
-    rest = rest.substr(proto.length);
-  }
-
-  // figure out if it's got a host
-  // user@server is *always* interpreted as a hostname, and url
-  // resolution will treat //foo/bar as host=foo,path=bar because that's
-  // how the browser resolves relative URLs.
-  if (slashesDenoteHost || proto || rest.match(/^\/\/[^@\/]+@[^@\/]+/)) {
-    var slashes = rest.substr(0, 2) === '//';
-    if (slashes && !(proto && hostlessProtocol[proto])) {
-      rest = rest.substr(2);
-      this.slashes = true;
-    }
-  }
-
-  if (!hostlessProtocol[proto] &&
-      (slashes || (proto && !slashedProtocol[proto]))) {
-
-    // there's a hostname.
-    // the first instance of /, ?, ;, or # ends the host.
-    //
-    // If there is an @ in the hostname, then non-host chars *are* allowed
-    // to the left of the last @ sign, unless some host-ending character
-    // comes *before* the @-sign.
-    // URLs are obnoxious.
-    //
-    // ex:
-    // http://a@b@c/ => user:a@b host:c
-    // http://a@b?@c => user:a host:c path:/?@c
-
-    // v0.12 TODO(isaacs): This is not quite how Chrome does things.
-    // Review our test case against browsers more comprehensively.
-
-    // find the first instance of any hostEndingChars
-    var hostEnd = -1;
-    for (var i = 0; i < hostEndingChars.length; i++) {
-      var hec = rest.indexOf(hostEndingChars[i]);
-      if (hec !== -1 && (hostEnd === -1 || hec < hostEnd))
-        hostEnd = hec;
-    }
-
-    // at this point, either we have an explicit point where the
-    // auth portion cannot go past, or the last @ char is the decider.
-    var auth, atSign;
-    if (hostEnd === -1) {
-      // atSign can be anywhere.
-      atSign = rest.lastIndexOf('@');
-    } else {
-      // atSign must be in auth portion.
-      // http://a@b/c@d => host:b auth:a path:/c@d
-      atSign = rest.lastIndexOf('@', hostEnd);
-    }
-
-    // Now we have a portion which is definitely the auth.
-    // Pull that off.
-    if (atSign !== -1) {
-      auth = rest.slice(0, atSign);
-      rest = rest.slice(atSign + 1);
-      this.auth = decodeURIComponent(auth);
-    }
-
-    // the host is the remaining to the left of the first non-host char
-    hostEnd = -1;
-    for (var i = 0; i < nonHostChars.length; i++) {
-      var hec = rest.indexOf(nonHostChars[i]);
-      if (hec !== -1 && (hostEnd === -1 || hec < hostEnd))
-        hostEnd = hec;
-    }
-    // if we still have not hit it, then the entire thing is a host.
-    if (hostEnd === -1)
-      hostEnd = rest.length;
-
-    this.host = rest.slice(0, hostEnd);
-    rest = rest.slice(hostEnd);
-
-    // pull out port.
-    this.parseHost();
-
-    // we've indicated that there is a hostname,
-    // so even if it's empty, it has to be present.
-    this.hostname = this.hostname || '';
-
-    // if hostname begins with [ and ends with ]
-    // assume that it's an IPv6 address.
-    var ipv6Hostname = this.hostname[0] === '[' &&
-        this.hostname[this.hostname.length - 1] === ']';
-
-    // validate a little.
-    if (!ipv6Hostname) {
-      var hostparts = this.hostname.split(/\./);
-      for (var i = 0, l = hostparts.length; i < l; i++) {
-        var part = hostparts[i];
-        if (!part) continue;
-        if (!part.match(hostnamePartPattern)) {
-          var newpart = '';
-          for (var j = 0, k = part.length; j < k; j++) {
-            if (part.charCodeAt(j) > 127) {
-              // we replace non-ASCII char with a temporary placeholder
-              // we need this to make sure size of hostname is not
-              // broken by replacing non-ASCII by nothing
-              newpart += 'x';
-            } else {
-              newpart += part[j];
-            }
-          }
-          // we test again with ASCII char only
-          if (!newpart.match(hostnamePartPattern)) {
-            var validParts = hostparts.slice(0, i);
-            var notHost = hostparts.slice(i + 1);
-            var bit = part.match(hostnamePartStart);
-            if (bit) {
-              validParts.push(bit[1]);
-              notHost.unshift(bit[2]);
-            }
-            if (notHost.length) {
-              rest = '/' + notHost.join('.') + rest;
-            }
-            this.hostname = validParts.join('.');
-            break;
-          }
-        }
-      }
-    }
-
-    if (this.hostname.length > hostnameMaxLen) {
-      this.hostname = '';
-    } else {
-      // hostnames are always lower case.
-      this.hostname = this.hostname.toLowerCase();
-    }
-
-    if (!ipv6Hostname) {
-      // IDNA Support: Returns a punycoded representation of "domain".
-      // It only converts parts of the domain name that
-      // have non-ASCII characters, i.e. it doesn't matter if
-      // you call it with a domain that already is ASCII-only.
-      this.hostname = punycode.toASCII(this.hostname);
-    }
-
-    var p = this.port ? ':' + this.port : '';
-    var h = this.hostname || '';
-    this.host = h + p;
-    this.href += this.host;
-
-    // strip [ and ] from the hostname
-    // the host field still retains them, though
-    if (ipv6Hostname) {
-      this.hostname = this.hostname.substr(1, this.hostname.length - 2);
-      if (rest[0] !== '/') {
-        rest = '/' + rest;
-      }
-    }
-  }
-
-  // now rest is set to the post-host stuff.
-  // chop off any delim chars.
-  if (!unsafeProtocol[lowerProto]) {
-
-    // First, make 100% sure that any "autoEscape" chars get
-    // escaped, even if encodeURIComponent doesn't think they
-    // need to be.
-    for (var i = 0, l = autoEscape.length; i < l; i++) {
-      var ae = autoEscape[i];
-      if (rest.indexOf(ae) === -1)
-        continue;
-      var esc = encodeURIComponent(ae);
-      if (esc === ae) {
-        esc = escape(ae);
-      }
-      rest = rest.split(ae).join(esc);
-    }
-  }
-
-
-  // chop off from the tail first.
-  var hash = rest.indexOf('#');
-  if (hash !== -1) {
-    // got a fragment string.
-    this.hash = rest.substr(hash);
-    rest = rest.slice(0, hash);
-  }
-  var qm = rest.indexOf('?');
-  if (qm !== -1) {
-    this.search = rest.substr(qm);
-    this.query = rest.substr(qm + 1);
-    if (parseQueryString) {
-      this.query = querystring.parse(this.query);
-    }
-    rest = rest.slice(0, qm);
-  } else if (parseQueryString) {
-    // no query string, but parseQueryString still requested
-    this.search = '';
-    this.query = {};
-  }
-  if (rest) this.pathname = rest;
-  if (slashedProtocol[lowerProto] &&
-      this.hostname && !this.pathname) {
-    this.pathname = '/';
-  }
-
-  //to support http.request
-  if (this.pathname || this.search) {
-    var p = this.pathname || '';
-    var s = this.search || '';
-    this.path = p + s;
-  }
-
-  // finally, reconstruct the href based on what has been validated.
-  this.href = this.format();
-  return this;
-};
-
-// format a parsed object into a url string
-function urlFormat(obj) {
-  // ensure it's an object, and not a string url.
-  // If it's an obj, this is a no-op.
-  // this way, you can call url_format() on strings
-  // to clean up potentially wonky urls.
-  if (util.isString(obj)) obj = urlParse(obj);
-  if (!(obj instanceof Url)) return Url.prototype.format.call(obj);
-  return obj.format();
-}
-
-Url.prototype.format = function() {
-  var auth = this.auth || '';
-  if (auth) {
-    auth = encodeURIComponent(auth);
-    auth = auth.replace(/%3A/i, ':');
-    auth += '@';
-  }
-
-  var protocol = this.protocol || '',
-      pathname = this.pathname || '',
-      hash = this.hash || '',
-      host = false,
-      query = '';
-
-  if (this.host) {
-    host = auth + this.host;
-  } else if (this.hostname) {
-    host = auth + (this.hostname.indexOf(':') === -1 ?
-        this.hostname :
-        '[' + this.hostname + ']');
-    if (this.port) {
-      host += ':' + this.port;
-    }
-  }
-
-  if (this.query &&
-      util.isObject(this.query) &&
-      Object.keys(this.query).length) {
-    query = querystring.stringify(this.query);
-  }
-
-  var search = this.search || (query && ('?' + query)) || '';
-
-  if (protocol && protocol.substr(-1) !== ':') protocol += ':';
-
-  // only the slashedProtocols get the //.  Not mailto:, xmpp:, etc.
-  // unless they had them to begin with.
-  if (this.slashes ||
-      (!protocol || slashedProtocol[protocol]) && host !== false) {
-    host = '//' + (host || '');
-    if (pathname && pathname.charAt(0) !== '/') pathname = '/' + pathname;
-  } else if (!host) {
-    host = '';
-  }
-
-  if (hash && hash.charAt(0) !== '#') hash = '#' + hash;
-  if (search && search.charAt(0) !== '?') search = '?' + search;
-
-  pathname = pathname.replace(/[?#]/g, function(match) {
-    return encodeURIComponent(match);
-  });
-  search = search.replace('#', '%23');
-
-  return protocol + host + pathname + search + hash;
-};
-
-function urlResolve(source, relative) {
-  return urlParse(source, false, true).resolve(relative);
-}
-
-Url.prototype.resolve = function(relative) {
-  return this.resolveObject(urlParse(relative, false, true)).format();
-};
-
-function urlResolveObject(source, relative) {
-  if (!source) return relative;
-  return urlParse(source, false, true).resolveObject(relative);
-}
-
-Url.prototype.resolveObject = function(relative) {
-  if (util.isString(relative)) {
-    var rel = new Url();
-    rel.parse(relative, false, true);
-    relative = rel;
-  }
-
-  var result = new Url();
-  var tkeys = Object.keys(this);
-  for (var tk = 0; tk < tkeys.length; tk++) {
-    var tkey = tkeys[tk];
-    result[tkey] = this[tkey];
-  }
-
-  // hash is always overridden, no matter what.
-  // even href="" will remove it.
-  result.hash = relative.hash;
-
-  // if the relative url is empty, then there's nothing left to do here.
-  if (relative.href === '') {
-    result.href = result.format();
-    return result;
-  }
-
-  // hrefs like //foo/bar always cut to the protocol.
-  if (relative.slashes && !relative.protocol) {
-    // take everything except the protocol from relative
-    var rkeys = Object.keys(relative);
-    for (var rk = 0; rk < rkeys.length; rk++) {
-      var rkey = rkeys[rk];
-      if (rkey !== 'protocol')
-        result[rkey] = relative[rkey];
-    }
-
-    //urlParse appends trailing / to urls like http://www.example.com
-    if (slashedProtocol[result.protocol] &&
-        result.hostname && !result.pathname) {
-      result.path = result.pathname = '/';
-    }
-
-    result.href = result.format();
-    return result;
-  }
-
-  if (relative.protocol && relative.protocol !== result.protocol) {
-    // if it's a known url protocol, then changing
-    // the protocol does weird things
-    // first, if it's not file:, then we MUST have a host,
-    // and if there was a path
-    // to begin with, then we MUST have a path.
-    // if it is file:, then the host is dropped,
-    // because that's known to be hostless.
-    // anything else is assumed to be absolute.
-    if (!slashedProtocol[relative.protocol]) {
-      var keys = Object.keys(relative);
-      for (var v = 0; v < keys.length; v++) {
-        var k = keys[v];
-        result[k] = relative[k];
-      }
-      result.href = result.format();
-      return result;
-    }
-
-    result.protocol = relative.protocol;
-    if (!relative.host && !hostlessProtocol[relative.protocol]) {
-      var relPath = (relative.pathname || '').split('/');
-      while (relPath.length && !(relative.host = relPath.shift()));
-      if (!relative.host) relative.host = '';
-      if (!relative.hostname) relative.hostname = '';
-      if (relPath[0] !== '') relPath.unshift('');
-      if (relPath.length < 2) relPath.unshift('');
-      result.pathname = relPath.join('/');
-    } else {
-      result.pathname = relative.pathname;
-    }
-    result.search = relative.search;
-    result.query = relative.query;
-    result.host = relative.host || '';
-    result.auth = relative.auth;
-    result.hostname = relative.hostname || relative.host;
-    result.port = relative.port;
-    // to support http.request
-    if (result.pathname || result.search) {
-      var p = result.pathname || '';
-      var s = result.search || '';
-      result.path = p + s;
-    }
-    result.slashes = result.slashes || relative.slashes;
-    result.href = result.format();
-    return result;
-  }
-
-  var isSourceAbs = (result.pathname && result.pathname.charAt(0) === '/'),
-      isRelAbs = (
-          relative.host ||
-          relative.pathname && relative.pathname.charAt(0) === '/'
-      ),
-      mustEndAbs = (isRelAbs || isSourceAbs ||
-                    (result.host && relative.pathname)),
-      removeAllDots = mustEndAbs,
-      srcPath = result.pathname && result.pathname.split('/') || [],
-      relPath = relative.pathname && relative.pathname.split('/') || [],
-      psychotic = result.protocol && !slashedProtocol[result.protocol];
-
-  // if the url is a non-slashed url, then relative
-  // links like ../.. should be able
-  // to crawl up to the hostname, as well.  This is strange.
-  // result.protocol has already been set by now.
-  // Later on, put the first path part into the host field.
-  if (psychotic) {
-    result.hostname = '';
-    result.port = null;
-    if (result.host) {
-      if (srcPath[0] === '') srcPath[0] = result.host;
-      else srcPath.unshift(result.host);
-    }
-    result.host = '';
-    if (relative.protocol) {
-      relative.hostname = null;
-      relative.port = null;
-      if (relative.host) {
-        if (relPath[0] === '') relPath[0] = relative.host;
-        else relPath.unshift(relative.host);
-      }
-      relative.host = null;
-    }
-    mustEndAbs = mustEndAbs && (relPath[0] === '' || srcPath[0] === '');
-  }
-
-  if (isRelAbs) {
-    // it's absolute.
-    result.host = (relative.host || relative.host === '') ?
-                  relative.host : result.host;
-    result.hostname = (relative.hostname || relative.hostname === '') ?
-                      relative.hostname : result.hostname;
-    result.search = relative.search;
-    result.query = relative.query;
-    srcPath = relPath;
-    // fall through to the dot-handling below.
-  } else if (relPath.length) {
-    // it's relative
-    // throw away the existing file, and take the new path instead.
-    if (!srcPath) srcPath = [];
-    srcPath.pop();
-    srcPath = srcPath.concat(relPath);
-    result.search = relative.search;
-    result.query = relative.query;
-  } else if (!util.isNullOrUndefined(relative.search)) {
-    // just pull out the search.
-    // like href='?foo'.
-    // Put this after the other two cases because it simplifies the booleans
-    if (psychotic) {
-      result.hostname = result.host = srcPath.shift();
-      //occationaly the auth can get stuck only in host
-      //this especially happens in cases like
-      //url.resolveObject('mailto:local1@domain1', 'local2@domain2')
-      var authInHost = result.host && result.host.indexOf('@') > 0 ?
-                       result.host.split('@') : false;
-      if (authInHost) {
-        result.auth = authInHost.shift();
-        result.host = result.hostname = authInHost.shift();
-      }
-    }
-    result.search = relative.search;
-    result.query = relative.query;
-    //to support http.request
-    if (!util.isNull(result.pathname) || !util.isNull(result.search)) {
-      result.path = (result.pathname ? result.pathname : '') +
-                    (result.search ? result.search : '');
-    }
-    result.href = result.format();
-    return result;
-  }
-
-  if (!srcPath.length) {
-    // no path at all.  easy.
-    // we've already handled the other stuff above.
-    result.pathname = null;
-    //to support http.request
-    if (result.search) {
-      result.path = '/' + result.search;
-    } else {
-      result.path = null;
-    }
-    result.href = result.format();
-    return result;
-  }
-
-  // if a url ENDs in . or .., then it must get a trailing slash.
-  // however, if it ends in anything else non-slashy,
-  // then it must NOT get a trailing slash.
-  var last = srcPath.slice(-1)[0];
-  var hasTrailingSlash = (
-      (result.host || relative.host || srcPath.length > 1) &&
-      (last === '.' || last === '..') || last === '');
-
-  // strip single dots, resolve double dots to parent dir
-  // if the path tries to go above the root, `up` ends up > 0
-  var up = 0;
-  for (var i = srcPath.length; i >= 0; i--) {
-    last = srcPath[i];
-    if (last === '.') {
-      srcPath.splice(i, 1);
-    } else if (last === '..') {
-      srcPath.splice(i, 1);
-      up++;
-    } else if (up) {
-      srcPath.splice(i, 1);
-      up--;
-    }
-  }
-
-  // if the path is allowed to go above the root, restore leading ..s
-  if (!mustEndAbs && !removeAllDots) {
-    for (; up--; up) {
-      srcPath.unshift('..');
-    }
-  }
-
-  if (mustEndAbs && srcPath[0] !== '' &&
-      (!srcPath[0] || srcPath[0].charAt(0) !== '/')) {
-    srcPath.unshift('');
-  }
-
-  if (hasTrailingSlash && (srcPath.join('/').substr(-1) !== '/')) {
-    srcPath.push('');
-  }
-
-  var isAbsolute = srcPath[0] === '' ||
-      (srcPath[0] && srcPath[0].charAt(0) === '/');
-
-  // put the host back
-  if (psychotic) {
-    result.hostname = result.host = isAbsolute ? '' :
-                                    srcPath.length ? srcPath.shift() : '';
-    //occationaly the auth can get stuck only in host
-    //this especially happens in cases like
-    //url.resolveObject('mailto:local1@domain1', 'local2@domain2')
-    var authInHost = result.host && result.host.indexOf('@') > 0 ?
-                     result.host.split('@') : false;
-    if (authInHost) {
-      result.auth = authInHost.shift();
-      result.host = result.hostname = authInHost.shift();
-    }
-  }
-
-  mustEndAbs = mustEndAbs || (result.host && srcPath.length);
-
-  if (mustEndAbs && !isAbsolute) {
-    srcPath.unshift('');
-  }
-
-  if (!srcPath.length) {
-    result.pathname = null;
-    result.path = null;
-  } else {
-    result.pathname = srcPath.join('/');
-  }
-
-  //to support request.http
-  if (!util.isNull(result.pathname) || !util.isNull(result.search)) {
-    result.path = (result.pathname ? result.pathname : '') +
-                  (result.search ? result.search : '');
-  }
-  result.auth = relative.auth || result.auth;
-  result.slashes = result.slashes || relative.slashes;
-  result.href = result.format();
-  return result;
-};
-
-Url.prototype.parseHost = function() {
-  var host = this.host;
-  var port = portPattern.exec(host);
-  if (port) {
-    port = port[0];
-    if (port !== ':') {
-      this.port = port.substr(1);
-    }
-    host = host.substr(0, host.length - port.length);
-  }
-  if (host) this.hostname = host;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/url/util.js":
-/*!**********************************!*\
-  !*** ./node_modules/url/util.js ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = {
-  isString: function(arg) {
-    return typeof(arg) === 'string';
-  },
-  isObject: function(arg) {
-    return typeof(arg) === 'object' && arg !== null;
-  },
-  isNull: function(arg) {
-    return arg === null;
-  },
-  isNullOrUndefined: function(arg) {
-    return arg == null;
-  }
-};
-
-
-/***/ }),
-
 /***/ "./node_modules/warning/warning.js":
 /*!*****************************************!*\
   !*** ./node_modules/warning/warning.js ***!
@@ -91763,63 +92965,76 @@ module.exports = warning;
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/en.js":
+/*!*********************!*\
+  !*** ./pages/en.js ***!
+  \*********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return en; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Home_KR__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Home/KR */ "./components/Home/KR.js");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./pages/index.css");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/workspace/Blog/pages/index.js";
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next-seo */ "./node_modules/next-seo/lib/index.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_Home_EN__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Home/EN */ "./components/Home/EN.js");
+var _jsxFileName = "/workspace/Blog/pages/en.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const isServer = false;
 
-
-function Index() {
-  return __jsx(next_app__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+function en(props) {
+  return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 7
     },
     __self: this
-  }, __jsx("div", {
-    className: "wrapper",
+  }, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_1__["NextSeo"], {
+    title: "Mineru Code Blog - English",
+    description: "Mineru Blog Page",
+    openGraph: {
+      rl: 'https://mineru98.github.io/',
+      title: 'Mineru Code Blog - English',
+      description: 'Mineru Blog Page',
+      type: 'website',
+      images: [{
+        url: 'https://mineru98.github.io/static/imgs/mineru-blog.png',
+        width: 800,
+        height: 600,
+        alt: 'Blog Alt'
+      }],
+      site_name: 'Mineru Code Blog'
+    },
+    facebook: {
+      appId: '302132824078486'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 8
     },
     __self: this
-  }, __jsx(_components_Home_KR__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), __jsx(_components_Home_EN__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 30
     },
     __self: this
-  })));
+  }));
 }
 
 /***/ }),
 
-/***/ 4:
-/*!*******************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************/
+/***/ 8:
+/*!******************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fen&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Fen.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fen&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Fen.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fen&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Fen.js!./");
 
 
 /***/ }),
@@ -91835,5 +93050,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[8,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=en.js.map
