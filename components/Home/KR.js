@@ -59,7 +59,10 @@ const Korean = {
 		'서버 & 클라이언트 통신을 하는 중에 인터넷 연결이 끊겨있을 때, 사용자 경험을 떨어뜨리지 않기 위한 Pop & Push 형태의 스트림처리 프로젝트',
 	UrlHit_Title: 'UrlHit',
 	UrlHit_Date: '2020년 1월 24일 배포',
-	UrlHit_Description: 'URL 공유를 할 때, 어떤 경로로 사용자가 유입되는지 추적하는 솔루션'
+	UrlHit_Description: 'URL 공유를 할 때, 어떤 경로로 사용자가 유입되는지 추적하는 솔루션',
+	DBJava_Title: '무작위 추출 with Java',
+	DBJava_Date: '2020년 1월 31일 배포',
+	DBJava_Description: '확률이 배열에 미리 지정되어 있으면 알고리즘은 해당 확률로 결과를 추출합니다.',
 };
 
 const data = {
@@ -288,6 +291,37 @@ class HomeKR extends React.Component {
 											</Label>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> App Service
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+							</Grid.Row>
+							<Grid.Row columns={4}>
+								<Grid.Column>
+									<Card
+										href="https://github.com/Mineru98/DictionaryRandom/tree/master/java/src/DictionaryRandom"
+										id="card"
+									>
+										<Image src="/static/imgs/icon_random.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{Korean.DBJava_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{Korean.DBJava_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{Korean.DBJava_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> Java
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -694,6 +728,37 @@ class HomeKR extends React.Component {
 											</Label>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> App Service
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+							</Grid.Row>
+							<Grid.Row>
+								<Grid.Column>
+									<Card
+										href="https://github.com/Mineru98/DictionaryRandom/tree/master/java/src/DictionaryRandom"
+										id="card"
+									>
+										<Image src="/static/imgs/icon_random.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{Korean.DBJava_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{Korean.DBJava_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{Korean.DBJava_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> Java
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>

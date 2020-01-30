@@ -65,7 +65,11 @@ const English = {
 		'Pop & Push stream processing project to prevent user experience when the internet connection is lost during server & client communication',
 	UrlHit_Title: 'UrlHit',
 	UrlHit_Date: 'Deployed Jan 24, 2020',
-	UrlHit_Description: 'A solution to track where users come from when sharing URLs'
+	UrlHit_Description: 'A solution to track where users come from when sharing URLs',
+	DBJava_Title: 'Dictionary Random with Java',
+	DBJava_Date: 'Deployed Jan 31, 2020',
+	DBJava_Description:
+		'If the probability is specified in the array in advance, the algorithm extracts the result by the corresponding probability',
 };
 
 const data_en = {
@@ -294,6 +298,37 @@ class HomeEN extends React.Component {
 											</Label>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> App Service
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+							</Grid.Row>
+							<Grid.Row columns={4}>
+								<Grid.Column>
+									<Card
+										href="https://github.com/Mineru98/DictionaryRandom/tree/master/java/src/DictionaryRandom"
+										id="card"
+									>
+										<Image src="/static/imgs/icon_random.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{English.DBJava_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{English.DBJava_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{English.DBJava_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> Java
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -697,6 +732,37 @@ class HomeEN extends React.Component {
 											</Label>
 											<Label as="a" image>
 												<Image src="/static/imgs/icon_java.png" /> App Service
+											</Label>
+										</Card.Content>
+									</Card>
+								</Grid.Column>
+							</Grid.Row>
+							<Grid.Row>
+								<Grid.Column>
+									<Card
+										href="https://github.com/Mineru98/DictionaryRandom/tree/master/java/src/DictionaryRandom"
+										id="card"
+									>
+										<Image src="/static/imgs/icon_random.png" wrapped ui={false} />
+										<Card.Content>
+											<Card.Header id="default">
+												{English.DBJava_Title}
+											</Card.Header>
+											<Card.Meta>
+												<span className="date">
+													{English.DBJava_Date}
+												</span>
+											</Card.Meta>
+											<Card.Description id="default">
+												{English.DBJava_Description}
+											</Card.Description>
+										</Card.Content>
+										<Card.Content extra>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> Java
+											</Label>
+											<Label as="a" image>
+												<Image src="/static/imgs/icon_java.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
