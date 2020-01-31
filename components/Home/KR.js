@@ -142,7 +142,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_cplusplus.png" /> C
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_cplusplus.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -168,7 +168,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_csharp.png" /> C#
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_csharp.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -206,7 +206,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_java.png" /> App Service
+												<Image src="/static/imgs/icon_android.png" /> App Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -235,7 +235,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_kotlin.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -261,7 +261,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_kotlin.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -290,7 +290,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_java.png" /> App Service
+												<Image src="/static/imgs/icon_android.png" /> App Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -321,7 +321,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_java.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -359,7 +359,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_js.png" /> JavaScript
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_js.png" /> Web Service
+												<Image src="/static/imgs/icon_webservice.png" /> Web Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -388,7 +388,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_nodejs.png" /> NodeJS
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_nodejs.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -414,7 +414,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_reactjs.png" /> Web Service
+												<Image src="/static/imgs/icon_webservice.png" /> Web Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -452,7 +452,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_python.png" /> Desktop App
+												<Image src="/static/imgs/icon_desktop.png" /> Desktop App
 											</Label>
 										</Card.Content>
 									</Card>
@@ -478,7 +478,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_python.png" /> Desktop App
+												<Image src="/static/imgs/icon_desktop.png" /> Desktop App
 											</Label>
 										</Card.Content>
 									</Card>
@@ -504,7 +504,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_python.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -530,7 +530,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_python.png" /> Server
+												<Image src="/static/imgs/icon_server.png" /> Server
 											</Label>
 										</Card.Content>
 									</Card>
@@ -571,7 +571,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_cplusplus.png" /> C
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_csharp.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -599,7 +599,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_csharp.png" /> C#
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_csharp.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -637,7 +637,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_java.png" /> App Service
+												<Image src="/static/imgs/icon_android.png" /> App Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -668,7 +668,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_kotlin.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -696,7 +696,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_kotlin.png" /> Kotlin
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_kotlin.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -727,7 +727,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_java.png" /> App Service
+												<Image src="/static/imgs/icon_android.png" /> App Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -758,7 +758,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_java.png" /> Java
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_java.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -796,7 +796,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_js.png" /> JavaScript
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_js.png" /> Web Service
+												<Image src="/static/imgs/icon_webservice.png" /> Web Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -827,7 +827,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_nodejs.png" /> NodeJS
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_nodejs.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -855,7 +855,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_reactjs.png" /> Web Service
+												<Image src="/static/imgs/icon_webservice.png" /> Web Service
 											</Label>
 										</Card.Content>
 									</Card>
@@ -893,7 +893,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_python.png" /> Desktop App
+												<Image src="/static/imgs/icon_desktop.png" /> Desktop App
 											</Label>
 										</Card.Content>
 									</Card>
@@ -921,7 +921,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_python.png" /> Desktop App
+												<Image src="/static/imgs/icon_desktop.png" /> Desktop App
 											</Label>
 										</Card.Content>
 									</Card>
@@ -949,7 +949,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_python.png" /> Algorithm
+												<Image src="/static/imgs/icon_algorithm.png" /> Algorithm
 											</Label>
 										</Card.Content>
 									</Card>
@@ -977,7 +977,7 @@ class HomeKR extends React.Component {
 												<Image src="/static/imgs/icon_python.png" /> Python
 											</Label>
 											<Label as="a" image>
-												<Image src="/static/imgs/icon_python.png" /> Server
+												<Image src="/static/imgs/icon_server.png" /> Server
 											</Label>
 										</Card.Content>
 									</Card>
@@ -1038,7 +1038,10 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_xamarin.png" /> Xamarin
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_xamarin.png" /> Web Service
+													<Image src="/static/imgs/icon_android.png" /> App Service
+												</Label>
+												<Label as="a" image>
+													<Image src="/static/imgs/icon_ios.png" /> App Service
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1064,7 +1067,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_reactjs.png" /> Web Service
+													<Image src="/static/imgs/icon_webservice.png" /> Web Service
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1093,7 +1096,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_java.png" /> Java
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_java.png" /> App Service
+													<Image src="/static/imgs/icon_android.png" /> App Service
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1121,7 +1124,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_python.png" /> Desktop App
+													<Image src="/static/imgs/icon_desktop.png" /> Desktop App
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1147,7 +1150,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_python.png" /> Desktop App
+													<Image src="/static/imgs/icon_desktop.png" /> Desktop App
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1173,7 +1176,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_python.png" /> Server
+													<Image src="/static/imgs/icon_server.png" /> Server
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1250,7 +1253,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_xamarin.png" /> Xamarin
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_xamarin.png" /> Web Service
+													<Image src="/static/imgs/icon_webservice.png" /> Web Service
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1278,7 +1281,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_reactjs.png" /> ReactJS
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_reactjs.png" /> Web Service
+													<Image src="/static/imgs/icon_webservice.png" /> Web Service
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1309,7 +1312,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_java.png" /> Java
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_java.png" /> App Service
+													<Image src="/static/imgs/icon_android.png" /> App Service
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1337,7 +1340,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_python.png" /> Desktop App
+													<Image src="/static/imgs/icon_desktop.png" /> Desktop App
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1365,7 +1368,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_python.png" /> Desktop App
+													<Image src="/static/imgs/icon_desktop.png" /> Desktop App
 												</Label>
 											</Card.Content>
 										</Card>
@@ -1393,7 +1396,7 @@ class HomeKR extends React.Component {
 													<Image src="/static/imgs/icon_python.png" /> Python
 												</Label>
 												<Label as="a" image>
-													<Image src="/static/imgs/icon_python.png" /> Server
+													<Image src="/static/imgs/icon_server.png" /> Server
 												</Label>
 											</Card.Content>
 										</Card>
