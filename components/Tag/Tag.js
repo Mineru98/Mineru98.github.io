@@ -145,7 +145,7 @@ function Tag(props) {
 				</div>
 				<div className="tag container">
 					<div className="tag container2">
-						<ReactMarkdown source={source} />
+						<ReactMarkdown source={source}/>
 					</div>
 				</div>
 			</Responsive>
@@ -164,7 +164,7 @@ function Tag(props) {
 				</div>
 				<div className="tag container mobile">
 					<Container textAlign="left">
-						<ReactMarkdown source={source} />
+						<ReactMarkdown source={source}/>
 					</Container>
 				</div>
 			</Responsive>
