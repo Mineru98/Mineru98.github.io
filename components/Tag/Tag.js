@@ -125,25 +125,10 @@ function Tag(props) {
 	});
 	return (
 		<div>
-			<NewsArticleJsonLd
-				url={`https://mineru98.github.io/tag?id=${id}`}
-				title={`Mineru Code Blog - ${summary}`}
-				images={[
-					'https://example.com/photos/16x9/photo.jpg'
-				]}
-				section="politic"
-				keywords="prayuth,taksin"
-				datePublished={datePublished}
-				dateModified={dateModified}
-				authorName="Mineru"
-				publisherName="Mineru"
-				publisherLogo="https://mineru98.github.io/static/imgs/mineru-blog.png"
-				description={`${description}`}
-				body="This is all text for this news article"
-			/>
 			<NextSeo
 				title={`Mineru Code Blog - ${summary}`}
 				description={`${description}`}
+				keywords="test,java"
 				openGraph={{
 					url: `https://mineru98.github.io/tag?id=${id}`,
 					title: `Mineru Code Blog - ${summary}`,
