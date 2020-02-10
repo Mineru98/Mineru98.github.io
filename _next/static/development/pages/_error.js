@@ -54415,7 +54415,7 @@ function Error(props) {
 
 /***/ }),
 
-/***/ 8:
+/***/ 4:
 /*!**************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2F_error.js ***!
   \**************************************************************************************************************/
@@ -54438,5 +54438,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]);
+},[[4,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=_error.js.map
