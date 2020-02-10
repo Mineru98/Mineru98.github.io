@@ -218,7 +218,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_cplusplus.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 145
@@ -311,7 +311,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_csharp.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 171
@@ -423,7 +423,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_java.png",
+          src: "/static/imgs/icon_android.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 209
@@ -516,7 +516,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_kotlin.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 238
@@ -609,7 +609,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_kotlin.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 264
@@ -702,7 +702,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_java.png",
+          src: "/static/imgs/icon_android.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 293
@@ -802,7 +802,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_java.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 324
@@ -914,7 +914,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_js.png",
+          src: "/static/imgs/icon_webservice.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 362
@@ -1007,7 +1007,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_nodejs.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 391
@@ -1100,7 +1100,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_reactjs.png",
+          src: "/static/imgs/icon_webservice.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 417
@@ -1212,7 +1212,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_python.png",
+          src: "/static/imgs/icon_desktop.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 455
@@ -1305,7 +1305,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_python.png",
+          src: "/static/imgs/icon_desktop.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 481
@@ -1398,7 +1398,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_python.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 507
@@ -1491,7 +1491,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_python.png",
+          src: "/static/imgs/icon_server.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 533
@@ -1603,7 +1603,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_csharp.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 574
@@ -1702,7 +1702,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_csharp.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 602
@@ -1813,7 +1813,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_java.png",
+          src: "/static/imgs/icon_android.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 640
@@ -1912,7 +1912,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_kotlin.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 671
@@ -2011,7 +2011,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_kotlin.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 699
@@ -2110,7 +2110,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_java.png",
+          src: "/static/imgs/icon_android.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 730
@@ -2209,7 +2209,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_java.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 761
@@ -2320,7 +2320,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_js.png",
+          src: "/static/imgs/icon_webservice.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 799
@@ -2419,7 +2419,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_nodejs.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 830
@@ -2518,7 +2518,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_reactjs.png",
+          src: "/static/imgs/icon_webservice.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 858
@@ -2629,7 +2629,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_python.png",
+          src: "/static/imgs/icon_desktop.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 896
@@ -2728,7 +2728,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_python.png",
+          src: "/static/imgs/icon_desktop.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 924
@@ -2827,7 +2827,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_python.png",
+          src: "/static/imgs/icon_algorithm.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 952
@@ -2926,7 +2926,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
           },
           __self: this
         }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-          src: "/static/imgs/icon_python.png",
+          src: "/static/imgs/icon_server.png",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 980
@@ -3125,16 +3125,31 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_xamarin.png",
+      src: "/static/imgs/icon_android.png",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 1041
       },
       __self: this
-    }), " Web Service")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
+    }), " App Service"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1046
+        lineNumber: 1043
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_ios.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1044
+      },
+      __self: this
+    }), " App Service")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1049
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3142,7 +3157,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1047
+        lineNumber: 1050
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3151,65 +3166,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1048
+        lineNumber: 1051
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1049
+        lineNumber: 1052
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1050
+        lineNumber: 1053
       },
       __self: this
     }, Korean.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1053
+        lineNumber: 1056
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1054
+        lineNumber: 1057
       },
       __self: this
     }, Korean.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1058
+        lineNumber: 1061
       },
       __self: this
     }, Korean.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1062
+        lineNumber: 1065
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1063
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_reactjs.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1064
-      },
-      __self: this
-    }), " ReactJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -3224,10 +3224,25 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1067
       },
       __self: this
+    }), " ReactJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1069
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_webservice.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1070
+      },
+      __self: this
     }), " Web Service")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1072
+        lineNumber: 1075
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3235,7 +3250,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1073
+        lineNumber: 1076
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3244,65 +3259,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1077
+        lineNumber: 1080
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1078
+        lineNumber: 1081
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1079
+        lineNumber: 1082
       },
       __self: this
     }, Korean.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1082
+        lineNumber: 1085
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1083
+        lineNumber: 1086
       },
       __self: this
     }, Korean.Note_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1087
+        lineNumber: 1090
       },
       __self: this
     }, Korean.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1091
+        lineNumber: 1094
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1092
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_java.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1093
-      },
-      __self: this
-    }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -3317,17 +3317,32 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1096
       },
       __self: this
+    }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1098
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_android.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1099
+      },
+      __self: this
     }), " App Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       columns: 4,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1102
+        lineNumber: 1105
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1103
+        lineNumber: 1106
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3335,7 +3350,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1104
+        lineNumber: 1107
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3344,65 +3359,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1105
+        lineNumber: 1108
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1106
+        lineNumber: 1109
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1107
+        lineNumber: 1110
       },
       __self: this
     }, Korean.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1110
+        lineNumber: 1113
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1111
+        lineNumber: 1114
       },
       __self: this
     }, Korean.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1115
+        lineNumber: 1118
       },
       __self: this
     }, Korean.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1119
+        lineNumber: 1122
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1120
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1121
-      },
-      __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -3417,10 +3417,25 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1124
       },
       __self: this
+    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1126
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_desktop.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1127
+      },
+      __self: this
     }), " Desktop App")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1129
+        lineNumber: 1132
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3428,7 +3443,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1130
+        lineNumber: 1133
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3437,65 +3452,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1131
+        lineNumber: 1134
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1132
+        lineNumber: 1135
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1133
+        lineNumber: 1136
       },
       __self: this
     }, Korean.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1136
+        lineNumber: 1139
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1137
+        lineNumber: 1140
       },
       __self: this
     }, Korean.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1141
+        lineNumber: 1144
       },
       __self: this
     }, Korean.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1145
+        lineNumber: 1148
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1146
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1147
-      },
-      __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -3510,10 +3510,25 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1150
       },
       __self: this
+    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1152
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_desktop.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1153
+      },
+      __self: this
     }), " Desktop App")))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1155
+        lineNumber: 1158
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3521,7 +3536,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1156
+        lineNumber: 1159
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3530,65 +3545,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1157
+        lineNumber: 1160
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1158
+        lineNumber: 1161
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1159
+        lineNumber: 1162
       },
       __self: this
     }, Korean.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1162
+        lineNumber: 1165
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1163
+        lineNumber: 1166
       },
       __self: this
     }, Korean.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1167
+        lineNumber: 1170
       },
       __self: this
     }, Korean.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1171
+        lineNumber: 1174
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1172
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1173
-      },
-      __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -3603,11 +3603,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1176
       },
       __self: this
+    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1178
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_server.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1179
+      },
+      __self: this
     }), " Server"))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
       textAlign: "left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1184
+        lineNumber: 1187
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Header"], {
@@ -3617,25 +3632,25 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: Korean.Code,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1185
+        lineNumber: 1188
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1191
+        lineNumber: 1194
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1192
+        lineNumber: 1195
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1193
+        lineNumber: 1196
       },
       __self: this
     }, __jsx(react_chartjs_2__WEBPACK_IMPORTED_MODULE_2__["Radar"], {
@@ -3643,20 +3658,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       height: 150,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1194
+        lineNumber: 1197
       },
       __self: this
     }))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       columns: 1,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1197
+        lineNumber: 1200
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1198
+        lineNumber: 1201
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Accordion"], {
@@ -3665,7 +3680,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       exclusive: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1199
+        lineNumber: 1202
       },
       __self: this
     }))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Responsive"], {
@@ -3673,20 +3688,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       maxWidth: 768,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1207
+        lineNumber: 1210
       },
       __self: this
     }, __jsx("div", {
       className: "home background mobile",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1208
+        lineNumber: 1211
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1209
+        lineNumber: 1212
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
@@ -3694,45 +3709,45 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       columns: 1,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1210
+        lineNumber: 1213
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1211
+        lineNumber: 1214
       },
       __self: this
     }, __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1212
+        lineNumber: 1215
       },
       __self: this
     }, "> Hello, World!"), __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1213
+        lineNumber: 1216
       },
       __self: this
     }, "> This is Mineru Coding Blog."), __jsx("h1", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1214
+        lineNumber: 1217
       },
       __self: this
     }, "> "))))), __jsx("div", {
       className: "home container mobile",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1219
+        lineNumber: 1222
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
       textAlign: "left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1220
+        lineNumber: 1223
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Header"], {
@@ -3742,7 +3757,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: Korean.Project,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1221
+        lineNumber: 1224
       },
       __self: this
     }), __jsx("p", {
@@ -3750,25 +3765,25 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       className: "description",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1227
+        lineNumber: 1230
       },
       __self: this
     }, Korean.Project_Comment), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1230
+        lineNumber: 1233
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1231
+        lineNumber: 1234
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1232
+        lineNumber: 1235
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3776,7 +3791,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1233
+        lineNumber: 1236
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3785,65 +3800,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1234
+        lineNumber: 1237
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1235
+        lineNumber: 1238
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1236
+        lineNumber: 1239
       },
       __self: this
     }, Korean.Noticend_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1239
+        lineNumber: 1242
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1240
+        lineNumber: 1243
       },
       __self: this
     }, Korean.Noticend_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1244
+        lineNumber: 1247
       },
       __self: this
     }, Korean.Noticend_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1248
+        lineNumber: 1251
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1249
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_xamarin.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1250
-      },
-      __self: this
-    }), " Xamarin"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -3858,16 +3858,31 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1253
       },
       __self: this
+    }), " Xamarin"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1255
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_webservice.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1256
+      },
+      __self: this
     }), " Web Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1259
+        lineNumber: 1262
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1260
+        lineNumber: 1263
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3875,7 +3890,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1261
+        lineNumber: 1264
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3884,65 +3899,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1262
+        lineNumber: 1265
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1263
+        lineNumber: 1266
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1264
+        lineNumber: 1267
       },
       __self: this
     }, Korean.Cnaplus_shop_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1267
+        lineNumber: 1270
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1268
+        lineNumber: 1271
       },
       __self: this
     }, Korean.Cnaplus_shop_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1272
+        lineNumber: 1275
       },
       __self: this
     }, Korean.Cnaplus_shop_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1276
+        lineNumber: 1279
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1277
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_reactjs.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1278
-      },
-      __self: this
-    }), " ReactJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -3957,16 +3957,31 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1281
       },
       __self: this
+    }), " ReactJS"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1283
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_webservice.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1284
+      },
+      __self: this
     }), " Web Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1287
+        lineNumber: 1290
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1288
+        lineNumber: 1291
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -3974,7 +3989,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1289
+        lineNumber: 1292
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -3983,65 +3998,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1293
+        lineNumber: 1296
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1294
+        lineNumber: 1297
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1295
+        lineNumber: 1298
       },
       __self: this
     }, Korean.Note_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1298
+        lineNumber: 1301
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1299
+        lineNumber: 1302
       },
       __self: this
     }, Korean.Note_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1303
+        lineNumber: 1306
       },
       __self: this
     }, Korean.Note_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1307
+        lineNumber: 1310
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1308
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_java.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1309
-      },
-      __self: this
-    }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -4056,16 +4056,31 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1312
       },
       __self: this
+    }), " Java"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1314
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_android.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1315
+      },
+      __self: this
     }), " App Service"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1318
+        lineNumber: 1321
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1319
+        lineNumber: 1322
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -4073,7 +4088,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1320
+        lineNumber: 1323
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4082,65 +4097,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1321
+        lineNumber: 1324
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1322
+        lineNumber: 1325
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1323
+        lineNumber: 1326
       },
       __self: this
     }, Korean.AutoBench_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1326
+        lineNumber: 1329
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1327
+        lineNumber: 1330
       },
       __self: this
     }, Korean.AutoBench_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1331
+        lineNumber: 1334
       },
       __self: this
     }, Korean.AutoBench_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1335
+        lineNumber: 1338
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1336
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1337
-      },
-      __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -4155,16 +4155,31 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1340
       },
       __self: this
+    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1342
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_desktop.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1343
+      },
+      __self: this
     }), " Desktop App"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1346
+        lineNumber: 1349
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1347
+        lineNumber: 1350
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -4172,7 +4187,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1348
+        lineNumber: 1351
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4181,65 +4196,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1349
+        lineNumber: 1352
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1350
+        lineNumber: 1353
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1351
+        lineNumber: 1354
       },
       __self: this
     }, Korean.KoreaMockTestBot_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1354
+        lineNumber: 1357
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1355
+        lineNumber: 1358
       },
       __self: this
     }, Korean.KoreaMockTestBot_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1359
+        lineNumber: 1362
       },
       __self: this
     }, Korean.KoreaMockTestBot_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1363
+        lineNumber: 1366
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1364
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1365
-      },
-      __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -4254,16 +4254,31 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1368
       },
       __self: this
+    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1370
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_desktop.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1371
+      },
+      __self: this
     }), " Desktop App"))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1374
+        lineNumber: 1377
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1375
+        lineNumber: 1378
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"], {
@@ -4271,7 +4286,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       id: "card",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1376
+        lineNumber: 1379
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4280,65 +4295,50 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       ui: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1377
+        lineNumber: 1380
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1378
+        lineNumber: 1381
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Header, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1379
+        lineNumber: 1382
       },
       __self: this
     }, Korean.UrlHit_Title), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Meta, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1382
+        lineNumber: 1385
       },
       __self: this
     }, __jsx("span", {
       className: "date",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1383
+        lineNumber: 1386
       },
       __self: this
     }, Korean.UrlHit_Date)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Description, {
       id: "default",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1387
+        lineNumber: 1390
       },
       __self: this
     }, Korean.UrlHit_Description)), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Card"].Content, {
       extra: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1391
+        lineNumber: 1394
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
-      as: "a",
-      image: true,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1392
-      },
-      __self: this
-    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-      src: "/static/imgs/icon_python.png",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 1393
-      },
-      __self: this
-    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
       as: "a",
       image: true,
       __source: {
@@ -4353,11 +4353,26 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         lineNumber: 1396
       },
       __self: this
+    }), " Python"), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Label"], {
+      as: "a",
+      image: true,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1398
+      },
+      __self: this
+    }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: "/static/imgs/icon_server.png",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 1399
+      },
+      __self: this
     }), " Server"))))))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
       textAlign: "left",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1404
+        lineNumber: 1407
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Header"], {
@@ -4367,25 +4382,25 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       content: Korean.Code,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1405
+        lineNumber: 1408
       },
       __self: this
     }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1411
+        lineNumber: 1414
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1412
+        lineNumber: 1415
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1413
+        lineNumber: 1416
       },
       __self: this
     }, __jsx(react_chartjs_2__WEBPACK_IMPORTED_MODULE_2__["Radar"], {
@@ -4393,20 +4408,20 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       height: 300,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1414
+        lineNumber: 1417
       },
       __self: this
     }))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
       columns: 1,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1417
+        lineNumber: 1420
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1418
+        lineNumber: 1421
       },
       __self: this
     }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Accordion"], {
@@ -4415,7 +4430,7 @@ class HomeKR extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       exclusive: false,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 1419
+        lineNumber: 1422
       },
       __self: this
     }))))))));
@@ -4788,6 +4803,8 @@ function _setPrototypeOf(o, p) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _typeof; });
 function _typeof(obj) {
+  "@babel/helpers - typeof";
+
   if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
     _typeof = function _typeof(obj) {
       return typeof obj;
@@ -5219,6 +5236,8 @@ module.exports = _toConsumableArray;
 /***/ (function(module, exports) {
 
 function _typeof(obj) {
+  "@babel/helpers - typeof";
+
   if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
     module.exports = _typeof = function _typeof(obj) {
       return typeof obj;
