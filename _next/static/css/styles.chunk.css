@@ -419,6 +419,36 @@ header {
 .ui.inverted.menu .item:before {
 	background-color: #000000;
 }
+.notfound.background {
+	background-color: #222;
+	text-shadow: 0 0 5px #C8C8C8;
+	background-size: cover;
+	height: 400px;
+	color: white;
+	padding: 50px
+}
+
+.notfound.background.mobile {
+	height: 300px;
+}
+
+.notfound.container {
+	font-family: Consolas;
+	margin-top: 50px;
+	margin-bottom: 300px;
+	text-align: center;
+}
+
+.ui.header.notfound-coment {
+	color: black;
+	margin-top: 150px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.ui.header.notfound-coment.mobile {
+	margin-top: 100px;
+}
 .tag.background {
 	background-color: #222;
 	text-shadow: 0 0 5px #c8c8c8;
