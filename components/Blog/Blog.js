@@ -46,7 +46,7 @@ class Blog extends React.Component {
                                                 <Link
                                                     href={{
                                                         pathname: '/tag',
-                                                        query: { id: '2020-01-27-BrandDesign' }
+                                                        query: { id: '10' }
                                                     }}
                                                 >
                                                     <List.Content>
@@ -66,7 +66,7 @@ class Blog extends React.Component {
                                                 <Link
                                                     href={{
                                                         pathname: '/tag',
-                                                        query: { id: '2020-01-26-CodeTest' }
+                                                        query: { id: '9' }
                                                     }}
                                                 >
                                                     <List.Content>
@@ -86,7 +86,7 @@ class Blog extends React.Component {
                                                 <Link
                                                     href={{
                                                         pathname: '/tag',
-                                                        query: { id: '2020-01-19-Plan' }
+                                                        query: { id: '8' }
                                                     }}
                                                 >
                                                     <List.Content>
@@ -105,7 +105,7 @@ class Blog extends React.Component {
                                                 <Link
                                                     href={{
                                                         pathname: '/tag',
-                                                        query: { id: '2020-01-15-BoilerPlate' }
+                                                        query: { id: '7' }
                                                     }}
                                                 >
                                                     <List.Content>
@@ -125,7 +125,7 @@ class Blog extends React.Component {
                                                     href={{
                                                         pathname: '/tag',
                                                         query: {
-                                                            id: '2019-02-14-06-Algorithm02-post'
+                                                            id: '6'
                                                         }
                                                     }}
                                                 >
@@ -144,7 +144,7 @@ class Blog extends React.Component {
                                                 <Link
                                                     href={{
                                                         pathname: '/tag',
-                                                        query: { id: '2019-01-10-05-Plan' }
+                                                        query: { id: '5' }
                                                     }}
                                                 >
                                                     <List.Content>
@@ -162,7 +162,7 @@ class Blog extends React.Component {
                                                 <Link
                                                     href={{
                                                         pathname: '/tag',
-                                                        query: { id: '2019-01-07-04-CnA-Project' }
+                                                        query: { id: '4' }
                                                     }}
                                                 >
                                                     <List.Content>
@@ -181,7 +181,7 @@ class Blog extends React.Component {
                                                         pathname: '/tag',
                                                         query: {
                                                             id:
-                                                                '2019-01-07-03-coding-education-post'
+                                                                '3'
                                                         }
                                                     }}
                                                 >
@@ -202,7 +202,7 @@ class Blog extends React.Component {
                                                     href={{
                                                         pathname: '/tag',
                                                         query: {
-                                                            id: '2019-01-07-02-Algorithm01-post'
+                                                            id: '2'
                                                         }
                                                     }}
                                                 >
@@ -222,7 +222,7 @@ class Blog extends React.Component {
                                                 <Link
                                                     href={{
                                                         pathname: '/tag',
-                                                        query: { id: '2019-01-07-01-First-post' }
+                                                        query: { id: '1' }
                                                     }}
                                                 >
                                                     <List.Content>
@@ -313,7 +313,7 @@ class Blog extends React.Component {
                                 <Link
                                     href={{
                                         pathname: '/tag',
-                                        query: { id: '2020-01-27-BrandDesign' }
+                                        query: { id: '10' }
                                     }}
                                 >
                                     <List.Content>
@@ -332,7 +332,7 @@ class Blog extends React.Component {
                                 <Link
                                     href={{
                                         pathname: '/tag',
-                                        query: { id: '2020-01-26-CodeTest' }
+                                        query: { id: '9' }
                                     }}
                                 >
                                     <List.Content>
@@ -348,7 +348,7 @@ class Blog extends React.Component {
                                 </Link>
                             </List.Item>
                             <List.Item>
-                                <Link href={{ pathname: '/tag', query: { id: '2020-01-19-Plan' } }}>
+                                <Link href={{ pathname: '/tag', query: { id: '8' } }}>
                                     <List.Content>
                                         <List.Header id="blog_list_header">
                                             너의 휴가, 나의 휴가
@@ -364,7 +364,7 @@ class Blog extends React.Component {
                                 <Link
                                     href={{
                                         pathname: '/tag',
-                                        query: { id: '2020-01-15-BoilerPlate' }
+                                        query: { id: '7' }
                                     }}
                                 >
                                     <List.Content>
@@ -380,7 +380,7 @@ class Blog extends React.Component {
                                 <Link
                                     href={{
                                         pathname: '/tag',
-                                        query: { id: '2019-02-14-06-Algorithm02-post' }
+                                        query: { id: '6' }
                                     }}
                                 >
                                     <List.Content>
@@ -394,7 +394,7 @@ class Blog extends React.Component {
                             </List.Item>
                             <List.Item>
                                 <Link
-                                    href={{ pathname: '/tag', query: { id: '2019-01-10-05-Plan' } }}
+                                    href={{ pathname: '/tag', query: { id: '5' } }}
                                 >
                                     <List.Content>
                                         <List.Header id="blog_list_header">
@@ -410,7 +410,7 @@ class Blog extends React.Component {
                                 <Link
                                     href={{
                                         pathname: '/tag',
-                                        query: { id: '2019-01-07-04-CnA-Project' }
+                                        query: { id: '4' }
                                     }}
                                 >
                                     <List.Content>
@@ -425,7 +425,7 @@ class Blog extends React.Component {
                                 <Link
                                     href={{
                                         pathname: '/tag',
-                                        query: { id: '2019-01-07-03-coding-education-post' }
+                                        query: { id: '3' }
                                     }}
                                 >
                                     <List.Content>
@@ -441,7 +441,7 @@ class Blog extends React.Component {
                                 <Link
                                     href={{
                                         pathname: '/tag',
-                                        query: { id: '2019-01-07-02-Algorithm01-post' }
+                                        query: { id: '2' }
                                     }}
                                 >
                                     <List.Content>
@@ -457,7 +457,7 @@ class Blog extends React.Component {
                                 <Link
                                     href={{
                                         pathname: '/tag',
-                                        query: { id: '2019-01-07-01-First-post' }
+                                        query: { id: '1' }
                                     }}
                                 >
                                     <List.Content>
