@@ -37,26 +37,48 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const SUMMARY = {
   POST1: '처음 써보는 Git hub 블로그 포스트',
   DESCRIPTION1: '',
+  datePublished1: '2019-01-07T08:00:00+08:00',
+  dateModified1: '2019-01-07T08:00:00+08:00',
   POST2: '알고리즘이란?',
   DESCRIPTION2: '',
+  datePublished2: '2019-01-07T08:00:00+08:00',
+  dateModified2: '2019-01-07T08:00:00+08:00',
   POST3: '코딩교육',
   DESCRIPTION3: '',
+  datePublished3: '2019-01-07T08:00:00+08:00',
+  dateModified3: '2019-01-07T08:00:00+08:00',
   POST4: '준비중입니다',
   DESCRIPTION4: '',
+  datePublished4: '2019-01-07T08:00:00+08:00',
+  dateModified4: '2019-01-07T08:00:00+08:00',
   POST5: '군대에서 프로그래밍',
   DESCRIPTION5: '',
+  datePublished5: '2019-01-10T08:00:00+08:00',
+  dateModified5: '2019-01-10T08:00:00+08:00',
   POST6: '자료구조란?',
   DESCRIPTION6: '',
+  datePublished6: '2019-02-14T08:00:00+08:00',
+  dateModified6: '2019-02-14T08:00:00+08:00',
   POST7: '드러나기 시작하는 나의 민낯',
   DESCRIPTION7: '',
+  datePublished7: '2020-01-15T08:00:00+08:00',
+  dateModified7: '2020-01-15T08:00:00+08:00',
   POST8: '너의휴가 나의휴가',
   DESCRIPTION8: '',
+  datePublished8: '2020-01-19T08:00:00+08:00',
+  dateModified8: '2020-01-19T08:00:00+08:00',
   POST9: '나는 왜 테스트 코드를 작성하지 않았는가',
   DESCRIPTION9: '',
+  datePublished9: '2020-01-26T08:00:00+08:00',
+  dateModified9: '2020-01-26T08:00:00+08:00',
   POST10: '브랜드 디자인 - StartBucks편',
   DESCRIPTION10: '',
+  datePublished10: '2020-01-27T08:00:00+08:00',
+  dateModified10: '2020-01-27T08:00:00+08:00',
   POST11: 'Android Study - Kotlin',
-  DESCRIPTION11: ''
+  DESCRIPTION11: '',
+  datePublished11: '2020-01-30T08:00:00+08:00',
+  dateModified11: '2020-01-30T08:00:00+08:00'
 };
 
 function Tag(props) {
@@ -73,6 +95,14 @@ function Tag(props) {
     1: setDescription
   } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
   const {
+    0: datePublished,
+    1: setDatePublished
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  const {
+    0: dateModified,
+    1: setDateModified
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  const {
     query: {
       id
     }
@@ -80,39 +110,61 @@ function Tag(props) {
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     const url = "https://mineru98.github.io/static/posts/".concat(id, ".md");
 
-    if (id == '2019-01-07-01-First-post') {
+    if (id == '1') {
       setSummary(SUMMARY.POST1);
       setDescription(SUMMARY.DESCRIPTION1);
-    } else if (id == '2019-01-07-02-Algorithm01-post') {
+      setDatePublished(SUMMARY.datePublished1);
+      setDateModified(SUMMARY.dateModified1);
+    } else if (id == '2') {
       setSummary(SUMMARY.POST2);
       setDescription(SUMMARY.DESCRIPTION2);
-    } else if (id == '2019-01-07-03-coding-education-post') {
+      setDatePublished(SUMMARY.datePublished2);
+      setDateModified(SUMMARY.dateModified2);
+    } else if (id == '3') {
       setSummary(SUMMARY.POST3);
       setDescription(SUMMARY.DESCRIPTION3);
-    } else if (id == '2019-01-07-04-CnA-Project') {
+      setDatePublished(SUMMARY.datePublished3);
+      setDateModified(SUMMARY.dateModified3);
+    } else if (id == '4') {
       setSummary(SUMMARY.POST4);
       setDescription(SUMMARY.DESCRIPTION4);
-    } else if (id == '2019-01-10-05-Plan') {
+      setDatePublished(SUMMARY.datePublished4);
+      setDateModified(SUMMARY.dateModified4);
+    } else if (id == '5') {
       setSummary(SUMMARY.POST5);
       setDescription(SUMMARY.DESCRIPTION5);
-    } else if (id == '2019-02-14-06-Algorithm02-post') {
+      setDatePublished(SUMMARY.datePublished5);
+      setDateModified(SUMMARY.dateModified5);
+    } else if (id == '6') {
       setSummary(SUMMARY.POST6);
       setDescription(SUMMARY.DESCRIPTION6);
-    } else if (id == '2020-01-15-07-BoilerPlate') {
+      setDatePublished(SUMMARY.datePublished6);
+      setDateModified(SUMMARY.dateModified6);
+    } else if (id == '7') {
       setSummary(SUMMARY.POST7);
       setDescription(SUMMARY.DESCRIPTION7);
-    } else if (id == '2020-01-19-08-Plan') {
+      setDatePublished(SUMMARY.datePublished7);
+      setDateModified(SUMMARY.dateModified7);
+    } else if (id == '8') {
       setSummary(SUMMARY.POST8);
       setDescription(SUMMARY.DESCRIPTION8);
-    } else if (id == '2020-01-26-09-CodeTest') {
+      setDatePublished(SUMMARY.datePublished8);
+      setDateModified(SUMMARY.dateModified8);
+    } else if (id == '9') {
       setSummary(SUMMARY.POST9);
       setDescription(SUMMARY.DESCRIPTION9);
-    } else if (id == '2020-01-27-10-BrandDesign') {
+      setDatePublished(SUMMARY.datePublished9);
+      setDateModified(SUMMARY.dateModified9);
+    } else if (id == '10') {
       setSummary(SUMMARY.POST10);
       setDescription(SUMMARY.DESCRIPTION10);
-    } else if (id == '2020-01-30-11-AndroidStudy') {
+      setDatePublished(SUMMARY.datePublished10);
+      setDateModified(SUMMARY.dateModified10);
+    } else if (id == '11') {
       setSummary(SUMMARY.POST11);
       setDescription(SUMMARY.DESCRIPTION11);
+      setDatePublished(SUMMARY.datePublished11);
+      setDateModified(SUMMARY.dateModified11);
     }
 
     axios__WEBPACK_IMPORTED_MODULE_6___default.a.get(url).then(res => {
@@ -122,19 +174,13 @@ function Tag(props) {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 127
     },
     __self: this
-  }, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_5__["NewsArticleJsonLd"], {
-    keywords: "prayuth,taksin",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
-    },
-    __self: this
-  }), __jsx(next_seo__WEBPACK_IMPORTED_MODULE_5__["NextSeo"], {
+  }, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_5__["NextSeo"], {
     title: "Mineru Code Blog - ".concat(summary),
     description: "".concat(description),
+    keywords: "test,java",
     openGraph: {
       url: "https://mineru98.github.io/tag?id=".concat(id),
       title: "Mineru Code Blog - ".concat(summary),
@@ -153,27 +199,27 @@ function Tag(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 128
     },
     __self: this
   }), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Responsive"], {
     minWidth: 769,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 152
     },
     __self: this
   }, __jsx("div", {
     className: "tag background",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 153
     },
     __self: this
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 154
     },
     __self: this
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
@@ -181,52 +227,52 @@ function Tag(props) {
     columns: 3,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
+      lineNumber: 155
     },
     __self: this
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 156
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 157
     },
     __self: this
   }, "> Hello, World!"), __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 158
     },
     __self: this
   }, "> This is Mineru Coding Blog."), __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 159
     },
     __self: this
   }, "> "))))), __jsx("div", {
     className: "tag container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 164
     },
     __self: this
   }, __jsx("div", {
     className: "tag container2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 165
     },
     __self: this
   }, __jsx(react_markdown__WEBPACK_IMPORTED_MODULE_3___default.a, {
     source: source,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 166
     },
     __self: this
   })))), __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Responsive"], {
@@ -234,20 +280,20 @@ function Tag(props) {
     maxWidth: 768,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 171
     },
     __self: this
   }, __jsx("div", {
     className: "tag background mobile",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 172
     },
     __self: this
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 173
     },
     __self: this
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Row, {
@@ -255,52 +301,52 @@ function Tag(props) {
     columns: 1,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 174
     },
     __self: this
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Grid"].Column, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 175
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 176
     },
     __self: this
   }, "> Hello, World!"), __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 177
     },
     __self: this
   }, "> This is Mineru Coding Blog."), __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 178
     },
     __self: this
   }, "> "))))), __jsx("div", {
     className: "tag container mobile",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 183
     },
     __self: this
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     textAlign: "left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 184
     },
     __self: this
   }, __jsx(react_markdown__WEBPACK_IMPORTED_MODULE_3___default.a, {
     source: source,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 185
     },
     __self: this
   })))));
@@ -69756,7 +69802,7 @@ function tag(props) {
 
 /***/ }),
 
-/***/ 10:
+/***/ 8:
 /*!********************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ftag&absolutePagePath=%2Fworkspace%2FBlog%2Fpages%2Ftag.js ***!
   \********************************************************************************************************/
@@ -69779,5 +69825,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=tag.js.map
