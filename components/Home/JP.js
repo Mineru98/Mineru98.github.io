@@ -510,7 +510,7 @@ class HomeJP extends React.Component {
 									</Card>
 								</Grid.Column>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/UrlHit" id="card">
+									<Card href="http://www.urlhit.shop" id="card">
 										<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -957,7 +957,7 @@ class HomeJP extends React.Component {
 							</Grid.Row>
 							<Grid.Row>
 								<Grid.Column>
-									<Card href="https://github.com/Mineru98/UrlHit" id="card">
+									<Card href="http://www.urlhit.shop" id="card">
 										<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
 										<Card.Content>
 											<Card.Header id="default">
@@ -1156,7 +1156,7 @@ class HomeJP extends React.Component {
 										</Card>
 									</Grid.Column>
 									<Grid.Column>
-										<Card href="https://github.com/Mineru98/UrlHit" id="card">
+										<Card href="http://www.urlhit.shop" id="card">
 											<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
 											<Card.Content>
 												<Card.Header id="default">
@@ -1379,7 +1379,7 @@ class HomeJP extends React.Component {
 								</Grid.Row>
 								<Grid.Row>
 									<Grid.Column>
-										<Card href="https://github.com/Mineru98/UrlHit" id="card">
+										<Card href="http://www.urlhit.shop" id="card">
 											<Image src="/static/imgs/icon_urlhit.png" wrapped ui={false} />
 											<Card.Content>
 												<Card.Header id="default">
