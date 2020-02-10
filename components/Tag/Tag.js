@@ -128,7 +128,6 @@ function Tag(props) {
 			<NextSeo
 				title={`Mineru Code Blog - ${summary}`}
 				description={`${description}`}
-				keywords="test,java"
 				openGraph={{
 					url: `https://mineru98.github.io/tag?id=${id}`,
 					title: `Mineru Code Blog - ${summary}`,
