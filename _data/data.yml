@@ -1,0 +1,139 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: KeunSeok, Im
+    tagline: Full Stack Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: mineru664500@gmail.com
+    phone: 
+    website: blog.naver.com/rmstjr1030 #do not add http://
+    linkedin: 
+    github: Mineru98
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: 한국어
+        level: Native
+
+      - idiom: 日本語
+        level: Advanced
+        
+      - idiom: English
+        level: Upper Intermediate
+
+    interests:
+      - item: Photograph
+        link: https://instagram.com/iamiks
+
+      - item: Music
+        link:
+
+career-profile:
+    title: Introduce
+    summary: |
+      우리가 사는 세상에는 자세히 들여다 보면 불편한 것들이 많습니다.
+      그것들을 유심히 살펴보다 보면 해결할 수 있는 것들이 보이고
+      직접 그 일을 해결하는 일이 재밌어서 개발을 시작하게 되었습니다.
+      누군가의 불편을 줄이는 것은 정말 가치로운 일이라고 생각합니다.
+education:
+    - degree: BSc in Computer Engineering
+      university: University of Dong-eui
+      time: 2017 ~ 
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Back-end Developer
+      time: 2017 - 2018
+      company: Startup HOPS, Busan
+      details: |
+        연결 되지 않을 권리라는 서비스 철학으로 시작해서 과도하게 연결 되어있는
+        SNS(쇼셜 미디어) 시장 안에서 인맥 스트레스라는 느끼는 고객층을 파악했고,
+        이를 바탕으로 커뮤니케이션 서비스를 개발하고 핀란드 Slush 행사를 통해
+        서비스에 대한 글로벌 니즈를 파악을 했고, 글로벌 서비스에서도 문제 없이
+        사용이 되도록 클라우드 서버를 통한 서비스 운영을 했고 그에 맞는 서버 설계를 했습니다.
+        - Azure Cloud 연동
+        - NestJS와 TypeScript를 사용해 MVC 패턴으로 협업 및 유지보수 가능한 API 설계
+    - role: Full-Stack Developer
+      time: 2020 - 2021
+      company: DailyCorporation, Gimhea
+      details: |
+        개인간의 신뢰할 수 없는 중고거래가 아닌 사업자 간의 중고거래를 활성화 하는
+        B2B 중고거래 플랫폼에 필요한 모든 기능 구현을 했습니다.
+        - Socket 기반으로 실시간 대화 거래
+        - DB 캐싱 with Redis
+        - Client가 요청하는 크기대로 이미지를 Server에서 제공하는 API
+        - HTTP/2 프로토콜 적용
+        - API 분산 처리 시스템
+        - Android & IOS 동시 개발 (React Native)
+        - Swagger 문서화
+projects:
+    title: Projects
+    intro: >
+      저는 "보다 편리한 삶을 위해"라는 개발 철학을 가지고, 한가지를 덜 함으로써
+      더 많은 일을 할 수 있는 생산성을 높이는 일이 가치 있다고 생각합니다.
+    assignments:
+      - title: AutoBench
+        link: "https://github.com/Mineru98/AutoBench"
+        tagline: "Desktop 하드웨어 시장의 트랜드를 파악하기 위해 대략적으로 알 수 있는 부품별 밴치마크 결과를 리포팅 해주는 사이트로부터 제공하는 자료를 크롤링을 통해 Excel로 정리해주는 도구"
+
+      - title: 모의고사등급컷추출기
+        link: "https://github.com/Mineru98/KoreaMockTestBot"
+        tagline: "EBS에서 제공하는 모의고사 과목별 등급컷을 Excel로 저장해주는 도구"
+
+      - title: Hit-List
+        link: "https://github.com/Mineru98/Hit-List"
+        tagline: "배열의 존재하는 원소들의 중복 횟수를 Count 해주는 TypeScript 라이브러리"
+
+      - title: Warehouse
+        link: "https://github.com/Mineru98/Warehouse"
+        tagline: "Android에서 오프라인 상태시 쌓인 로그 데이터를 온라인 연결이 되었을 때, 일괄적으로 처리하는데 쓰이는 알고리즘"
+
+      - title: HitUrl
+        link: "https://github.com/Mineru98/UrlHit"
+        tagline: "bitly와 같이 짧은 url을 생성해주고 해당 URL로 유입된 트래픽을 체크해주는 가벼운 서버 제작"
+
+      - title: redis-clustr
+        link: "https://github.com/Mineru98/redis-clustr"
+        tagline: "Redis 클러스터링 서버를 구현할 시 보안이 걸려있을 경우 접속이 안되는 이슈를 해결하는게 기여"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Javascript & Express
+        level: 98%
+
+      - name: Python
+        level: 90%
+
+      - name: React
+        level: 85%
+
+      - name: Kotlin & Java
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 70%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
